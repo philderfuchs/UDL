@@ -15,21 +15,35 @@ http.createServer(function (req, res) {
 
         incoming.on('end', function () {
 
-            let parsedData = JSON.parse(rawData);
+            console.log(rawData);
 
-            let events = parsedData.items.map(function(item) {
-                return {
-                  description: item.summary
-                };
+
+            let parsedData = JSON.parse(rawData);
+            var id = 0;
+            let events = parsedData.items.map(function (item) {
+                if (item.start) {
+                    return {
+                        title: item.summary,
+                        start: new Date(item.start.dateTime.split(' ').join('T')).getTime(),
+                        end: new Date(item.end.dateTime.split(' ').join('T')).getTime(),
+                        class: "event-important",
+                        id: id++,
+                        url: "http://example.com"
+                    };
+                }
             });
 
             let responseJson = {
-                events: events
+                success: 1,
+                result: events.filter(function (n) {
+                    return n != undefined
+                })
             };
 
             try {
                 res.writeHead(200, {
-                    'conten-type': 'text/plain'
+                    'conten-type': 'text/plain',
+                    'Access-Control-Allow-Origin': "*"
                 });
                 res.write(JSON.stringify(responseJson));
                 res.end();

@@ -10,7 +10,8 @@
 
     <script src="node/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node/node_modules/tether/dist/js/tether.min.js"></script>
-    <script src="node/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="node/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="node/node_modules/underscore/underscore-min.js"></script>
     <script type="text/javascript" src="node/node_modules/bootstrap-calendar/js/calendar.min.js"></script>
@@ -20,15 +21,16 @@
             "use strict";
 
             var options = {
-                events_source: [
-                    {
-                        "id": 293,
-                        "title": "Event 1",
-                        "url": "http://example.com",
-                        "class": "event-important",
-                        "start": 1491472800000, // Milliseconds
-                        "end": 1491476400000 // Milliseconds
-                    }],
+//                events_source: [
+//                    {
+//                        "id": 293,
+//                        "title": "Event 1",
+//                        "url": "http://example.com",
+//                        "class": "event-important",
+//                        "start": 1491472800000, // Milliseconds
+//                        "end": 1491476400000 // Milliseconds
+//                    }],
+                events_source: "http://localhost:3000",
                 tmpl_path: 'tmpls/',
                 tmpl_cache: false,
                 display_week_numbers: false,
@@ -46,7 +48,6 @@
             };
 
             var calendar = $('#calendar').calendar(options);
-
 
 
             $('.btn-group button[data-calendar-nav]').each(function () {
@@ -85,6 +86,8 @@
                 //e.stopPropagation();
             });
         });
+
+
     </script>
 </head>
 <body>
