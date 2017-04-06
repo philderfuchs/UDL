@@ -2,7 +2,10 @@
   "name": "Urban-Dance-Leipzig",
   "version": "0.0.1",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-calendar": "^0.2.4",
     "http": "0.0.0",
-    "https": "^1.0.0"
+    "https": "^1.0.0",
+    "underscore": "^1.8.3"
   }
 }
