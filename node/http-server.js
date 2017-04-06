@@ -1,6 +1,7 @@
 var http = require('http');
 var https = require('https');
 var request = require('request');
+var rp = require('request-promise');
 
 var key = "AIzaSyAyG8cJFWOgaWRD83UWMs_awMbvMNZSr8w";
 
@@ -43,29 +44,31 @@ http.createServer(function (req, res) {
 
     let events = [];
 
-    request('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key, function (error, response, body) {
+    rp('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key)
+        .then(function (body) {
+            let parsedData = JSON.parse(body);
+            addEvents(parsedData, events, "event-important");
 
-        let parsedData = JSON.parse(body);
-        addEvents(parsedData, events, "event-important");
+            let responseJson = {
+                success: 1,
+                result: events.filter(function (n) {
+                    return n != undefined
+                })
+            };
 
-        let responseJson = {
-            success: 1,
-            result: events.filter(function (n) {
-                return n != undefined
-            })
-        };
-
-        try {
-            res.writeHead(200, {
-                'conten-type': 'text/plain',
-                'Access-Control-Allow-Origin': "*"
-            });
-            res.write(JSON.stringify(responseJson));
-            res.end();
-        } catch (e) {
-            console.log(e.message);
-        }
-
-    });
+            try {
+                res.writeHead(200, {
+                    'conten-type': 'text/plain',
+                    'Access-Control-Allow-Origin': "*"
+                });
+                res.write(JSON.stringify(responseJson));
+                res.end();
+            } catch (e) {
+                console.log(e.message);
+            }
+        })
+        .catch(function (err) {
+            console.log("Error yo");
+        });
 
 }).listen('3000');
