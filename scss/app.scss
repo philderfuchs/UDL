@@ -1,16 +1,7 @@
-/*!
- * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-// Core variables and mixins
 @import "variables";
 
 @import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../node/node_modules/bootstrap-calendar/css/calendar.min.css";
+@import "../node/node_modules/font-awesome/css/font-awesome.min.css";
 
-
-// Base
 @import "base";

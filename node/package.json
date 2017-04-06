@@ -4,6 +4,7 @@
   "dependencies": {
     "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "http": "0.0.0",
     "https": "^1.0.0",
     "underscore": "^1.8.3"
