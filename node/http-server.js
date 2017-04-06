@@ -40,35 +40,41 @@ function addEvents(parsedData, events, category) {
         }
     });
 }
-http.createServer(function (req, res) {
 
+async function doRequests(res) {
     let events = [];
 
-    rp('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key)
+    await rp('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key)
         .then(function (body) {
             let parsedData = JSON.parse(body);
             addEvents(parsedData, events, "event-important");
 
-            let responseJson = {
-                success: 1,
-                result: events.filter(function (n) {
-                    return n != undefined
-                })
-            };
-
-            try {
-                res.writeHead(200, {
-                    'conten-type': 'text/plain',
-                    'Access-Control-Allow-Origin': "*"
-                });
-                res.write(JSON.stringify(responseJson));
-                res.end();
-            } catch (e) {
-                console.log(e.message);
-            }
         })
         .catch(function (err) {
             console.log("Error yo");
         });
+
+    let responseJson = {
+        success: 1,
+        result: events.filter(function (n) {
+            return n != undefined
+        })
+    };
+    try {
+        res.writeHead(200, {
+            'conten-type': 'text/plain',
+            'Access-Control-Allow-Origin': "*"
+        });
+        res.write(JSON.stringify(responseJson));
+        res.end();
+    } catch (e) {
+        console.log(e.message);
+    }
+}
+
+
+http.createServer(function (req, res) {
+
+    doRequests(res);
 
 }).listen('3000');
