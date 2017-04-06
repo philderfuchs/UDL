@@ -9,16 +9,29 @@ http.createServer(function (req, res) {
         let rawData = '';
 
         incoming.on('data', function (chunk) {
-            console.log("data");
             rawData += chunk;
         });
 
+
         incoming.on('end', function () {
+
+            let parsedData = JSON.parse(rawData);
+
+            let events = parsedData.items.map(function(item) {
+                return {
+                  description: item.summary
+                };
+            });
+
+            let responseJson = {
+                events: events
+            };
+
             try {
                 res.writeHead(200, {
                     'conten-type': 'text/plain'
                 });
-                res.write(rawData);
+                res.write(JSON.stringify(responseJson));
                 res.end();
             } catch (e) {
                 console.log(e.message);
