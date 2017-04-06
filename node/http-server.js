@@ -1,5 +1,6 @@
 var http = require('http');
 var https = require('https');
+var request = require('request');
 
 var key = "AIzaSyAyG8cJFWOgaWRD83UWMs_awMbvMNZSr8w";
 
@@ -40,41 +41,31 @@ function addEvents(parsedData, events, category) {
 }
 http.createServer(function (req, res) {
 
-    https.get('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key, function (incoming) {
-        let rawData = '';
+    let events = [];
 
-        incoming.on('data', function (chunk) {
-            rawData += chunk;
-        });
+    request('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key, function (error, response, body) {
 
-        incoming.on('end', function () {
+        let parsedData = JSON.parse(body);
+        addEvents(parsedData, events, "event-important");
 
-            console.log(rawData);
+        let responseJson = {
+            success: 1,
+            result: events.filter(function (n) {
+                return n != undefined
+            })
+        };
 
+        try {
+            res.writeHead(200, {
+                'conten-type': 'text/plain',
+                'Access-Control-Allow-Origin': "*"
+            });
+            res.write(JSON.stringify(responseJson));
+            res.end();
+        } catch (e) {
+            console.log(e.message);
+        }
 
-            let parsedData = JSON.parse(rawData);
-            let events = [];
-            addEvents(parsedData, events, "event-important");
-
-            let responseJson = {
-                success: 1,
-                result: events.filter(function (n) {
-                    return n != undefined
-                })
-            };
-
-            try {
-                res.writeHead(200, {
-                    'conten-type': 'text/plain',
-                    'Access-Control-Allow-Origin': "*"
-                });
-                res.write(JSON.stringify(responseJson));
-                res.end();
-            } catch (e) {
-                console.log(e.message);
-            }
-        });
     });
-
 
 }).listen('3000');
