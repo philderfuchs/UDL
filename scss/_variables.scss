@@ -6,4 +6,19 @@ $base-color: #324278;
 $base-secondary: #636bc9;
 $accent-color: #64a3ca;
 $interaction-color: #dba13d;
-$background-color: $white;
+
+// overwrite bootstrap
+
+$btn-primary-bg: $accent-color;
+$btn-primary-border: darken($accent-color, 5%);
+$navbar-light-active-color: white;
+$navbar-padding-y: none;
+$link-color: $accent-color;
+
+$btn-padding-x: 1.3rem;
+$btn-padding-y: .3rem;
+
+$btn-padding-x-lg: 1.8rem;
+$btn-padding-y-lg: .4rem;
+
+$enable-shadows: true;
