@@ -3,6 +3,8 @@ var https = require('https');
 
 var key = "AIzaSyAyG8cJFWOgaWRD83UWMs_awMbvMNZSr8w";
 
+var endOfYear = 1514761200000;
+
 http.createServer(function (req, res) {
 
     https.get('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key, function (incoming) {
@@ -20,16 +22,36 @@ http.createServer(function (req, res) {
 
             let parsedData = JSON.parse(rawData);
             var id = 0;
-            let events = parsedData.items.map(function (item) {
-                if (item.start) {
-                    return {
-                        title: item.summary,
-                        start: new Date(item.start.dateTime.split(' ').join('T')).getTime(),
-                        end: new Date(item.end.dateTime.split(' ').join('T')).getTime(),
+            let events = [];
+            parsedData.items.forEach(function (value) {
+                if (value.start) {
+                    let startTime = new Date(value.start.dateTime.split(' ').join('T')).getTime();
+                    let endTime = new Date(value.end.dateTime.split(' ').join('T')).getTime();
+                    events.push({
+                        title: value.summary,
+                        start: startTime,
+                        end: endTime,
                         class: "event-important",
                         id: id++,
                         url: "http://example.com"
-                    };
+                    });
+
+                    if(value.recurrence) {
+                        if(value.recurrence[0].includes("FREQ=WEEKLY")) {
+                            while(endTime < endOfYear) {
+                                startTime += 604800000;
+                                endTime += 604800000;
+                                events.push({
+                                    title: value.summary,
+                                    start: startTime,
+                                    end: endTime,
+                                    class: "event-important",
+                                    id: id++,
+                                    url: "http://example.com"
+                                });
+                            }
+                        }
+                    }
                 }
             });
 
