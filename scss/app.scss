@@ -1,10 +1,18 @@
+
 @import "variables";
 
 @import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-//@import "../node/node_modules/bootstrap-calendar/css/calendar.min.css";
-@import "calendar/calendar";
+
+// calendar
+@import "calendar/grid.scss";
+@import "calendar/month.scss";
+@import "calendar/week.scss";
+@import "calendar/day.scss";
+@import "calendar/events.scss";
+@import "calendar/theme.scss";
 
 @import "../node/node_modules/font-awesome/css/font-awesome.min.css";
+
 
 @import "base";
 

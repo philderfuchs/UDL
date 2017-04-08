@@ -8,6 +8,47 @@ $base-secondary: #636bc9;
 $accent-color: #64a3ca;
 $interaction-color: #dba13d;
 
+
+// ------------calendar
+$rowHeightMonth: 150px;
+$rowHeightYear: 60px;
+
+// Events
+
+$eventStandardColor:      #c3c3c3;
+$eventImportantColor:     #FF075D;
+$eventInfoColor:          dodgerblue;
+$eventWarningColor:       #e3bc08;
+$eventSuccessColor:       #5ABD8E;
+$eventInverseColor:       #1b1b1b;
+$eventSpecialColor:       #800080;
+
+$eventHiliteStandart:     #dddddd;
+$eventHiliteImportant:    lighten($eventImportantColor, 53%);
+$eventHiliteInfo:         lighten($eventInfoColor, 35%);
+$eventHiliteWarning:      lighten($eventWarningColor, 40%);
+$eventHiliteSuccess:      lighten($eventSuccessColor, 70%);
+$eventHiliteInverse:      lighten($eventInverseColor, 65%);
+$eventHiliteSpecial:      lighten($eventSpecialColor, 70%);
+
+// MONTH
+$rowHover:        #fafafb;
+$dayHover:        darken($rowHover, 2%);
+$borderColor:     darken($rowHover, 2%);
+$borderSize:      1px;
+$borderSizehoriz: 1px;
+$borderSizevert:  1px;
+$borderStyle:     solid;
+
+$eventBorderSize: 0px;
+$eventBorderColor: #ffffff;
+$eventBorderRadius: 10px;
+$eventMargin: 7px;
+$eventSize: 10px;
+
+$calendarImagesPath: "../img";
+
+$calender-slide-background: $borderColor;
 $background-calendar: white;
 
 // overwrite bootstrap

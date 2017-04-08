@@ -13,12 +13,29 @@
 // Overwrite calendar styling
 
 #cal-slide-content {
-  @include box-shadow(0px 0px 0px 0px rgba(0,0,0,0));
+  @include box-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
   background-image: none;
-  background-color: #fafafa;
-  .event-item {
-    color: $text-dark-primary !important;
+  background-color: $calender-slide-background;
+  border-bottom: 1px solid darken($calender-slide-background, 5%);
+  &:hover {
+    background-color: $calender-slide-background;
   }
+
+  li {
+    line-height: 2em;
+    span.event {
+      margin: .6em .7em;
+    }
+    a.event-item {
+      color: $text-dark-primary !important;
+      font-size: 1.1em;
+      font-weight: 200;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
 }
 
 .cal-month-box {
@@ -27,7 +44,6 @@
   .cal-cell {
     border: none;
     .cal-month-day {
-      height: 150px;
       span {
         font-size: 1.5em !important;
       }
@@ -53,5 +69,5 @@
 }
 
 .event {
-  @include box-shadow(0px 0px 0px 0px rgba(0,0,0,0));
+  @include box-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
 }
