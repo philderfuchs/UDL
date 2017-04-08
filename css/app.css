@@ -6112,7 +6112,7 @@ button.close {
   margin-bottom: 7px;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0px solid #ffffff; }
 
 .event-block {
