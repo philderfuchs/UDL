@@ -10,7 +10,6 @@ var endOfYear = 1514761200000;
 function addEvents(parsedData, events, category) {
     parsedData.items.forEach(function (value) {
         if (value.start) {
-            console.log(value);
             let startTime;
             let endTime;
             if(value.start.dateTime) {
@@ -27,7 +26,7 @@ function addEvents(parsedData, events, category) {
                 end: endTime,
                 class: category,
                 id: value.id,
-                url: "http://example.com"
+                url: 'http://www.example.com'
             });
 
             if (value.recurrence) {
@@ -41,7 +40,7 @@ function addEvents(parsedData, events, category) {
                             end: endTime,
                             class: category,
                             id: value.id,
-                            url: "http://example.com"
+                            url: 'http://www.example.com'
                         });
                     }
                 }
@@ -78,7 +77,7 @@ async function doRequests(res) {
     };
     try {
         res.writeHead(200, {
-            'conten-type': 'text/plain',
+            'conten-type': 'application/json',
             'Access-Control-Allow-Origin': "*"
         });
         res.write(JSON.stringify(responseJson));

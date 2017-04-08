@@ -14,7 +14,7 @@
     <script type="text/javascript" src="node/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="node/node_modules/underscore/underscore-min.js"></script>
-    <script type="text/javascript" src="node/node_modules/bootstrap-calendar/js/calendar.min.js"></script>
+    <script type="text/javascript" src="node/node_modules/bootstrap-calendar/js/calendar.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 
 
@@ -34,25 +34,31 @@
 
     <div id="calendar"></div>
 
-    <div class="btn btn-default" id="toggleImportant">magic</div>
+    <div id="class-selector">
+        <label class="checkbox">
+            <input type="checkbox" value="event-important" class="event-class-selector"> Important
+            <input type="checkbox" value="event-success" class="event-class-selector"> Success
+        </label>
+    </div>
 
 
-    <div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3 class="modal-title">Event</h3>
-                </div>
-                <div class="modal-body" style="height: 400px">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+
+</div>
+
+<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title">Event</h3>
+            </div>
+            <div class="modal-body" style="height: 400px">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-
 </div>
 
 
