@@ -6327,6 +6327,8 @@ a.cal-event-week {
 
 .cal-month-box {
   border: none; }
+  .cal-month-box .cal-day-outmonth {
+    display: none; }
   .cal-month-box .cal-cell {
     border: none; }
     .cal-month-box .cal-cell .cal-month-day span {

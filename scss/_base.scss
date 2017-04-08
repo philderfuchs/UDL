@@ -41,6 +41,10 @@
 .cal-month-box {
   border: none;
 
+  .cal-day-outmonth{
+    display:none;
+  }
+
   .cal-cell {
     border: none;
     .cal-month-day {
