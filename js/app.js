@@ -24,14 +24,14 @@ $(function () {
         events = JSON.parse(data).result;
 
         var options = {
-            events_source: events
-            ,
+            events_source: events,
             tmpl_path: 'tmpls/',
             tmpl_cache: false,
-            display_week_numbers: false,
             day: '2017-04-06',
             modal: "#events-modal",
             first_day: 1,
+            weekbox: false,
+            display_week_numbers: false,
             onAfterViewLoad: function (view) {
                 $('.page-header h3').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
