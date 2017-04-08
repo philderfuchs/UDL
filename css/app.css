@@ -6306,6 +6306,12 @@ a.cal-event-week {
 .badge-important {
   background-color: #b94a48; }
 
+[class*="cal-cell"]:hover {
+  background-color: transparent; }
+
+[class*="cal-month-day"]:hover {
+  background-color: #f4f4f6; }
+
 #cal-slide-content {
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
   box-shadow: 0px 0px 0px 0px transparent;

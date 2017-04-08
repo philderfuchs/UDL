@@ -10,6 +10,15 @@
   }
 }
 
+[class*="cal-cell"]:hover {
+  background-color: transparent;
+}
+
+[class*="cal-month-day"]:hover {
+  background-color: $dayHover;
+}
+
+
 // Overwrite calendar styling
 
 #cal-slide-content {
@@ -41,7 +50,7 @@
 .cal-month-box {
   border: none;
 
-  .cal-day-outmonth{
+  .cal-day-outmonth {
     display:none;
   }
 
