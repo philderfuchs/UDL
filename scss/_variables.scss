@@ -24,10 +24,10 @@ $eventInverseColor:       #1b1b1b;
 $eventSpecialColor:       #800080;
 
 $eventHiliteStandart:     #dddddd;
-$eventHiliteImportant:    lighten($eventImportantColor, 53%);
+$eventHiliteImportant:    lighten($eventImportantColor, 45%);
 $eventHiliteInfo:         lighten($eventInfoColor, 35%);
 $eventHiliteWarning:      lighten($eventWarningColor, 40%);
-$eventHiliteSuccess:      lighten($eventSuccessColor, 70%);
+$eventHiliteSuccess:      lighten($eventSuccessColor, 40%);
 $eventHiliteInverse:      lighten($eventInverseColor, 65%);
 $eventHiliteSpecial:      lighten($eventSpecialColor, 70%);
 

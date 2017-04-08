@@ -6148,7 +6148,7 @@ button.close {
 
 .day-highlight.dh-event-important:hover,
 .day-highlight.dh-event-important {
-  background-color: white; }
+  background-color: #ffedf3; }
 
 .day-highlight.dh-event-warning:hover,
 .day-highlight.dh-event-warning {
@@ -6164,7 +6164,7 @@ button.close {
 
 .day-highlight.dh-event-success:hover,
 .day-highlight.dh-event-success {
-  background-color: white; }
+  background-color: #ecf7f2; }
 
 .day-highlight.dh-event-special:hover,
 .day-highlight.dh-event-special {
