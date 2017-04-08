@@ -5811,5 +5811,38 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+#cal-slide-content {
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  box-shadow: 0px 0px 0px 0px transparent;
+  background-image: none;
+  background-color: #fafafa; }
+  #cal-slide-content .event-item {
+    color: rgba(0, 0, 0, 0.87) !important; }
+
+.cal-month-box {
+  border: none; }
+  .cal-month-box .cal-cell {
+    border: none; }
+    .cal-month-box .cal-cell .cal-month-day {
+      height: 150px; }
+      .cal-month-box .cal-cell .cal-month-day span {
+        font-size: 1.5em !important; }
+      .cal-month-box .cal-cell .cal-month-day .events-list {
+        margin: 2em;
+        max-height: 100px; }
+    .cal-month-box .cal-cell .cal-day-today {
+      background-color: transparent; }
+      .cal-month-box .cal-cell .cal-day-today span {
+        background-color: rgba(0, 0, 0, 0.54);
+        border-radius: 1em;
+        width: 1.4em;
+        text-align: center;
+        color: white !important;
+        opacity: 1;
+        font-weight: 200; }
+
+.event {
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  box-shadow: 0px 0px 0px 0px transparent; }
 
 /*# sourceMappingURL=app.css.map */

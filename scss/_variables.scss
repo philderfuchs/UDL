@@ -1,14 +1,16 @@
 $text-dark-primary: rgba(0, 0, 0, .87);
+$text-dark-secondary: rgba(0, 0, 0, .54);
+$text-dark-disabled: rgba(0, 0, 0, .38);
 $text-light-primary: rgba(255, 255, 255, 1);
 
-// kanye
 $base-color: #324278;
 $base-secondary: #636bc9;
 $accent-color: #64a3ca;
 $interaction-color: #dba13d;
 
-// overwrite bootstrap
+$background-calendar: white;
 
+// overwrite bootstrap
 $btn-primary-bg: $accent-color;
 $btn-primary-border: darken($accent-color, 5%);
 $navbar-light-active-color: white;
