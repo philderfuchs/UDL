@@ -1,7 +1,10 @@
 @import "variables";
 
 @import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "../node/node_modules/bootstrap-calendar/css/calendar.min.css";
+//@import "../node/node_modules/bootstrap-calendar/css/calendar.min.css";
+@import "calendar/calendar";
+
 @import "../node/node_modules/font-awesome/css/font-awesome.min.css";
 
 @import "base";
+
