@@ -6306,6 +6306,22 @@ a.cal-event-week {
 .badge-important {
   background-color: #b94a48; }
 
+section.header {
+  height: 14em;
+  background-color: black;
+  background-image: url(../img/about3.jpg);
+  background-position-y: -400px;
+  background-size: cover; }
+  section.header .page-caption-background {
+    background-color: black;
+    margin-top: 3.5em; }
+    section.header .page-caption-background .page-caption {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 200; }
+    section.header .page-caption-background hr {
+      width: 40%; }
+
 [class*="cal-cell"]:hover {
   background-color: transparent; }
 
@@ -6316,8 +6332,8 @@ a.cal-event-week {
   border: none;
   height: 130px; }
   .page-header .current-view {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 3em; }
+    font-size: 3em;
+    font-weight: 200; }
   .page-header .btn-group {
     margin-top: 0.6em; }
     .page-header .btn-group .btn {
@@ -6332,9 +6348,7 @@ a.cal-event-week {
         .page-header .btn-group .btn.outer:hover {
           background-color: rgba(26, 26, 26, 0.54); }
   .page-header #class-selector .checkbox-inline {
-    margin: 0.8em 0.6em;
-    font-size: 1.5em;
-    line-height: 1.1em;
+    margin: 1.5em 0.6em;
     float: right; }
     .page-header #class-selector .checkbox-inline.event-important-selector {
       color: #FF075D; }
@@ -6359,6 +6373,9 @@ a.cal-event-week {
       font-weight: 200; }
       #cal-slide-content li a.event-item:hover {
         text-decoration: none; }
+
+.cal-row-head [class*="cal-cell"] {
+  font-weight: normal !important; }
 
 .cal-month-box {
   border: none; }

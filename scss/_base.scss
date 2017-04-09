@@ -10,6 +10,31 @@
   }
 }
 
+section.header {
+  height: 14em;
+  background-color: black;
+  background-image: url(../img/about3.jpg);
+  background-position-y: -400px;
+  background-size: cover;
+
+  .page-caption-background {
+    background-color: black;
+    margin-top: 3.5em;
+    .page-caption {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+    hr {
+      width: 40%;
+    }
+  }
+
+}
+
+
+// Overwrite calendar styling
+
 [class*="cal-cell"]:hover {
   background-color: transparent;
 }
@@ -18,15 +43,13 @@
   background-color: $dayHover;
 }
 
-// Overwrite calendar styling
-
 .page-header {
   border: none;
   height: 130px;
 
   .current-view {
-    font-family: "Roboto Condensed", sans-serif;
     font-size: 3em;
+    font-weight: 200;
   }
   .btn-group {
     margin-top: 0.6em;
@@ -50,9 +73,7 @@
 
   #class-selector {
     .checkbox-inline {
-      margin: 0.8em 0.6em;
-      font-size: 1.5em;
-      line-height: 1.1em;
+      margin: 1.5em 0.6em;
       float: right;
 
       &.event-important-selector {
@@ -94,8 +115,16 @@
 
 }
 
+
+.cal-row-head {
+  [class*="cal-cell"] {
+    font-weight: normal !important;
+  }
+}
+
 .cal-month-box {
   border: none;
+
 
   .cal-day-outmonth {
     display: none;
