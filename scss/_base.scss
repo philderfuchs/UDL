@@ -32,7 +32,6 @@ section.header {
 
 }
 
-
 // Overwrite calendar styling
 
 [class*="cal-cell"]:hover {
@@ -103,6 +102,10 @@ section.header {
     span.event {
       margin: .6em .7em;
     }
+    .cal-hours {
+      font-weight: normal;
+    }
+
     a.event-item {
       color: $text-dark-primary !important;
       font-size: 1.1em;
@@ -115,7 +118,6 @@ section.header {
 
 }
 
-
 .cal-row-head {
   [class*="cal-cell"] {
     font-weight: normal !important;
@@ -124,7 +126,6 @@ section.header {
 
 .cal-month-box {
   border: none;
-
 
   .cal-day-outmonth {
     display: none;

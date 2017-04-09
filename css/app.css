@@ -6367,6 +6367,8 @@ section.header {
     line-height: 2em; }
     #cal-slide-content li span.event {
       margin: .6em .7em; }
+    #cal-slide-content li .cal-hours {
+      font-weight: normal; }
     #cal-slide-content li a.event-item {
       color: rgba(0, 0, 0, 0.87) !important;
       font-size: 1.1em;
