@@ -22,28 +22,35 @@
 <body>
 
 <div class="container">
-    <div class="page-header">
-        <h3></h3>
-        <div class="btn-group">
-            <button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
-            <button class="btn btn-default" data-calendar-nav="today">Today</button>
-            <button class="btn btn-primary" data-calendar-nav="next">Next >></button>
+    <div class="page-header row">
+        <div class="col-md-4">
+            <div class="btn-group">
+                <button class="btn btn-default outer" data-calendar-nav="prev"><i class="fa fa-angle-left fa-lg"></i> Prev</button>
+                <button class="btn btn-default" data-calendar-nav="today">Today</button>
+                <button class="btn btn-default outer" data-calendar-nav="next">Next <i class="fa fa-angle-right fa-lg"></i></button>
+            </div>
         </div>
-
+        <div class="col-md-4 text-center">
+            <span class="current-view"></span>
+        </div>
+        <div class="col-md-4">
+            <div id="class-selector">
+                <label class="checkbox-inline event-important-selector">
+                    <input type="checkbox" value="event-important" class="event-class-selector"> Classes
+                </label>
+                <label class="checkbox-inline  event-success-selector">
+                    <input type="checkbox" value="event-success" class="event-class-selector"> Workshops
+                </label>
+            </div>
+        </div>
     </div>
 
-    <div id="calendar"></div>
-
-    <div id="class-selector">
-        <label class="checkbox">
-            <input type="checkbox" value="event-important" class="event-class-selector"> Important
-            <input type="checkbox" value="event-success" class="event-class-selector"> Success
-        </label>
+    <div class="row">
+        <div id="calendar"></div>
     </div>
-
-
 
 </div>
+
 
 <div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -60,7 +67,6 @@
         </div>
     </div>
 </div>
-
 
 
 </body>

@@ -33,7 +33,7 @@ $(function () {
             weekbox: false,
             display_week_numbers: false,
             onAfterViewLoad: function (view) {
-                $('.page-header h3').text(this.getTitle());
+                $('.page-header .current-view').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
             },

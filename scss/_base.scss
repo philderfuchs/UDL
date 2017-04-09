@@ -18,8 +18,55 @@
   background-color: $dayHover;
 }
 
-
 // Overwrite calendar styling
+
+.page-header {
+  border: none;
+  height: 130px;
+
+  .current-view {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3em;
+  }
+  .btn-group {
+    margin-top: 0.6em;
+    .btn {
+      width: 6em;
+      font-family: "Quicksand", sans-serif;
+      font-weight: lighter;
+      font-size: 14pt;
+      text-transform: uppercase;
+
+      &.outer {
+        background-color: $text-dark-secondary;
+        color: $text-light-primary;
+        &:hover {
+          background-color: lighten($text-dark-secondary, 10%);
+
+        }
+      }
+    }
+  }
+
+  #class-selector {
+    .checkbox-inline {
+      margin: 0.8em 0.6em;
+      font-size: 1.5em;
+      line-height: 0.9em;
+      float: right;
+
+      &.event-important-selector {
+        color: $eventImportantColor;
+      }
+
+      &.event-success-selector {
+        color: $eventSuccessColor;
+      }
+
+    }
+
+  }
+}
 
 #cal-slide-content {
   @include box-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
@@ -51,7 +98,7 @@
   border: none;
 
   .cal-day-outmonth {
-    display:none;
+    display: none;
   }
 
   .cal-cell {

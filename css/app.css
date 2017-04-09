@@ -6312,6 +6312,35 @@ a.cal-event-week {
 [class*="cal-month-day"]:hover {
   background-color: #f4f4f6; }
 
+.page-header {
+  border: none;
+  height: 130px; }
+  .page-header .current-view {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3em; }
+  .page-header .btn-group {
+    margin-top: 0.6em; }
+    .page-header .btn-group .btn {
+      width: 6em;
+      font-family: "Quicksand", sans-serif;
+      font-weight: lighter;
+      font-size: 14pt;
+      text-transform: uppercase; }
+      .page-header .btn-group .btn.outer {
+        background-color: rgba(0, 0, 0, 0.54);
+        color: white; }
+        .page-header .btn-group .btn.outer:hover {
+          background-color: rgba(26, 26, 26, 0.54); }
+  .page-header #class-selector .checkbox-inline {
+    margin: 0.8em 0.6em;
+    font-size: 1.5em;
+    line-height: 0.9em;
+    float: right; }
+    .page-header #class-selector .checkbox-inline.event-important-selector {
+      color: #FF075D; }
+    .page-header #class-selector .checkbox-inline.event-success-selector {
+      color: #5ABD8E; }
+
 #cal-slide-content {
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
   box-shadow: 0px 0px 0px 0px transparent;
