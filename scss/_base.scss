@@ -111,7 +111,7 @@ section.header {
       font-size: 1.1em;
       font-weight: 200;
       &:hover {
-        text-decoration: none;
+        color: lighten($text-dark-primary, 45%) !important;
       }
     }
   }
@@ -121,6 +121,15 @@ section.header {
 .cal-row-head {
   [class*="cal-cell"] {
     font-weight: normal !important;
+  }
+}
+
+#cal-day-box {
+  .day-event {
+    max-width: 150px;
+    font-size: 9pt;
+    line-height: 1.3em;
+    padding: .3em;
   }
 }
 

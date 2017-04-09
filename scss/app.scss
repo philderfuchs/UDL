@@ -1,7 +1,59 @@
 
 @import "variables";
 
-@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// bootstrap
+
+// Core variables and mixins
+@import "own_bootstrap_variables";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// Core CSS
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../node/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
 
 // calendar
 @import "calendar/grid.scss";
