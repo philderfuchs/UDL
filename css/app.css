@@ -6342,13 +6342,38 @@ section.header {
         color: white; }
         .page-header .btn-group .btn.outer:hover {
           background-color: rgba(26, 26, 26, 0.54); }
-  .page-header #class-selector .checkbox-inline {
-    margin: 1.5em 0.6em;
-    float: right; }
-    .page-header #class-selector .checkbox-inline.event-important-selector {
-      color: #FF075D; }
-    .page-header #class-selector .checkbox-inline.event-success-selector {
-      color: #5ABD8E; }
+  .page-header #class-selector {
+    /*** custom checkboxes ***/
+    /* to hide the checkbox itself */
+    /* space between checkbox and label */
+    /* allow space for check mark */ }
+    .page-header #class-selector input[type=checkbox] {
+      position: relative;
+      line-height: .8em; }
+    .page-header #class-selector label > input[type=checkbox]:before {
+      position: absolute;
+      background-color: #FFFFFF;
+      height: 100%;
+      width: 100%;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f10c";
+      letter-spacing: 10px; }
+    .page-header #class-selector label > input[type=checkbox]:checked:before {
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f111";
+      letter-spacing: 5px; }
+    .page-header #class-selector .checkbox-inline {
+      margin: 1.5em 0.6em;
+      float: right; }
+      .page-header #class-selector .checkbox-inline input:hover {
+        cursor: pointer !important;
+        cursor: hand !important; }
+      .page-header #class-selector .checkbox-inline.event-important-selector {
+        color: #FF075D; }
+      .page-header #class-selector .checkbox-inline.event-success-selector {
+        color: #5ABD8E; }
 
 #cal-slide-content {
   -webkit-box-shadow: 0px 0px 0px 0px transparent;

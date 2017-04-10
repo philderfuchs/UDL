@@ -71,9 +71,40 @@ section.header {
   }
 
   #class-selector {
+
+    /*** custom checkboxes ***/
+    input[type=checkbox] {
+      position: relative;
+      line-height: .8em;
+    }
+    /* to hide the checkbox itself */
+    label > input[type=checkbox]:before {
+      position: absolute;
+      background-color: #FFFFFF;
+      height: 100%;
+      width: 100%;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f10c";
+      letter-spacing: 10px;
+    }
+    /* space between checkbox and label */
+    label > input[type=checkbox]:checked:before {
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f111";
+      letter-spacing: 5px;
+    }
+    /* allow space for check mark */
+
     .checkbox-inline {
       margin: 1.5em 0.6em;
       float: right;
+
+      input:hover {
+        cursor: pointer !important;
+        cursor: hand !important;
+      }
 
       &.event-important-selector {
         color: $eventImportantColor;
