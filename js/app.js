@@ -33,9 +33,14 @@ $(function () {
             weekbox: false,
             display_week_numbers: false,
             onAfterViewLoad: function (view) {
+                let _this = this;
                 $('.page-header .current-view').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
+                $('.back-button').on('click', function(){
+                    console.log("yo");
+                    _this.view('month');
+                });
             },
             classes: {
                 months: {
