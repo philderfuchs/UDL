@@ -3,7 +3,7 @@ var https = require('https');
 var request = require('request');
 var rp = require('request-promise');
 
-var key = "AIzaSyAyG8cJFWOgaWRD83UWMs_awMbvMNZSr8w";
+var key = "AIzaSyDkdDAWXsoECm144VHaKEwtkpcUhSKWPXA";
 
 var endOfYear = 1514761200000;
 
