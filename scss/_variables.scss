@@ -15,23 +15,25 @@ $rowHeightYear: 60px;
 
 // Events
 
-$eventStandardColor:      #c3c3c3;
+// HIPHOP
+$eventStandardColor:      #7C4FD4;
 
 // BREAKDANCE
 $eventImportantColor:     #FF075D;
+
 $eventSpecialColor:       #800080;
 
 // LOCKING/POPPING
 $eventInfoColor:          #FFB016;
 
 // HOUSE
-$eventWarningColor:       #C031D6;
+$eventWarningColor:       #FF70F5;
 
 // WORKSHOPS, BATTLES & CO.
 $eventSuccessColor:       #5ABD8E;
 
 // OTHER STYLES
-$eventInverseColor:       #0092D6;
+$eventInverseColor:       #447DFF;
 
 $eventHiliteStandart:     #dddddd;
 $eventHiliteImportant:    lighten($eventImportantColor, 45%);

@@ -52,6 +52,15 @@ function addEvents(parsedData, events, category) {
 async function doRequests(res) {
     let events = [];
 
+    // HIPHOP
+    await rp('https://www.googleapis.com/calendar/v3/calendars/h86f19mfhajijbqr4fld0ghalk@group.calendar.google.com/events?key=' + key)
+        .then(function (body) {
+            addEvents(JSON.parse(body), events, "event-standard");
+        })
+        .catch(function (err) {
+            console.log(">>>>>>>> ERROR GETTING HIPHOP CALENDAR");
+        });
+
     // BREAKDANCE
     await rp('https://www.googleapis.com/calendar/v3/calendars/ole9uvl71kba7sr2jid3f1nsgk@group.calendar.google.com/events?key=' + key)
         .then(function (body) {

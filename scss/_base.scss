@@ -106,6 +106,10 @@ section.header {
         cursor: hand !important;
       }
 
+      &.event-standard-selector {
+        color: $eventStandardColor;
+      }
+
       &.event-important-selector {
         color: $eventImportantColor;
       }
