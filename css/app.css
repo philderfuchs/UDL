@@ -6365,7 +6365,7 @@ section.header {
       content: "\f111";
       letter-spacing: 5px; }
     .page-header #class-selector .checkbox-inline {
-      margin: 1.5em 0.6em;
+      margin: .2em .6em;
       float: right; }
       .page-header #class-selector .checkbox-inline input:hover {
         cursor: pointer !important;
