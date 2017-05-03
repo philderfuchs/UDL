@@ -6306,16 +6306,30 @@ section.header {
   background-color: black;
   background-image: url(../img/about3.jpg);
   background-position-y: -400px;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 3em; }
   section.header .page-caption-background {
     background-color: black;
-    margin-top: 3.5em; }
+    margin-top: 8.5em;
+    height: 5.5em; }
     section.header .page-caption-background .page-caption {
       color: white;
       text-transform: uppercase;
       font-weight: 200; }
     section.header .page-caption-background hr {
       width: 40%; }
+
+.colorstripe-container {
+  padding-left: 0;
+  padding-right: 0; }
+  .colorstripe-container .colorstripe {
+    display: flex;
+    flex-direction: row; }
+    .colorstripe-container .colorstripe .colorblock {
+      height: .7rem;
+      flex-grow: 1; }
+      .colorstripe-container .colorstripe .colorblock.event-standard {
+        background-color: #7E51DB; }
 
 [class*="cal-cell"]:hover {
   background-color: transparent; }
