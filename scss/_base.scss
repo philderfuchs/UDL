@@ -114,6 +114,10 @@ section.header {
         color: $eventSuccessColor;
       }
 
+      &.event-warning-selector {
+        color: $eventWarningColor;
+      }
+
     }
 
   }
