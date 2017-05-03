@@ -3,7 +3,6 @@
 @import url(../node/node_modules/font-awesome/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Cookie");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6307,15 +6306,17 @@ section.header {
   background-image: url(../img/about3.jpg);
   background-position-y: -400px;
   background-size: cover;
-  margin-bottom: 3em; }
+  margin-bottom: 5em; }
   section.header .page-caption-background {
     background-color: black;
-    margin-top: 8.5em;
-    height: 5.5em; }
+    margin-top: 7em;
+    height: 7em; }
     section.header .page-caption-background .page-caption {
       color: white;
       text-transform: uppercase;
-      font-weight: 200; }
+      font-weight: 200;
+      font-size: 4em;
+      font-family: "Roboto Condensed", sans-serif; }
     section.header .page-caption-background hr {
       width: 40%; }
 
@@ -6338,18 +6339,15 @@ section.header {
   background-color: #f4f4f6; }
 
 .page-header {
-  border: none;
-  height: 130px; }
+  border: none; }
   .page-header .current-view {
-    font-size: 3em;
+    font-size: 2.3em;
     font-weight: 200; }
   .page-header .btn-group {
-    margin-top: 0.6em; }
+    margin-top: .5em; }
     .page-header .btn-group .btn {
       width: 6em;
-      font-family: "Quicksand", sans-serif;
-      font-weight: lighter;
-      font-size: 14pt;
+      font-size: 10pt;
       text-transform: uppercase; }
       .page-header .btn-group .btn.outer {
         background-color: rgba(0, 0, 0, 0.54);
@@ -6420,8 +6418,10 @@ section.header {
       #cal-slide-content li a.event-item:hover {
         color: rgba(115, 115, 115, 0.87) !important; }
 
-.cal-row-head [class*="cal-cell"] {
-  font-weight: normal !important; }
+.cal-row-head {
+  border-top: 1px rgba(0, 0, 0, 0.87) solid; }
+  .cal-row-head [class*="cal-cell"] {
+    font-weight: normal !important; }
 
 #cal-day-box .day-event {
   max-width: 150px;

@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
 
 @function getBasedOn($background) {
   @if (lightness($background) > 65) {
@@ -16,18 +15,19 @@ section.header {
   background-image: url(../img/about3.jpg);
   background-position-y: -400px;
   background-size: cover;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 
   .page-caption-background {
     background-color: black;
-    margin-top: 8.5em;
-    height: 5.5em;
+    margin-top: 7em;
+    height: 7em;
 
     .page-caption {
       color: white;
       text-transform: uppercase;
       font-weight: 200;
-
+      font-size: 4em;
+      font-family: "Roboto Condensed", sans-serif;
     }
     hr {
       width: 40%;
@@ -66,19 +66,18 @@ section.header {
 
 .page-header {
   border: none;
-  height: 130px;
 
   .current-view {
-    font-size: 3em;
+    font-size: 2.3em;
     font-weight: 200;
   }
   .btn-group {
-    margin-top: 0.6em;
+    margin-top: .5em;
     .btn {
       width: 6em;
-      font-family: "Quicksand", sans-serif;
-      font-weight: lighter;
-      font-size: 14pt;
+      //font-family: "Quicksand", sans-serif;
+      //font-weight: lighter;
+      font-size: 10pt;
       text-transform: uppercase;
 
       &.outer {
@@ -192,8 +191,13 @@ section.header {
 }
 
 .cal-row-head {
+  border-top: 1px $text-dark-primary solid;
+
   [class*="cal-cell"] {
     font-weight: normal !important;
+    //background-color: $text-dark-secondary;
+    //color: $text-light-primary;
+    //line-height: 1em;
   }
 }
 
