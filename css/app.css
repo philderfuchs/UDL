@@ -6436,7 +6436,8 @@ section.header {
   .cal-month-box .cal-cell {
     border: none; }
     .cal-month-box .cal-cell .cal-month-day span {
-      font-size: 1.5em !important; }
+      font-size: 1.5em !important;
+      cursor: initial; }
     .cal-month-box .cal-cell .cal-month-day .events-list {
       margin: 2em;
       max-height: 100px; }
