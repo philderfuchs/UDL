@@ -130,6 +130,10 @@ section.header {
         color: $eventInverseColor;
       }
 
+      &.event-special-selector {
+        color: $eventSpecialColor;
+      }
+
     }
 
   }

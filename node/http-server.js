@@ -67,7 +67,7 @@ async function doRequests(res) {
             addEvents(JSON.parse(body), events, "event-important");
         })
         .catch(function (err) {
-            console.log("Error 1 yo");
+            console.log(">>>>>>>> ERROR GETTING BREAKDANCE CALENDAR");
         });
 
     // WORKSHOPS, PARTIES, JAMS
@@ -77,7 +77,7 @@ async function doRequests(res) {
             addEvents(JSON.parse(body), events, "event-success");
         })
         .catch(function (err) {
-            console.log(err);
+            console.log(">>>>>>>> ERROR GETTING WORKSHOPS CALENDAR");
         });
 
     // HOUSE
@@ -111,6 +111,15 @@ async function doRequests(res) {
         .catch(function (err) {
             console.log(">>>>>>>> ERROR GETTING OTHER STYLES CALENDAR");
             // console.log(err);
+        });
+
+    // ALL STYLES TRAININGS
+    await rp('https://www.googleapis.com/calendar/v3/calendars/77falh44dpf9mj35iakun2pt84@group.calendar.google.com/events?key=' + key)
+        .then(function (body) {
+            addEvents(JSON.parse(body), events, "event-special");
+        })
+        .catch(function (err) {
+            console.log(">>>>>>>> ERROR GETTING ALL STYLES TRAININGS CALENDAR");
         });
 
     let responseJson = {
