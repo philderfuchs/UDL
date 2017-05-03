@@ -122,6 +122,10 @@ section.header {
         color: $eventInfoColor;
       }
 
+      &.event-inverse-selector {
+        color: $eventInverseColor;
+      }
+
     }
 
   }

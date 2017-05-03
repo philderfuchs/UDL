@@ -52,7 +52,8 @@ function addEvents(parsedData, events, category) {
 async function doRequests(res) {
     let events = [];
 
-    await rp('https://www.googleapis.com/calendar/v3/calendars/stylewildle%40gmail.com/events?key=' + key)
+    // BREAKDANCE
+    await rp('https://www.googleapis.com/calendar/v3/calendars/ole9uvl71kba7sr2jid3f1nsgk@group.calendar.google.com/events?key=' + key)
         .then(function (body) {
             addEvents(JSON.parse(body), events, "event-important");
         })
@@ -60,6 +61,7 @@ async function doRequests(res) {
             console.log("Error 1 yo");
         });
 
+    // WORKSHOPS, PARTIES, JAMS
     await rp('https://www.googleapis.com/calendar/v3/calendars/tlu070aums1aegpgbsake8u334%40group.calendar.google.com/events?key=' + key)
         .then(function (body) {
             // console.log(body);
@@ -88,6 +90,17 @@ async function doRequests(res) {
         })
         .catch(function (err) {
             console.log(">>>>>>>> ERROR GETTING LOCKING/POPPING CALENDAR");
+            // console.log(err);
+        });
+
+    // Other Styles
+    await rp('https://www.googleapis.com/calendar/v3/calendars/n339bp32ism75mr3qfms6jrdfk@group.calendar.google.com/events?key=' + key)
+        .then(function (body) {
+            // console.log(body);
+            addEvents(JSON.parse(body), events, "event-inverse");
+        })
+        .catch(function (err) {
+            console.log(">>>>>>>> ERROR GETTING OTHER STYLES CALENDAR");
             // console.log(err);
         });
 

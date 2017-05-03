@@ -6091,7 +6091,7 @@ button.close {
   #cal-day-box .day-highlight.dh-event-info {
     border: 1px solid #FFB016; }
   #cal-day-box .day-highlight.dh-event-inverse {
-    border: 1px solid #1b1b1b; }
+    border: 1px solid #0092D6; }
   #cal-day-box .day-highlight.dh-event-success {
     border: 1px solid #5ABD8E; }
   #cal-day-box .day-highlight.dh-event-special {
@@ -6129,7 +6129,7 @@ button.close {
   background-color: #C031D6; }
 
 .event-inverse {
-  background-color: #1b1b1b; }
+  background-color: #0092D6; }
 
 .event-success {
   background-color: #5ABD8E; }
@@ -6155,7 +6155,7 @@ button.close {
 
 .day-highlight.dh-event-inverse:hover,
 .day-highlight.dh-event-inverse {
-  background-color: #c1c1c1; }
+  background-color: white; }
 
 .day-highlight.dh-event-success:hover,
 .day-highlight.dh-event-success {
@@ -6378,6 +6378,8 @@ section.header {
         color: #C031D6; }
       .page-header #class-selector .checkbox-inline.event-info-selector {
         color: #FFB016; }
+      .page-header #class-selector .checkbox-inline.event-inverse-selector {
+        color: #0092D6; }
 
 #cal-slide-content {
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
