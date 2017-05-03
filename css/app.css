@@ -6087,9 +6087,9 @@ button.close {
   #cal-day-box .day-highlight.dh-event-important {
     border: 1px solid #FF075D; }
   #cal-day-box .day-highlight.dh-event-warning {
-    border: 1px solid #D436ED; }
+    border: 1px solid #C031D6; }
   #cal-day-box .day-highlight.dh-event-info {
-    border: 1px solid dodgerblue; }
+    border: 1px solid #FFB016; }
   #cal-day-box .day-highlight.dh-event-inverse {
     border: 1px solid #1b1b1b; }
   #cal-day-box .day-highlight.dh-event-success {
@@ -6123,10 +6123,10 @@ button.close {
   background-color: #FF075D; }
 
 .event-info {
-  background-color: dodgerblue; }
+  background-color: #FFB016; }
 
 .event-warning {
-  background-color: #D436ED; }
+  background-color: #C031D6; }
 
 .event-inverse {
   background-color: #1b1b1b; }
@@ -6147,11 +6147,11 @@ button.close {
 
 .day-highlight.dh-event-warning:hover,
 .day-highlight.dh-event-warning {
-  background-color: #fcf1fe; }
+  background-color: #f4dbf8; }
 
 .day-highlight.dh-event-info:hover,
 .day-highlight.dh-event-info {
-  background-color: #d1e8ff; }
+  background-color: #ffedc9; }
 
 .day-highlight.dh-event-inverse:hover,
 .day-highlight.dh-event-inverse {
@@ -6375,7 +6375,9 @@ section.header {
       .page-header #class-selector .checkbox-inline.event-success-selector {
         color: #5ABD8E; }
       .page-header #class-selector .checkbox-inline.event-warning-selector {
-        color: #D436ED; }
+        color: #C031D6; }
+      .page-header #class-selector .checkbox-inline.event-info-selector {
+        color: #FFB016; }
 
 #cal-slide-content {
   -webkit-box-shadow: 0px 0px 0px 0px transparent;

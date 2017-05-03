@@ -118,6 +118,10 @@ section.header {
         color: $eventWarningColor;
       }
 
+      &.event-info-selector {
+        color: $eventInfoColor;
+      }
+
     }
 
   }

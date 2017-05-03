@@ -12,7 +12,7 @@ function addEvents(parsedData, events, category) {
         if (value.start) {
             let startTime;
             let endTime;
-            if(value.start.dateTime) {
+            if (value.start.dateTime) {
                 startTime = new Date(value.start.dateTime.split(' ').join('T')).getTime();
                 endTime = new Date(value.end.dateTime.split(' ').join('T')).getTime();
             } else if (value.start.date) {
@@ -77,6 +77,17 @@ async function doRequests(res) {
         })
         .catch(function (err) {
             console.log(">>>>>>>> ERROR GETTING HOUSE CALENDAR");
+            // console.log(err);
+        });
+
+    // LOCKING / POPPING
+    await rp('https://www.googleapis.com/calendar/v3/calendars/o5gf1c9ila9jj21gkvipnposoo@group.calendar.google.com/events?key=' + key)
+        .then(function (body) {
+            // console.log(body);
+            addEvents(JSON.parse(body), events, "event-info");
+        })
+        .catch(function (err) {
+            console.log(">>>>>>>> ERROR GETTING LOCKING/POPPING CALENDAR");
             // console.log(err);
         });
 
