@@ -6138,11 +6138,11 @@ button.close {
 
 .day-highlight:hover,
 .day-highlight {
-  background-color: #dddddd; }
+  background-color: #ece5fa; }
 
 .day-highlight.dh-event-important:hover,
 .day-highlight.dh-event-important {
-  background-color: white; }
+  background-color: #ffe0e6; }
 
 .day-highlight.dh-event-warning:hover,
 .day-highlight.dh-event-warning {
@@ -6154,11 +6154,11 @@ button.close {
 
 .day-highlight.dh-event-inverse:hover,
 .day-highlight.dh-event-inverse {
-  background-color: white; }
+  background-color: #fff0b3; }
 
 .day-highlight.dh-event-success:hover,
 .day-highlight.dh-event-success {
-  background-color: #f4fdf6; }
+  background-color: #dff8e4; }
 
 .day-highlight.dh-event-special:hover,
 .day-highlight.dh-event-special {
