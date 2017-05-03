@@ -18,16 +18,25 @@ function updateEvents() {
 
 }
 
+function getDateString() {
+    var today = new Date();
+    var monthString = (today.getMonth() + 1) < 10 ? "0" + (today.getMonth() + 1) : today.getMonth() + 1;
+    var dayString = today.getDate() < 10 ? "0" + today.getDate() : today.getDate();
+    return today.getFullYear() + "-" + monthString  + "-" + dayString;
+}
+
 $(function () {
 
     $.get("http://localhost:3000", function (data) {
         events = JSON.parse(data).result;
 
+
+
         var options = {
             events_source: events,
             tmpl_path: 'tmpls/',
             tmpl_cache: false,
-            day: '2017-04-06',
+            day: getDateString(),
             modal: "#events-modal",
             first_day: 1,
             weekbox: false,

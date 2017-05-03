@@ -69,6 +69,17 @@ async function doRequests(res) {
             console.log(err);
         });
 
+    // HOUSE
+    await rp('https://www.googleapis.com/calendar/v3/calendars/s49l2gua3gai6rs9imfvtnf9qo%40group.calendar.google.com/events?key=' + key)
+        .then(function (body) {
+            // console.log(body);
+            addEvents(JSON.parse(body), events, "event-warning");
+        })
+        .catch(function (err) {
+            console.log(">>>>>>>> ERROR GETTING HOUSE CALENDAR");
+            // console.log(err);
+        });
+
     let responseJson = {
         success: 1,
         result: events.filter(function (n) {
