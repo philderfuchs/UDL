@@ -1,6 +1,9 @@
 {
   "name": "Urban-Dance-Leipzig",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=7.10.0"
+  },
   "scripts": {
     "start": "node http-server.js"
   },

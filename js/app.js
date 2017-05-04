@@ -27,7 +27,7 @@ function getDateString() {
 
 $(function () {
 
-    $.get("http://localhost:3000", function (data) {
+    $.get("http://localhost:8080", function (data) {
         events = JSON.parse(data).result;
 
 
