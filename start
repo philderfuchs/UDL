@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo starting server
+node node/http-server.js &
+
+echo starting sass compiler
+sass --watch scss/app.scss:css/app.css
+
