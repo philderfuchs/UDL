@@ -1,6 +1,10 @@
 {
   "name": "Urban-Dance-Leipzig",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node http-server.js"
+  },
+  "main": "http-server.js",
   "dependencies": {
     "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
