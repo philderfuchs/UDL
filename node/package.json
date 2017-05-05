@@ -9,6 +9,7 @@
   },
   "main": "http-server.js",
   "dependencies": {
+    "async": "^2.4.0",
     "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
