@@ -22,14 +22,15 @@ function getDateString() {
     var today = new Date();
     var monthString = (today.getMonth() + 1) < 10 ? "0" + (today.getMonth() + 1) : today.getMonth() + 1;
     var dayString = today.getDate() < 10 ? "0" + today.getDate() : today.getDate();
-    return today.getFullYear() + "-" + monthString  + "-" + dayString;
+    return today.getFullYear() + "-" + monthString + "-" + dayString;
 }
 
 $(function () {
 
-    $.get("http://localhost:8080", function (data) {
-        events = JSON.parse(data).result;
+    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:8080" : "https://urban-dance-leipzig.appspot.com/";
 
+    $.get(serverUrl, function (data) {
+        events = JSON.parse(data).result;
 
 
         var options = {
@@ -46,7 +47,7 @@ $(function () {
                 $('.page-header .current-view').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
-                $('.back-button').on('click', function(){
+                $('.back-button').on('click', function () {
                     console.log("yo");
                     _this.view('month');
                 });
