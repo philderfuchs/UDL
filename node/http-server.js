@@ -64,7 +64,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING HIPHOP CALENDAR");
+                    console.error(">>>>>>>> ERROR GETTING HIPHOP CALENDAR");
+                    console.log(err);
                 });
         }, function (callback) {
 
@@ -75,7 +76,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING BREAKDANCE CALENDAR");
+                    console.error(">>>>>>>> ERROR GETTING BREAKDANCE CALENDAR");
+                    console.log(err);
                 })
         }, function (callback) {
             // WORKSHOPS, PARTIES, JAMS
@@ -85,7 +87,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING WORKSHOPS CALENDAR");
+                    console.error(">>>>>>>> ERROR GETTING WORKSHOPS CALENDAR");
+                    console.log(err);
                 });
         }, function (callback) {
             // HOUSE
@@ -95,8 +98,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING HOUSE CALENDAR");
-                    // console.log(err);
+                    console.error(">>>>>>>> ERROR GETTING HOUSE CALENDAR");
+                    console.log(err);
                 });
         }, function (callback) {
             // LOCKING / POPPING
@@ -106,8 +109,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING LOCKING/POPPING CALENDAR");
-                    // console.log(err);
+                    console.error(">>>>>>>> ERROR GETTING LOCKING/POPPING CALENDAR");
+                    console.log(err);
                 });
         }, function (callback) {
             // Other Styles
@@ -117,8 +120,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING OTHER STYLES CALENDAR");
-                    // console.log(err);
+                    console.error(">>>>>>>> ERROR GETTING OTHER STYLES CALENDAR");
+                    console.log(err);
                 });
         }, function (callback) {
             // ALL STYLES TRAININGS
@@ -128,7 +131,8 @@ http.createServer(function (req, res) {
                     callback();
                 })
                 .catch(function (err) {
-                    console.log(">>>>>>>> ERROR GETTING ALL STYLES TRAININGS CALENDAR");
+                    console.error(">>>>>>>> ERROR GETTING ALL STYLES TRAININGS CALENDAR");
+                    console.log(err);
                 });
         }
     ], function (err, results) {
