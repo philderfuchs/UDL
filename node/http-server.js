@@ -1,6 +1,7 @@
 var http = require('http');
 var https = require('https');
 var request = require('request');
+var rp = require('request-promise');
 var async = require('async');
 
 // KleinParis
@@ -53,23 +54,14 @@ function addEvents(parsedData, events, category) {
 }
 
 function sendRequest(url, events, category, callback) {
-    request.get(url,
-        function (error, response, body) {
-            var parsedBody = JSON.parse(body);
-            if (error) {
-                console.error(">>>>>>>> ERROR GETTING CALENDAR");
-                console.log(err);
-                callback();
-                return;
-            }
-            if (parsedBody.items === undefined) {
-                console.error(">>>>>>>> ERROR GETTING CALENDAR");
-                console.log(response);
-                callback();
-                return;
-            }
-            addEvents(parsedBody, events, category);
+    rp(url)
+        .then(function (body) {
+            addEvents(JSON.parse(body), events, category);
             callback();
+        })
+        .catch(function (err) {
+            console.error(">>>>>>>> ERROR GETTING CALENDAR");
+            console.log(err);
         });
 }
 
