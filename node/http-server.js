@@ -55,11 +55,20 @@ function addEvents(parsedData, events, category) {
 function sendRequest(url, events, category, callback) {
     request.get(url,
         function (error, response, body) {
+            var parsedBody = JSON.parse(body);
             if (error) {
                 console.error(">>>>>>>> ERROR GETTING CALENDAR");
                 console.log(err);
+                callback();
+                return;
             }
-            addEvents(JSON.parse(body), events, category);
+            if (parsedBody.items === undefined) {
+                console.error(">>>>>>>> ERROR GETTING CALENDAR");
+                console.log(response);
+                callback();
+                return;
+            }
+            addEvents(parsedBody, events, category);
             callback();
         });
 }
