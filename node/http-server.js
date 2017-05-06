@@ -1,14 +1,12 @@
+var config = require("./config.json");
+
 var http = require('http');
 var https = require('https');
 var request = require('request');
 var rp = require('request-promise');
 var async = require('async');
 
-// KleinParis
-// var key = "AIzaSyDkdDAWXsoECm144VHaKEwtkpcUhSKWPXA";
-// PA
-var key = "AIzaSyAyG8cJFWOgaWRD83UWMs_awMbvMNZSr8w";
-
+var key = config.key;
 var endOfYear = 1514761200000;
 
 function addEvents(parsedData, events, category) {
