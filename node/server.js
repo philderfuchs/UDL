@@ -1,3 +1,5 @@
+require('@google-cloud/debug-agent').start();
+
 var http = require('http');
 var https = require('https');
 var request = require('request');
@@ -29,7 +31,7 @@ function getCalendar(id, type, allEvents, callback) {
     });
     publicGoogleCalendar.getEvents(function (err, events) {
         if (err) {
-            console.err("error getting calendar");
+            console.log("error getting calendar");
             return console.log(err.message);
         }
         addEvents(events, allEvents, type);

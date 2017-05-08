@@ -1,6 +1,6 @@
 {
   "name": "Urban-Dance-Leipzig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">=7.10.0"
   },
@@ -9,6 +9,7 @@
   },
   "main": "server.js",
   "dependencies": {
+    "@google-cloud/debug-agent": "^1.0.0",
     "async": "^2.4.0",
     "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",

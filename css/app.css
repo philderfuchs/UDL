@@ -6084,7 +6084,7 @@ button.close {
     overflow: hidden;
     text-overflow: ellipsis; }
   #cal-day-box .day-highlight.dh-event-important {
-    border: 1px solid #FF2D55; }
+    border: 1px solid #4CD964; }
   #cal-day-box .day-highlight.dh-event-warning {
     border: 1px solid #FF70F5; }
   #cal-day-box .day-highlight.dh-event-info {
@@ -6092,7 +6092,7 @@ button.close {
   #cal-day-box .day-highlight.dh-event-inverse {
     border: 1px solid #FFCC00; }
   #cal-day-box .day-highlight.dh-event-success {
-    border: 1px solid #4CD964; }
+    border: 1px solid #FF2D55; }
   #cal-day-box .day-highlight.dh-event-special {
     background-color: white;
     border: 1px solid #5AC8FA; }
@@ -6119,7 +6119,7 @@ button.close {
   margin-top: 3px; }
 
 .event-important {
-  background-color: #FF2D55; }
+  background-color: #4CD964; }
 
 .event-info {
   background-color: #FF9500; }
@@ -6131,7 +6131,7 @@ button.close {
   background-color: #FFCC00; }
 
 .event-success {
-  background-color: #4CD964; }
+  background-color: #FF2D55; }
 
 .event-special {
   background-color: #5AC8FA; }
@@ -6142,7 +6142,7 @@ button.close {
 
 .day-highlight.dh-event-important:hover,
 .day-highlight.dh-event-important {
-  background-color: #ffe0e6; }
+  background-color: #dff8e4; }
 
 .day-highlight.dh-event-warning:hover,
 .day-highlight.dh-event-warning {
@@ -6158,7 +6158,7 @@ button.close {
 
 .day-highlight.dh-event-success:hover,
 .day-highlight.dh-event-success {
-  background-color: #dff8e4; }
+  background-color: #ffe0e6; }
 
 .day-highlight.dh-event-special:hover,
 .day-highlight.dh-event-special {
@@ -6385,9 +6385,9 @@ section.header {
       .page-header #class-selector .checkbox-inline.event-standard-selector {
         color: #7E51DB; }
       .page-header #class-selector .checkbox-inline.event-important-selector {
-        color: #FF2D55; }
-      .page-header #class-selector .checkbox-inline.event-success-selector {
         color: #4CD964; }
+      .page-header #class-selector .checkbox-inline.event-success-selector {
+        color: #FF2D55; }
       .page-header #class-selector .checkbox-inline.event-warning-selector {
         color: #FF70F5; }
       .page-header #class-selector .checkbox-inline.event-info-selector {
