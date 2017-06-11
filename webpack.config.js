@@ -1,12 +1,13 @@
 var webpack = require("webpack");
+var path = require("path");
 
 module.exports = {
-    "entry": __dirname + "/js/app.js",
+    "entry": "./js/app.js",
     "output": {
-        "path": __dirname + "/js",
+        "path": path.resolve(__dirname, "js"),
         "filename": "bundle.js"
     },
-    plugins: [
+    "plugins": [
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
@@ -15,5 +16,5 @@ module.exports = {
             "_": "underscore"
         })
     ],
-    devtool: "source-map"
+    "devtool": "source-map"
 };

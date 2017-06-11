@@ -1,6 +1,6 @@
 require('underscore');
-require('./calendar.js');
 require('bootstrap-sass');
+require('./calendar.js');
 
 var events = [];
 var calendar = {};
@@ -30,10 +30,7 @@ function getDateString() {
 }
 
 $(function () {
-
-    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:8080" : "https://urban-dance-leipzig.appspot.com/";
-
-    $.get(serverUrl, function (data) {
+    $.get("http://localhost:9000", function (data) {
         events = JSON.parse(data).result;
 
 
@@ -83,7 +80,6 @@ $(function () {
                 updateEvents();
             });
         });
-
 
     });
 
