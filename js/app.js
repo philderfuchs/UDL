@@ -30,7 +30,7 @@ function getDateString() {
 }
 
 $(function () {
-    $.get("http://localhost:9000", function (data) {
+    $.get("http://udl.cloudno.de/", function (data) {
         events = JSON.parse(data).result;
 
 
