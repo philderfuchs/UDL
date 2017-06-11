@@ -1,7 +1,4 @@
 var http = require('http');
-var https = require('https');
-var request = require('request');
-var rp = require('request-promise');
 var async = require('async');
 var PublicGoogleCalendar = require('public-google-calendar');
 
