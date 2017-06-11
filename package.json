@@ -5,7 +5,10 @@
     "node": ">=7.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "npm run serve & npm run sass & npm run pack",
+    "serve": "python -m SimpleHTTPServer 8000",
+    "sass": "sass --watch scss/app.scss:css/app.css --style compressed",
+    "pack": "webpack -p --watch"
   },
   "main": "server.js",
   "dependencies": {
@@ -20,6 +23,8 @@
     "public-google-calendar": "^0.2.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
-    "underscore": "^1.8.3"
+    "tether": "^1.4.0",
+    "underscore": "^1.8.3",
+    "webpack": "^2.6.1"
   }
 }

@@ -1,5 +1,3 @@
-require('@google-cloud/debug-agent').start();
-
 var http = require('http');
 var https = require('https');
 var request = require('request');

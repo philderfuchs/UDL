@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo starting server
-npm start --prefix node &
-
-echo starting sass compiler
-sass --watch scss/app.scss:css/app.css
-

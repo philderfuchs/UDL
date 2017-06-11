@@ -1,8 +1,8 @@
-let events = [];
-let calendar = {};
+var events = [];
+var calendar = {};
 
 function updateEvents() {
-    let activeEvents = [];
+    var activeEvents = [];
     $('.event-class-selector').each(function () {
         if ($(this).is(":checked")) {
             activeEvents.push($(this).val())
@@ -43,7 +43,7 @@ $(function () {
             weekbox: false,
             display_week_numbers: false,
             onAfterViewLoad: function (view) {
-                let _this = this;
+                var _this = this;
                 $('.page-header .current-view').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
