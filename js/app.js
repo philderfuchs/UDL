@@ -30,7 +30,7 @@ function getDateString() {
 }
 
 $(function () {
-    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:8080" : "https://cors-anywhere.herokuapp.com/http://udl.cloudno.de";
+    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:8080" : "https://udl.cloudno.de";
 
     $.get(serverUrl, function (data) {
         events = JSON.parse(data).result;
