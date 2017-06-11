@@ -1,3 +1,7 @@
+require('underscore');
+require('./calendar.js');
+require('bootstrap-sass');
+
 var events = [];
 var calendar = {};
 
