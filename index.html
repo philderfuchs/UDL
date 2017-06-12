@@ -11,30 +11,45 @@
 </head>
 <body>
 
-<section class="header container-fluid">
-    <div class="row">
-        <div class="col-xs-6 col-xs-offset-3 text-center page-caption-background">
-            <h1 class="page-caption">Urban Dance Leipzig</h1>
+<section class="header">
+    <div class="container">
+        <div class="row">
+            <div class="text-center page-caption-background">
+                <h1 class="page-caption">Urban Dance Leipzig</h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-6 col-xs-offset-3 colorstripe-container">
-            <div class="colorstripe">
-                <div class="colorblock event-important"></div>
-                <div class="colorblock event-info"></div>
-                <div class="colorblock event-inverse"></div>
-                <div class="colorblock event-success"></div>
-                <div class="colorblock event-special"></div>
-                <div class="colorblock event-standard"></div>
-                <div class="colorblock event-warning"></div>
+        <div class="row colorstripes-row">
+            <div class="colorstripe-container">
+                <div class="colorstripe">
+                    <div class="colorblock event-important"></div>
+                    <div class="colorblock event-inverse"></div>
+                    <div class="colorblock event-info"></div>
+                    <div class="colorblock event-success"></div>
+                    <div class="colorblock event-standard"></div>
+                    <div class="colorblock event-warning"></div>
+                    <div class="colorblock event-special"></div>
+
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<div class="container explanation">
+    <p class="lead text-center">
+        An overview of all events related to Urban Dance in Leipzig. Check out regular classes, workshops, battles and
+        more in the calendar below. Just click on a day to find out what, when and where something's going on. If
+        you are just interested in a specific dance style of event type, you can filter what's viewed using the
+        colored dots at the top of the calendar.
+    </p>
+    <p class="text-center">
+        <a class="btn btn-default" href="mailto:stylewildle@gmail.com" role="button">GOT A QUESTION?</a>
+    </p>
+</div>
+
 
 <div class="container">
-    <div class="page-header row">
+    <div class="calendar-header row">
         <div class="col-md-3 col-xs-8">
             <div class="btn-group">
                 <button class="btn btn-default outer" data-calendar-nav="prev"><i class="fa fa-angle-left fa-lg"></i>
@@ -79,10 +94,8 @@
 
     <div class="row">
         <div id="calendar">
-            <div class="loading">
-                <div class="alert alert-info text-center" role="alert">
-                    <h1><i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar</h1>
-                </div>
+            <div class="alert alert-info text-center loading" role="alert">
+                <h1><i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar</h1>
             </div>
         </div>
     </div>

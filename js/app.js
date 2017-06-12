@@ -47,7 +47,7 @@ $(function () {
             display_week_numbers: false,
             onAfterViewLoad: function (view) {
                 var _this = this;
-                $('.page-header .current-view').text(this.getTitle());
+                $('.current-view').text(this.getTitle());
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
                 $('.back-button').on('click', function () {
