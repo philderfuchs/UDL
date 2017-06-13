@@ -11,12 +11,11 @@
 
 section.header {
   height: 14em;
-  //background-color: black;
-  //background-image: url(../img/about3.jpg);
-  //background-position-y: -400px;
+  //background-image: url(../img/header.png);
+  //background-position-y: -557px;
   //background-size: cover;
 
-  @include gradient-directional(#47484C, #1F1F21, 135deg);
+  @include gradient-directional(#f8f8f8, #e6e4e4, 135deg);
   //margin-bottom: 4em;
 
   .page-caption-background {
@@ -78,7 +77,6 @@ section.header {
 
 .calendar-header {
   border: none;
-  margin-bottom: 4rem;
 
   .current-view {
     font-size: 2.3em;
@@ -86,6 +84,8 @@ section.header {
   }
   .btn-group {
     margin-top: .5em;
+    margin-bottom: 3rem;
+
     .btn {
       width: 6em;
       //font-family: "Quicksand", sans-serif;
