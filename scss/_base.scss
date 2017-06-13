@@ -33,10 +33,13 @@ section.header {
       line-height: 10rem;
       font-family: "Roboto Condensed", sans-serif;
       @media (max-width: $screen-md-min) {
-        font-size: 3em;
+        font-size: 3.5em;
       }
       @media (max-width: $screen-sm-min) {
-        font-size: 2.5em;
+        font-size: 3em;
+      }
+      @media (max-width: $screen-xs-min) {
+        font-size: 2em;
       }
     }
     hr {
