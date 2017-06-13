@@ -21,6 +21,8 @@ section.header {
   .page-caption-background {
     background-color: #1F1F21;
     margin-top: 7em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     height: 7em;
 
     .page-caption {
