@@ -30,7 +30,7 @@ function getDateString() {
 }
 
 $(function () {
-    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:8080" : "https://udl.cloudno.de";
+    var serverUrl = window.location.href.includes("localhost") ? "http://localhost:9000" : "https://udl.cloudno.de";
 
     $.get(serverUrl, function (data) {
         events = JSON.parse(data).result;
@@ -42,6 +42,10 @@ $(function () {
             tmpl_cache: false,
             day: getDateString(),
             modal: "#events-modal",
+            modal_title: function (e) {
+                $(".modal-header h3").text(e.title);
+                return e.title
+            },
             first_day: 1,
             weekbox: false,
             display_week_numbers: false,
@@ -71,10 +75,10 @@ $(function () {
             });
         });
 
-        $('#events-modal .modal-header, #events-modal .modal-footer').click(function (e) {
-            //e.preventDefault();
-            //e.stopPropagation();
-        });
+        // $('#events-modal .modal-header, #events-modal .modal-footer').click(function (e) {
+        //     //e.preventDefault();
+        //     //e.stopPropagation();
+        // });
 
         $('.event-class-selector').each(function () {
             $(this).prop('checked', true);

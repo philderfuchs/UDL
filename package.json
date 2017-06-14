@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run pack & npm run serve & npm run sass",
-    "pack": "webpack -p --watch",
-    "serve": "python -m SimpleHTTPServer 9000",
+    "pack": "webpack --watch",
+    "serve": "python -m SimpleHTTPServer 8000",
     "sass": "sass --watch scss/app.scss:css/app.css --style compressed"
   },
   "dependencies": {
