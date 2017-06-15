@@ -126,11 +126,11 @@ section.header {
   }
 
   #class-selector {
-
+    font-size: 11pt;
     /*** custom checkboxes ***/
     input[type=checkbox] {
       position: relative;
-      line-height: .8em;
+      line-height: .7em;
     }
     /* to hide the checkbox itself */
     label > input[type=checkbox]:before {
@@ -204,7 +204,7 @@ section.header {
   }
 
   li {
-    line-height: 2em;
+    line-height: 2.1em;
     span.event {
       margin: .6em .7em;
     }
@@ -216,6 +216,7 @@ section.header {
       color: $text-dark-primary !important;
       font-size: 1.1em;
       font-weight: 200;
+      line-height: inherit;
       &:hover {
         color: lighten($text-dark-primary, 45%) !important;
       }
