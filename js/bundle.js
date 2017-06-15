@@ -15582,11 +15582,11 @@ $(function () {
             tmpl_path: 'tmpls/',
             tmpl_cache: false,
             day: getDateString(),
-            modal: "#events-modal",
-            modal_title: function (e) {
-                $(".gotowebsite").attr("href", e.url);
-                return e.title
-            },
+            // modal: "#events-modal",
+            // modal_title: function (e) {
+            //     $(".gotowebsite").attr("href", e.url);
+            //     return e.title
+            // },
             first_day: 1,
             weekbox: false,
             display_week_numbers: false,
