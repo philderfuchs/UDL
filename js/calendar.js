@@ -50,7 +50,7 @@ if(!String.prototype.formatNum) {
 }
 
 (function($) {
-	
+
 	var defaults = {
 		// Width of the calendar
 		width: '100%',

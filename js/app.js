@@ -43,7 +43,6 @@ $(function () {
             day: getDateString(),
             modal: "#events-modal",
             modal_title: function (e) {
-                $(".modal-header h3").text(e.title);
                 return e.title
             },
             first_day: 1,
