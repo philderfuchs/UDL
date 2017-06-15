@@ -43,6 +43,7 @@ $(function () {
             day: getDateString(),
             modal: "#events-modal",
             modal_title: function (e) {
+                $(".gotowebsite").attr("href", e.url);
                 return e.title
             },
             first_day: 1,
@@ -73,11 +74,6 @@ $(function () {
                 calendar.navigate($this.data('calendar-nav'));
             });
         });
-
-        // $('#events-modal .modal-header, #events-modal .modal-footer').click(function (e) {
-        //     //e.preventDefault();
-        //     //e.stopPropagation();
-        // });
 
         $('.event-class-selector').each(function () {
             $(this).prop('checked', true);
