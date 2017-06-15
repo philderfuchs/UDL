@@ -9,8 +9,12 @@
   }
 }
 
+body {
+  background-color: $brand-primary;
+}
+
 section.header {
-  height: 14em;
+  height: 25em;
   background-image: url(../img/header.jpg);
   background-size: cover;
 
@@ -18,7 +22,7 @@ section.header {
   @include box-shadow(inset 0px -12px 37px -16px rgba(0, 0, 0, 0.3));
 
   .page-caption-background {
-    background-color: rgba(#1F1F21, 0.9);
+    background-color: rgba(#1F1F21, 0.8);
     margin-top: 7em;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -65,8 +69,7 @@ section.header {
 }
 
 .explanation {
-  margin-bottom: 6rem;
-  background: $eventSuccessColor;
+  background: $brand-primary;
   color: white;
   padding: 2rem;
   border-radius: 3px;
@@ -74,7 +77,15 @@ section.header {
 }
 
 section.calendar-section {
-  padding-bottom: 5rem;
+  padding-top: 12rem;
+  @media (max-width: $screen-md-min) {
+    padding-top: 13.5rem;
+  }
+  @media (max-width: $screen-xs-min) {
+    padding-top: 16rem;
+  }
+  padding-bottom: 6rem;
+  background: white;
 }
 
 section.contact {
@@ -88,6 +99,24 @@ section.contact {
     @media (max-width: $screen-md-min) {
       font-size: 1.5em;
     }
+
+    .muted {
+      opacity: 0.7;
+    }
+  }
+}
+
+section.footer {
+  background: $brand-primary;
+  color: rgba(white, 0.7);
+  line-height: 7rem;
+
+  a {
+    color: rgba(white, 0.7);
+    margin-right: 2rem;
+  }
+  a:hover {
+    color: white;
   }
 }
 
@@ -132,7 +161,7 @@ section.contact {
       text-transform: uppercase;
 
       &.outer {
-        background-color: $text-dark-secondary;
+        background-color: $brand-primary;
         color: $text-light-primary;
         &:hover {
           background-color: lighten($text-dark-secondary, 10%);
@@ -290,7 +319,7 @@ section.contact {
     .cal-day-today {
       background-color: transparent;
       span {
-        background-color: $text-dark-secondary;
+        background-color: $brand-primary;
         border-radius: 1em;
         width: 1.4em;
         text-align: center;
