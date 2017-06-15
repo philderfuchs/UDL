@@ -44,64 +44,78 @@
         colored dots at the top of the calendar.
     </p>
     <p class="text-center">
-        <a class="btn btn-default" href="mailto:stylewildle@gmail.com" role="button">GOT A QUESTION?</a>
+        <a class="btn btn-default" href="mailto:kleinpariscrew@gmail.com" role="button">GOT A QUESTION?</a>
     </p>
 </div>
 
-
-<div class="container">
-    <div class="calendar-header row">
-        <div class="col-md-3 col-xs-8">
-            <div class="btn-group">
-                <button class="btn btn-default outer" data-calendar-nav="prev"><i class="fa fa-angle-left fa-lg"></i>
-                    Prev
-                </button>
-                <button class="btn btn-default" data-calendar-nav="today">Today</button>
-                <button class="btn btn-default outer" data-calendar-nav="next">Next <i
-                        class="fa fa-angle-right fa-lg"></i></button>
+<section class="calendar-section">
+    <div class="container">
+        <div class="calendar-header row">
+            <div class="col-md-3 col-xs-8">
+                <div class="btn-group">
+                    <button class="btn btn-default outer" data-calendar-nav="prev"><i
+                            class="fa fa-angle-left fa-lg"></i>
+                        Prev
+                    </button>
+                    <button class="btn btn-default" data-calendar-nav="today">Today</button>
+                    <button class="btn btn-default outer" data-calendar-nav="next">Next <i
+                            class="fa fa-angle-right fa-lg"></i></button>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-4">
+                <span class="current-view"></span>
+            </div>
+            <div class="col-md-6  col-xs-12 class-selector-col">
+                <div id="class-selector">
+                    <label class="checkbox-inline  event-inverse-selector">
+                        <input type="checkbox" value="event-inverse" class="event-class-selector"> Other Styles
+                    </label>
+                    <label class="checkbox-inline  event-info-selector">
+                        <input type="checkbox" value="event-info" class="event-class-selector"> Locking / Popping
+                    </label>
+                    <label class="checkbox-inline  event-warning-selector">
+                        <input type="checkbox" value="event-warning" class="event-class-selector"> House
+                    </label>
+                    <label class="checkbox-inline event-important-selector">
+                        <input type="checkbox" value="event-important" class="event-class-selector"> Breakdance
+                    </label>
+                    <label class="checkbox-inline  event-standard-selector">
+                        <input type="checkbox" value="event-standard" class="event-class-selector"> HipHop
+                    </label>
+                    <label class="checkbox-inline  event-success-selector">
+                        <input type="checkbox" value="event-success" class="event-class-selector"> Workshops / Parties /
+                        Jams
+                    </label>
+                    <label class="checkbox-inline  event-special-selector">
+                        <input type="checkbox" value="event-special" class="event-class-selector"> All Styles (Free
+                        Trainings)
+                    </label>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-xs-4">
-            <span class="current-view"></span>
-        </div>
-        <div class="col-md-6  col-xs-12 class-selector-col">
-            <div id="class-selector">
-                <label class="checkbox-inline  event-inverse-selector">
-                    <input type="checkbox" value="event-inverse" class="event-class-selector"> Other Styles
-                </label>
-                <label class="checkbox-inline  event-info-selector">
-                    <input type="checkbox" value="event-info" class="event-class-selector"> Locking / Popping
-                </label>
-                <label class="checkbox-inline  event-warning-selector">
-                    <input type="checkbox" value="event-warning" class="event-class-selector"> House
-                </label>
-                <label class="checkbox-inline event-important-selector">
-                    <input type="checkbox" value="event-important" class="event-class-selector"> Breakdance
-                </label>
-                <label class="checkbox-inline  event-standard-selector">
-                    <input type="checkbox" value="event-standard" class="event-class-selector"> HipHop
-                </label>
-                <label class="checkbox-inline  event-success-selector">
-                    <input type="checkbox" value="event-success" class="event-class-selector"> Workshops / Parties /
-                    Jams
-                </label>
-                <label class="checkbox-inline  event-special-selector">
-                    <input type="checkbox" value="event-special" class="event-class-selector"> All Styles (Free
-                    Trainings)
-                </label>
+
+        <div class="row">
+            <div id="calendar">
+                <div class="alert alert-info text-center loading" role="alert">
+                    <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar
+                </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div id="calendar">
-            <div class="alert alert-info text-center loading" role="alert">
-                <h1><i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar</h1>
+<section class="contact">
+    <div class="container">
+        <div class="row vertical-align">
+            <div class="col-md-7">
+                <span class="description">We forgot an event in Leipzig?<br/>Something's changed?<br/>You offer a Urban Dance Class?</span>
+            </div>
+            <div class="col-md-5">
+                <a class="btn btn-default btn-lg" href="mailto:kleinpariscrew@gmail.com" role="button">JUST WRITE US</a>
             </div>
         </div>
     </div>
-
-</div>
+</section>
 
 
 <div class="modal fade" id="events-modal">

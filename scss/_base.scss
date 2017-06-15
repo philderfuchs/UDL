@@ -15,7 +15,7 @@ section.header {
   background-size: cover;
 
   //@include gradient-directional(#f8f8f8, #e6e4e4, 135deg);
-  @include box-shadow(inset 0px -12px 37px -16px rgba(0,0,0,0.3));
+  @include box-shadow(inset 0px -12px 37px -16px rgba(0, 0, 0, 0.3));
 
   .page-caption-background {
     background-color: rgba(#1F1F21, 0.9);
@@ -45,24 +45,22 @@ section.header {
       width: 40%;
     }
   }
+  .colorstripe-container {
+    padding-left: 0;
+    padding-right: 0;
+    .colorstripe {
+      display: flex;
+      flex-direction: row;
+      .colorblock {
+        height: 8px;
+        flex-grow: 1;
 
-}
-
-.colorstripe-container {
-  padding-left: 0;
-  padding-right: 0;
-  .colorstripe {
-    display: flex;
-    flex-direction: row;
-    .colorblock {
-      height: 8px;
-      flex-grow: 1;
-
-      &.event-standard {
-        background-color: $eventStandardColor;
+        &.event-standard {
+          background-color: $eventStandardColor;
+        }
       }
-    }
 
+    }
   }
 }
 
@@ -75,7 +73,31 @@ section.header {
   margin-top: 9px;
 }
 
+section.calendar-section {
+  padding-bottom: 5rem;
+}
+
+section.contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: $eventStandardColor;
+  color: white;
+
+  .description {
+    font-size: 3rem;
+    @media (max-width: $screen-md-min) {
+      font-size: 1.5em;
+    }
+  }
+}
+
 // Overwrite calendar styling
+
+#calendar {
+  .alert {
+    font-size: 4rem;
+  }
+}
 
 [class*="cal-cell"]:hover {
   background-color: transparent;
@@ -289,4 +311,11 @@ section.header {
     padding: 0;
     height: 75vh !important;
   }
+}
+
+// HELPERS
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }
