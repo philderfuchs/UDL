@@ -11,15 +11,14 @@
 
 section.header {
   height: 14em;
-  //background-image: url(../img/header.png);
-  //background-position-y: -557px;
-  //background-size: cover;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
 
-  @include gradient-directional(#f8f8f8, #e6e4e4, 135deg);
+  //@include gradient-directional(#f8f8f8, #e6e4e4, 135deg);
   @include box-shadow(inset 0px -12px 37px -16px rgba(0,0,0,0.3));
 
   .page-caption-background {
-    background-color: #1F1F21;
+    background-color: rgba(#1F1F21, 0.9);
     margin-top: 7em;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;

@@ -1,6 +1,8 @@
 require('underscore');
 require('bootstrap-sass');
 require('./calendar.js');
+require('jarallax');
+var imgParallax = require('./imgParallax');
 
 var events = [];
 var calendar = {};
@@ -30,6 +32,14 @@ function getDateString() {
 }
 
 $(function () {
+
+    // parallax effect
+    jarallax($('section.header'), {
+        speed: 0.5,
+        noIos: false
+    });
+    new imgParallax($('.page-caption-background'), 0.05);
+
     var serverUrl = window.location.href.includes("localhost") ? "http://localhost:9000" : "https://udl.cloudno.de";
 
     $.get(serverUrl, function (data) {
