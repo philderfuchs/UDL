@@ -15587,9 +15587,9 @@ function updateEvents(button) {
         button.addClass("selected");
     }
 
-    $('#classSelector button').each(function () {
+    $('#classSelectors .classSelector').each(function () {
         if ($(this).hasClass("selected")) {
-            activeEvents.push($(this).val())
+            activeEvents.push($(this).attr('data-val'))
         }
     });
 
@@ -15662,7 +15662,7 @@ $(function () {
             });
         });
 
-        $('#classSelector button').each(function () {
+        $('#classSelectors .classSelector').each(function () {
             $(this).addClass('selected');
             $(this).click(function () {
                 updateEvents($(this));

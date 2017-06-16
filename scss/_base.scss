@@ -161,16 +161,16 @@ section.footer {
     margin-bottom: 2rem;
   }
 
-  #classSelector {
+  #classSelectors {
     font-size: 10pt;
 
-    button {
+    .classSelector {
       color: white;
       i {
         margin-right: .2rem;
       }
     }
-    button.selected {
+    .classSelector.selected {
       i {
         @extend .fa-circle;
       }
@@ -223,71 +223,47 @@ section.footer {
         }
       }
     }
-    button.unselected {
+    .classSelector.unselected {
       i {
         @extend .fa-circle-o;
+      }
+      &:hover {
+        color: white;
+        background: #eee;
       }
       &.event-standard-selector {
         color: $eventStandardColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventStandardColor);
-        &:hover {
-          color: white;
-          background: lighten($eventStandardColor, 6%);
-        }
       }
 
       &.event-important-selector {
         color: $eventImportantColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventImportantColor);
-        &:hover {
-          color: white;
-          background: lighten($eventImportantColor, 6%);
-        }
       }
 
       &.event-success-selector {
         color: $eventSuccessColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventSuccessColor);
-        &:hover {
-          color: white;
-          background: lighten($eventSuccessColor, 6%);
-        }
       }
 
       &.event-warning-selector {
         color: $eventWarningColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventWarningColor);
-        &:hover {
-          color: white;
-          background: lighten($eventWarningColor, 6%);
-        }
       }
 
       &.event-info-selector {
         color: $eventInfoColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventInfoColor);
-        &:hover {
-          color: white;
-          background: lighten($eventInfoColor, 6%);
-        }
       }
 
       &.event-inverse-selector {
         color: $eventInverseColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventInverseColor);
-        &:hover {
-          color: white;
-          background: lighten($eventInverseColor, 6%);
-        }
       }
 
       &.event-special-selector {
         color: $eventSpecialColor;
         @include box-shadow(inset 0px 0px 0px 1px $eventSpecialColor);
-        &:hover {
-          color: white;
-          background: lighten($eventSpecialColor, 6%);
-        }
       }
     }
   }
