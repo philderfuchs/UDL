@@ -9,9 +9,17 @@
   }
 }
 
+// GENERAL SETTINGS
+
 body {
   background-color: $brand-primary;
 }
+
+.btn-default {
+  border: none;
+}
+
+// SECTIONS
 
 section.header {
   height: 25em;
@@ -147,8 +155,143 @@ section.footer {
       display: block;
       text-align: right;
     }
-
   }
+
+  .classSelectorRow {
+    margin-bottom: 2rem;
+  }
+
+  #classSelector {
+    font-size: 10pt;
+
+    button {
+      color: white;
+      i {
+        margin-right: .2rem;
+      }
+    }
+    button.selected {
+      i {
+        @extend .fa-circle;
+      }
+      &.event-standard-selector {
+        background: $eventStandardColor;
+        &:hover {
+          background: lighten($eventStandardColor, 6%);
+        }
+      }
+
+      &.event-important-selector {
+        background: $eventImportantColor;
+        &:hover {
+          background: lighten($eventImportantColor, 6%);
+        }
+      }
+
+      &.event-success-selector {
+        background: $eventSuccessColor;
+        &:hover {
+          background: lighten($eventSuccessColor, 6%);
+        }
+      }
+
+      &.event-warning-selector {
+        background: $eventWarningColor;
+        &:hover {
+          background: lighten($eventWarningColor, 6%);
+        }
+      }
+
+      &.event-info-selector {
+        background: $eventInfoColor;
+        &:hover {
+          background: lighten($eventInfoColor, 6%);
+        }
+      }
+
+      &.event-inverse-selector {
+        background: $eventInverseColor;
+        &:hover {
+          background: lighten($eventInverseColor, 6%);
+        }
+      }
+
+      &.event-special-selector {
+        background: $eventSpecialColor;
+        &:hover {
+          background: lighten($eventSpecialColor, 6%);
+        }
+      }
+    }
+    button.unselected {
+      i {
+        @extend .fa-circle-o;
+      }
+      &.event-standard-selector {
+        color: $eventStandardColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventStandardColor);
+        &:hover {
+          color: white;
+          background: lighten($eventStandardColor, 6%);
+        }
+      }
+
+      &.event-important-selector {
+        color: $eventImportantColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventImportantColor);
+        &:hover {
+          color: white;
+          background: lighten($eventImportantColor, 6%);
+        }
+      }
+
+      &.event-success-selector {
+        color: $eventSuccessColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventSuccessColor);
+        &:hover {
+          color: white;
+          background: lighten($eventSuccessColor, 6%);
+        }
+      }
+
+      &.event-warning-selector {
+        color: $eventWarningColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventWarningColor);
+        &:hover {
+          color: white;
+          background: lighten($eventWarningColor, 6%);
+        }
+      }
+
+      &.event-info-selector {
+        color: $eventInfoColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventInfoColor);
+        &:hover {
+          color: white;
+          background: lighten($eventInfoColor, 6%);
+        }
+      }
+
+      &.event-inverse-selector {
+        color: $eventInverseColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventInverseColor);
+        &:hover {
+          color: white;
+          background: lighten($eventInverseColor, 6%);
+        }
+      }
+
+      &.event-special-selector {
+        color: $eventSpecialColor;
+        @include box-shadow(inset 0px 0px 0px 1px $eventSpecialColor);
+        &:hover {
+          color: white;
+          background: lighten($eventSpecialColor, 6%);
+        }
+      }
+    }
+  }
+
   .monthSelector {
     margin-top: .5em;
     margin-bottom: $cal-body-margin;
@@ -171,77 +314,6 @@ section.footer {
     }
   }
 
-  .class-selector-col {
-    margin-bottom: $cal-body-margin;
-  }
-
-  #class-selector {
-    font-size: 11pt;
-    /*** custom checkboxes ***/
-    input[type=checkbox] {
-      position: relative;
-      line-height: .7em;
-    }
-    /* to hide the checkbox itself */
-    label > input[type=checkbox]:before {
-      position: absolute;
-      background-color: #FFFFFF;
-      height: 100%;
-      width: 100%;
-      font-family: FontAwesome;
-      display: inline-block;
-      content: "\f10c";
-      letter-spacing: 10px;
-    }
-    /* space between checkbox and label */
-    label > input[type=checkbox]:checked:before {
-      font-family: FontAwesome;
-      display: inline-block;
-      content: "\f111";
-      letter-spacing: 5px;
-    }
-    /* allow space for check mark */
-
-    .checkbox-inline {
-      margin: .2em .6em;
-      float: right;
-
-      input:hover {
-        cursor: pointer !important;
-        cursor: hand !important;
-      }
-
-      &.event-standard-selector {
-        color: $eventStandardColor;
-      }
-
-      &.event-important-selector {
-        color: $eventImportantColor;
-      }
-
-      &.event-success-selector {
-        color: $eventSuccessColor;
-      }
-
-      &.event-warning-selector {
-        color: $eventWarningColor;
-      }
-
-      &.event-info-selector {
-        color: $eventInfoColor;
-      }
-
-      &.event-inverse-selector {
-        color: $eventInverseColor;
-      }
-
-      &.event-special-selector {
-        color: $eventSpecialColor;
-      }
-
-    }
-
-  }
 }
 
 #cal-slide-content {
@@ -276,7 +348,7 @@ section.footer {
 }
 
 .cal-row-head {
-  border-top: 1px solid rgba(black, 0.2);
+  //border-top: 1px solid rgba(black, 0.2);
   padding-top: 1rem;
 
   [class*="cal-cell"] {

@@ -11,7 +11,9 @@ function updateEvents(button) {
     var activeEvents = [];
     if(button.hasClass("selected")) {
         button.removeClass("selected");
+        button.addClass("unselected");
     } else {
+        button.removeClass("unselected");
         button.addClass("selected");
     }
 
