@@ -36,9 +36,10 @@
     </div>
     <div class="container explanation">
         <p class="lead text-center">
-            An overview of all events related to Urban Dance in Leipzig. Check out regular classes, workshops, battles
-            and
-            more in the calendar below. Just click on a day to find out what, when and where something's going on. If
+            This is an overview of all events related to urban dance in Leipzig. Check out regular classes, workshops,
+            battles
+            and more in the calendar below. Just click on a day to find out what, when and where something's going on.
+            If
             you are just interested in a specific dance style or event type, you can filter what's viewed using the
             colored dots at the top of the calendar.
         </p>
@@ -51,58 +52,85 @@
 
 <section class="calendar-section">
     <div class="container">
-        <div class="calendar-header row">
-            <div class="col-md-3 col-xs-8">
-                <div class="btn-group">
-                    <button class="btn btn-default outer" data-calendar-nav="prev"><i
-                            class="fa fa-angle-left fa-lg"></i>
-                        Prev
-                    </button>
-                    <button class="btn btn-default" data-calendar-nav="today">Today</button>
-                    <button class="btn btn-default outer" data-calendar-nav="next">Next <i
-                            class="fa fa-angle-right fa-lg"></i></button>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-4">
-                <span class="current-view"></span>
-            </div>
-            <div class="col-md-6  col-xs-12 class-selector-col">
-                <div id="class-selector">
-                    <label class="checkbox-inline  event-inverse-selector">
-                        <input type="checkbox" value="event-inverse" class="event-class-selector"> Other Styles
-                    </label>
-                    <label class="checkbox-inline  event-info-selector">
-                        <input type="checkbox" value="event-info" class="event-class-selector"> Locking / Popping
-                    </label>
-                    <label class="checkbox-inline  event-warning-selector">
-                        <input type="checkbox" value="event-warning" class="event-class-selector"> House
-                    </label>
-                    <label class="checkbox-inline event-important-selector">
-                        <input type="checkbox" value="event-important" class="event-class-selector"> Breakdance
-                    </label>
-                    <label class="checkbox-inline  event-standard-selector">
-                        <input type="checkbox" value="event-standard" class="event-class-selector"> HipHop
-                    </label>
-                    <label class="checkbox-inline  event-success-selector">
-                        <input type="checkbox" value="event-success" class="event-class-selector"> Workshops / Parties /
-                        Jams
-                    </label>
-                    <label class="checkbox-inline  event-special-selector">
-                        <input type="checkbox" value="event-special" class="event-class-selector"> All Styles (Free
-                        Trainings)
-                    </label>
-                </div>
-            </div>
-        </div>
-
         <div class="row">
-            <div id="calendar">
-                <div class="alert alert-info text-center loading" role="alert">
-                    <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar
+            <div class="calendar-header row">
+                <div class="col-xs-12">
+                    <div class="btn-group btn-group-justified" id="classSelector" role="group">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-standard">Hip Hop</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-warning">House</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-info">Locking / Popping</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-important">Breakdance</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-inverse">Other Styles</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-success">Workshops / Battles / Parties & Jams</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" value="event-special">Open Trainings (All Styles)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-8">
+                    <div class="btn-group monthSelector">
+                        <button class="btn btn-default outer" data-calendar-nav="prev"><i
+                                class="fa fa-angle-left fa-lg"></i>
+                            Prev
+                        </button>
+                        <button class="btn btn-default" data-calendar-nav="today">Today</button>
+                        <button class="btn btn-default outer" data-calendar-nav="next">Next <i
+                                class="fa fa-angle-right fa-lg"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-4">
+                    <span class="current-view"></span>
+                </div>
+                <div class="col-md-6  col-xs-12 class-selector-col">
+                    <div id="class-selector">
+                        <label class="checkbox-inline  event-inverse-selector">
+                            <input type="checkbox" value="event-inverse" class="event-class-selector"> Other Styles
+                        </label>
+                        <label class="checkbox-inline  event-info-selector">
+                            <input type="checkbox" value="event-info" class="event-class-selector"> Locking / Popping
+                        </label>
+                        <label class="checkbox-inline  event-warning-selector">
+                            <input type="checkbox" value="event-warning" class="event-class-selector"> House
+                        </label>
+                        <label class="checkbox-inline event-important-selector">
+                            <input type="checkbox" value="event-important" class="event-class-selector"> Breakdance
+                        </label>
+                        <label class="checkbox-inline  event-standard-selector">
+                            <input type="checkbox" value="event-standard" class="event-class-selector"> HipHop
+                        </label>
+                        <label class="checkbox-inline  event-success-selector">
+                            <input type="checkbox" value="event-success" class="event-class-selector"> Workshops /
+                            Parties /
+                            Jams
+                        </label>
+                        <label class="checkbox-inline  event-special-selector">
+                            <input type="checkbox" value="event-special" class="event-class-selector"> All Styles (Free
+                            Trainings)
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="calendar">
+                    <div class="alert alert-info text-center loading" role="alert">
+                        <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Loading Calendar
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="contact">

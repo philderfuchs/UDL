@@ -7,10 +7,16 @@ var imgParallax = require('./imgParallax');
 var events = [];
 var calendar = {};
 
-function updateEvents() {
+function updateEvents(button) {
     var activeEvents = [];
-    $('.event-class-selector').each(function () {
-        if ($(this).is(":checked")) {
+    if(button.hasClass("selected")) {
+        button.removeClass("selected");
+    } else {
+        button.addClass("selected");
+    }
+
+    $('#classSelector button').each(function () {
+        if ($(this).hasClass("selected")) {
             activeEvents.push($(this).val())
         }
     });
@@ -21,7 +27,6 @@ function updateEvents() {
         })
     });
     calendar.view();
-
 }
 
 function getDateString() {
@@ -85,10 +90,10 @@ $(function () {
             });
         });
 
-        $('.event-class-selector').each(function () {
-            $(this).prop('checked', true);
+        $('#classSelector button').each(function () {
+            $(this).addClass('selected');
             $(this).click(function () {
-                updateEvents();
+                updateEvents($(this));
             });
         });
 
