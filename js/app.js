@@ -99,7 +99,7 @@ $(function () {
     var serverUrl = window.location.href.includes("localhost") ? "http://localhost:9000" : "https://udl.cloudno.de";
 
     var date = new Date();
-    var lastDay = new Date(date.getFullYear(), date.getMonth() + 6, 0);
+    var lastDay = new Date(date.getFullYear(), date.getMonth() + 4, 0);
 
     $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
         events = JSON.parse(data).result;
