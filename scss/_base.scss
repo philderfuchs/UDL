@@ -57,21 +57,21 @@ section.header {
       width: 40%;
     }
   }
-  .colorstripe-container {
-    padding-left: 0;
-    padding-right: 0;
-    .colorstripe {
-      display: flex;
-      flex-direction: row;
-      .colorblock {
-        height: 8px;
-        flex-grow: 1;
+}
 
-        &.event-standard {
-          background-color: $eventStandardColor;
-        }
+.colorstripe-container {
+  padding-left: 0;
+  padding-right: 0;
+  .colorstripe {
+    display: flex;
+    flex-direction: row;
+    .colorblock {
+      height: 8px;
+      flex-grow: 1;
+
+      &.event-standard {
+        background-color: $eventStandardColor;
       }
-
     }
   }
 }
@@ -94,6 +94,28 @@ section.calendar-section {
   }
   padding-bottom: 6rem;
   background: white;
+}
+
+section.about {
+  color: white;
+  background: $brand-primary;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+
+  .caption {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  p {
+    font-size: 13pt;
+    margin-top: 3rem;
+    font-weight: 200;
+  }
+  .colorblock {
+    height: 2px !important;
+  }
 }
 
 section.contact {
