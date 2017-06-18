@@ -15577,14 +15577,66 @@ var imgParallax = __webpack_require__(3);
 var events = [];
 var calendar = {};
 
+function countOfSelectedClasses() {
+    var count = 0;
+    $('#classSelectors .classSelector').each(function () {
+        if ($(this).hasClass("selected")) {
+            count++;
+        }
+    });
+    return count;
+}
+
 function updateEvents(button) {
     var activeEvents = [];
-    if(button.hasClass("selected")) {
-        button.removeClass("selected");
-        button.addClass("unselected");
+
+    // remove all tooltips
+    $('#classSelectors .classSelector').each(function () {
+        $(this).tooltip('destroy');
+    });
+
+
+    if (button.hasClass("selected")) {
+        var classesCount = countOfSelectedClasses();
+
+        // case: unselect a selected class
+        if (classesCount === 7) {
+            $('#classSelectors .classSelector').each(function () {
+                if ($(this).attr('data-val') !== button.attr('data-val')) {
+                    $(this).removeClass("selected");
+                    $(this).addClass("unselected");
+                }
+            });
+        } else if (classesCount === 1) {
+            $('#classSelectors .classSelector').each(function () {
+                $(this).removeClass("unselected");
+                $(this).addClass("selected");
+            });
+        } else {
+            button.removeClass("selected");
+            button.addClass("unselected");
+        }
     } else {
+        // case: select a unselected class
         button.removeClass("unselected");
         button.addClass("selected");
+    }
+
+    // attach tooltip if only one element left
+    if (countOfSelectedClasses() === 1) {
+        $('#classSelectors .classSelector').each(function () {
+            var _this = $(this);
+            if (_this .hasClass("selected")) {
+                _this .tooltip({
+                    title: "click to show all categories"
+                });
+                _this .tooltip("show");
+                setTimeout(function () {
+                    _this .tooltip("hide");
+                }, 2000);
+
+            }
+        });
     }
 
     $('#classSelectors .classSelector').each(function () {
