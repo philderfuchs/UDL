@@ -15619,7 +15619,7 @@ function updateEvents(button) {
         $(".showall").attr("disabled", "disabled");
     } else {
         $(".showall").removeAttr("disabled");
-        $(".showall").click(function() {
+        $(".showall").click(function () {
             $('#classSelectors .classSelector').each(function () {
                 $(this).removeClass("unselected");
                 $(this).addClass("selected");
@@ -15668,7 +15668,10 @@ $(function () {
 
     var serverUrl = window.location.href.includes("localhost") ? "http://localhost:9000" : "https://udl.cloudno.de";
 
-    $.get(serverUrl, function (data) {
+    var date = new Date();
+    var lastDay = new Date(date.getFullYear(), date.getMonth() + 6, 0);
+
+    $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
         events = JSON.parse(data).result;
 
 
@@ -15691,7 +15694,6 @@ $(function () {
                 $('.btn-group button').removeClass('active');
                 $('button[data-calendar-view="' + view + '"]').addClass('active');
                 $('.back-button').on('click', function () {
-                    console.log("yo");
                     _this.view('month');
                 });
             },
