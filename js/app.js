@@ -18,7 +18,6 @@ function countOfSelectedClasses() {
 }
 
 function updateEvents(button) {
-    var activeEvents = [];
 
     if (button.hasClass("selected")) {
         var classesCount = countOfSelectedClasses();
@@ -51,13 +50,21 @@ function updateEvents(button) {
     } else {
         $(".showall").removeAttr("disabled");
         $(".showall").click(function() {
-            $(".showall").attr("disabled", "disabled");
             $('#classSelectors .classSelector').each(function () {
                 $(this).removeClass("unselected");
                 $(this).addClass("selected");
             });
+            $(".showall").attr("disabled", "disabled");
+            updateCalender();
         });
+
     }
+
+    updateCalender();
+}
+
+function updateCalender() {
+    var activeEvents = [];
 
     $('#classSelectors .classSelector').each(function () {
         if ($(this).hasClass("selected")) {
