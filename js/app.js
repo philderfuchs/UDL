@@ -20,12 +20,6 @@ function countOfSelectedClasses() {
 function updateEvents(button) {
     var activeEvents = [];
 
-    // remove all tooltips
-    $('#classSelectors .classSelector').each(function () {
-        $(this).tooltip('destroy');
-    });
-
-
     if (button.hasClass("selected")) {
         var classesCount = countOfSelectedClasses();
 
@@ -52,20 +46,16 @@ function updateEvents(button) {
         button.addClass("selected");
     }
 
-    // attach tooltip if only one element left
-    if (countOfSelectedClasses() === 1) {
-        $('#classSelectors .classSelector').each(function () {
-            var _this = $(this);
-            if (_this .hasClass("selected")) {
-                _this .tooltip({
-                    title: "click to show all categories"
-                });
-                _this .tooltip("show");
-                setTimeout(function () {
-                    _this .tooltip("hide");
-                }, 2000);
-
-            }
+    if (countOfSelectedClasses() === 7) {
+        $(".showall").attr("disabled", "disabled");
+    } else {
+        $(".showall").removeAttr("disabled");
+        $(".showall").click(function() {
+            $(".showall").attr("disabled", "disabled");
+            $('#classSelectors .classSelector').each(function () {
+                $(this).removeClass("unselected");
+                $(this).addClass("selected");
+            });
         });
     }
 
