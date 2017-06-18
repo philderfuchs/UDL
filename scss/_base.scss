@@ -85,12 +85,12 @@ section.header {
 }
 
 section.calendar-section {
-  padding-top: 12rem;
+  padding-top: 15rem;
   @media (max-width: $screen-md-min) {
-    padding-top: 13.5rem;
+    padding-top: 18rem;
   }
   @media (max-width: $screen-xs-min) {
-    padding-top: 16rem;
+    padding-top: 20rem;
   }
   padding-bottom: 6rem;
   background: white;
@@ -194,7 +194,7 @@ section.footer {
   .current-view {
     font-size: 2.3em;
     font-weight: 200;
-    @media (max-width: $screen-md-min) {
+    @media (max-width: $screen-xs-min) {
       display: block;
       text-align: right;
     }
