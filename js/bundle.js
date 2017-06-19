@@ -15672,15 +15672,7 @@ $(function () {
     var lastDay = new Date(date.getFullYear(), date.getMonth() + 4, 0);
 
     $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
-        var parsedData = {};
-        try {
-            parsedData = JSON.parse(data);
-        } catch (e) {
-            $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
-            return false;
-        }
-        events = parsedData.result;
-
+        events = JSON.parse(data).result;
 
         var options = {
             events_source: events,
@@ -15727,6 +15719,8 @@ $(function () {
             });
         });
 
+    }).fail(function() {
+        $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
     });
 
 });
