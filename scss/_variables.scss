@@ -19,22 +19,22 @@ $rowHeightYear: 60px;
 $eventStandardColor:      #7E51DB;
 
 // BREAKDANCE
-$eventImportantColor:     #4CD964;
-
-// ALLSTYLES TRAININGS
-$eventSpecialColor:       #5AC8FA;
-
-// LOCKING/POPPING
-$eventInfoColor:          #FF9500;
+$eventImportantColor:     #5AC8FA;
 
 // HOUSE
-$eventWarningColor:       #FF70F5;
+$eventWarningColor:       #4CD964;
+
+// LOCKING/POPPING
+$eventInfoColor:          #FFCC00;
+
+// OTHER STYLES
+$eventInverseColor:       #FF9500;
 
 // WORKSHOPS, BATTLES & CO.
 $eventSuccessColor:       #FF2D55;
 
-// OTHER STYLES
-$eventInverseColor:       #FFCC00;
+// Open TRAININGS
+$eventSpecialColor:       #FF70F5;
 
 $eventHiliteStandart:     lighten($eventStandardColor, 35%);
 $eventHiliteImportant:    lighten($eventImportantColor, 35%);
