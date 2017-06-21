@@ -51,7 +51,7 @@ if(!String.prototype.formatNum) {
 
 (function($) {
 
-	var time_difference = 7200000;
+	var time_difference = 0;
 
 	var defaults = {
 		// Width of the calendar
