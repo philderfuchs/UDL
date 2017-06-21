@@ -51,8 +51,6 @@ if(!String.prototype.formatNum) {
 
 (function($) {
 
-	var time_difference = 0;
-
 	var defaults = {
 		// Width of the calendar
 		width: '100%',
@@ -516,8 +514,8 @@ if(!String.prototype.formatNum) {
 		data.before_time = [];
 		$.each(data.events, function(k, e) {
 
-			var s = new Date(parseInt(e.start - time_difference));
-			var f = new Date(parseInt(e.end - time_difference));
+			var s = new Date(parseInt(e.start));
+			var f = new Date(parseInt(e.end));
 
 			e.start_hour = $self._format_time(s);
 			e.end_hour = $self._format_time(f);
