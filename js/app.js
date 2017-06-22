@@ -160,27 +160,28 @@ $(function () {
         });
 
         // search logic
-        $('#searchInput').on('focusout', function () {
+        $('#searchInput').on('keyup', function () {
             var searchForm = $(this);
             searchForm.attr("disabled", "disabled");
             updateCalender();
             searchForm.removeAttr("disabled");
+            searchForm.focus();
             if (searchForm.val() !== "") {
                 $(".showall").removeAttr("disabled");
             }
         });
 
-        $('#searchInput').on('keypress', function (e) {
-            if (e.which === 13) {
-                var searchForm = $(this);
-                searchForm.attr("disabled", "disabled");
-                updateCalender();
-                searchForm.removeAttr("disabled");
-                if (searchForm.val() !== "") {
-                    $(".showall").removeAttr("disabled");
-                }
-            }
-        });
+        // $('#searchInput').on('keypress', function (e) {
+        //     if (e.which === 13) {
+        //         var searchForm = $(this);
+        //         searchForm.attr("disabled", "disabled");
+        //         updateCalender();
+        //         searchForm.removeAttr("disabled");
+        //         if (searchForm.val() !== "") {
+        //             $(".showall").removeAttr("disabled");
+        //         }
+        //     }
+        // });
 
     }).fail(function () {
         $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
