@@ -334,7 +334,7 @@ section.footer {
 
       &.event-important-selector {
         color: $eventImportantColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventImportantColor, $lightenAmount));
+        @include box-shadow(inset 0px 0px 0px 1px lighten($eventImportantColor, 10%));
       }
 
       &.event-success-selector {
@@ -349,7 +349,7 @@ section.footer {
 
       &.event-info-selector {
         color: $eventInfoColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventInfoColor, $lightenAmount));
+        @include box-shadow(inset 0px 0px 0px 1px lighten($eventInfoColor, 20%));
       }
 
       &.event-inverse-selector {
