@@ -56,18 +56,28 @@ function updateEvents(button) {
 
 
 function updateCalender() {
-    var activeEvents = [];
+    var activeClasses = [];
 
     $('#classSelectors .classSelector').each(function () {
         if ($(this).hasClass("selected")) {
-            activeEvents.push($(this).attr('data-val'))
+            activeClasses.push($(this).attr('data-val'))
         }
     });
 
-    calendar.setOptions({
-        events_source: events.filter(function (event) {
-            return activeEvents.includes(event.class);
+    var filteredEvents = events.filter(function (event) {
+        return activeClasses.includes(event.class);
+    });
+
+    var searchForm = $('#searchInput');
+    if (searchForm.val() !== "") {
+        var userInput = searchForm.val().toLowerCase();
+        filteredEvents = filteredEvents.filter(function (event) {
+            return event.title.toLowerCase().indexOf(userInput) !== -1;
         })
+    }
+
+    calendar.setOptions({
+        events_source: filteredEvents
     });
     calendar.view();
 }
@@ -143,33 +153,31 @@ $(function () {
                     $(this).removeClass("unselected");
                     $(this).addClass("selected");
                 });
+                $('#searchInput').val("");
                 updateCalender();
                 $(this).attr("disabled", "disabled");
-                $('#searchInput').val("");
             }
         });
 
         // search logic
         $('#searchInput').on('focusout', function () {
-            if ($(this).val() === "") {
-                calendar.setOptions({
-                    events_source: events
-                });
-                calendar.view();
-            } else {
-                searchAndRefreshEvents()
+            var searchForm = $(this);
+            searchForm.attr("disabled", "disabled");
+            updateCalender();
+            searchForm.removeAttr("disabled");
+            if (searchForm.val() !== "") {
+                $(".showall").removeAttr("disabled");
             }
         });
 
         $('#searchInput').on('keypress', function (e) {
             if (e.which === 13) {
-                if ($(this).val() === "") {
-                    calendar.setOptions({
-                        events_source: events
-                    });
-                    calendar.view();
-                } else {
-                    searchAndRefreshEvents()
+                var searchForm = $(this);
+                searchForm.attr("disabled", "disabled");
+                updateCalender();
+                searchForm.removeAttr("disabled");
+                if (searchForm.val() !== "") {
+                    $(".showall").removeAttr("disabled");
                 }
             }
         });
@@ -179,29 +187,3 @@ $(function () {
     });
 
 });
-
-function searchAndRefreshEvents() {
-    //Disable textbox to prevent multiple submit
-    var searchForm = $('#searchInput');
-    searchForm.attr("disabled", "disabled");
-
-    var userInput = searchForm.val().toLowerCase();
-    calendar.setOptions({
-        events_source: events.filter(function (event) {
-            return event.title.toLowerCase().indexOf(userInput) !== -1;
-        })
-    });
-    calendar.view();
-    //Enable the textbox again if needed.
-    searchForm.removeAttr("disabled");
-
-    // enable showall
-    $(".showall").removeAttr("disabled");
-
-    // show all class selectors
-    $('#classSelectors .classSelector').each(function () {
-        $(this).removeClass("unselected");
-        $(this).addClass("selected");
-    });
-}
-
