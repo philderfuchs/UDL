@@ -92,15 +92,15 @@ section.calendar-section {
   @media (max-width: $screen-xs-min) {
     padding-top: 20rem;
   }
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
   background: white;
 }
 
 section.about {
   color: white;
   background: $brand-primary;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
 
   .caption {
     color: white;
@@ -119,8 +119,8 @@ section.about {
 }
 
 section.contact {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: $eventStandardColor;
   color: white;
 
