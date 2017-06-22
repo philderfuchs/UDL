@@ -213,6 +213,10 @@ section.footer {
       border-radius: 0;
       border-bottom: 1px solid lighten($gray-light, 30%);
       @include box-shadow(none);
+      &.empty {
+        border-bottom: 1px solid red !important;
+        color: red !important;
+      }
     }
     #searchInput:focus {
       border-bottom: 1px solid $brand-primary;
@@ -227,6 +231,9 @@ section.footer {
 
     #searchInput:focus + .fa-search {
       color: $brand-primary;
+    }
+    #searchInput.empty:focus + .fa-search {
+      color: red;
     }
   }
 

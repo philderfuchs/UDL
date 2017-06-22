@@ -73,7 +73,12 @@ function updateCalender() {
         var userInput = searchForm.val().toLowerCase();
         filteredEvents = filteredEvents.filter(function (event) {
             return event.title.toLowerCase().indexOf(userInput) !== -1;
-        })
+        });
+        if(filteredEvents.length === 0) {
+            searchForm.addClass("empty");
+        } else {
+            searchForm.removeClass("empty");
+        }
     }
 
     calendar.setOptions({
