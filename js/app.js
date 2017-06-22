@@ -74,7 +74,7 @@ function updateCalender() {
         filteredEvents = filteredEvents.filter(function (event) {
             return event.title.toLowerCase().indexOf(userInput) !== -1;
         });
-        if(filteredEvents.length === 0) {
+        if (filteredEvents.length === 0) {
             searchForm.addClass("empty");
         } else {
             searchForm.removeClass("empty");
@@ -110,6 +110,12 @@ $(function () {
 
     $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
         events = JSON.parse(data).result;
+
+        events.forEach(function callback(value) {
+            if (value.title.includes("//")) {
+                value.title = "<strong>" + value.title.replace("//", "</strong> at").replace("//", "with");
+            }
+        });
 
         var options = {
             events_source: events,
@@ -175,18 +181,6 @@ $(function () {
                 $(".showall").removeAttr("disabled");
             }
         });
-
-        // $('#searchInput').on('keypress', function (e) {
-        //     if (e.which === 13) {
-        //         var searchForm = $(this);
-        //         searchForm.attr("disabled", "disabled");
-        //         updateCalender();
-        //         searchForm.removeAttr("disabled");
-        //         if (searchForm.val() !== "") {
-        //             $(".showall").removeAttr("disabled");
-        //         }
-        //     }
-        // });
 
     }).fail(function () {
         $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
