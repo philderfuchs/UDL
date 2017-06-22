@@ -15620,19 +15620,11 @@ function updateEvents(button) {
         $(".showall").attr("disabled", "disabled");
     } else {
         $(".showall").removeAttr("disabled");
-        $(".showall").click(function () {
-            $('#classSelectors .classSelector').each(function () {
-                $(this).removeClass("unselected");
-                $(this).addClass("selected");
-            });
-            $(".showall").attr("disabled", "disabled");
-            updateCalender();
-        });
-
     }
 
     updateCalender();
 }
+
 
 function updateCalender() {
     var activeEvents = [];
@@ -15680,11 +15672,6 @@ $(function () {
             tmpl_path: 'tmpls/',
             tmpl_cache: false,
             day: getDateString(),
-            // modal: "#events-modal",
-            // modal_title: function (e) {
-            //     $(".gotowebsite").attr("href", e.url);
-            //     return e.title
-            // },
             first_day: 1,
             weekbox: false,
             display_week_numbers: false,
@@ -15720,11 +15707,74 @@ $(function () {
             });
         });
 
-    }).fail(function() {
+        // showall selector
+        $(".showall").click(function () {
+            if (!$(this).attr("disabled")) {
+                $('#classSelectors .classSelector').each(function () {
+                    $(this).removeClass("unselected");
+                    $(this).addClass("selected");
+                });
+                updateCalender();
+                $(this).attr("disabled", "disabled");
+                $('#searchInput').val("");
+            }
+        });
+
+        // search logic
+        $('#searchInput').on('focusout', function () {
+            if ($(this).val() === "") {
+                calendar.setOptions({
+                    events_source: events
+                });
+                calendar.view();
+            } else {
+                searchAndRefreshEvents()
+            }
+        });
+
+        $('#searchInput').on('keypress', function (e) {
+            if (e.which === 13) {
+                if ($(this).val() === "") {
+                    calendar.setOptions({
+                        events_source: events
+                    });
+                    calendar.view();
+                } else {
+                    searchAndRefreshEvents()
+                }
+            }
+        });
+
+    }).fail(function () {
         $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
     });
 
 });
+
+function searchAndRefreshEvents() {
+    //Disable textbox to prevent multiple submit
+    var searchForm = $('#searchInput');
+    searchForm.attr("disabled", "disabled");
+
+    var userInput = searchForm.val().toLowerCase();
+    calendar.setOptions({
+        events_source: events.filter(function (event) {
+            return event.title.toLowerCase().indexOf(userInput) !== -1;
+        })
+    });
+    calendar.view();
+    //Enable the textbox again if needed.
+    searchForm.removeAttr("disabled");
+
+    // enable showall
+    $(".showall").removeAttr("disabled");
+
+    // show all class selectors
+    $('#classSelectors .classSelector').each(function () {
+        $(this).removeClass("unselected");
+        $(this).addClass("selected");
+    });
+}
 
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
