@@ -4,7 +4,7 @@
 		<% _.each(events, function(event) { %>
 			<li>
 				<span class="pull-left event <%= event['class'] %>"></span>&nbsp;
-				<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"
+				<a target="_blank" href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"
 					data-event-class="<%= event['class'] %>" class="event-item">
 					<span class="cal-hours"><%= event.start_hour %> - <%= event.end_hour %>:</span> <%= event.title %></a>
 			</li>
