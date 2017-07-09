@@ -108,82 +108,84 @@ $(function () {
     var date = new Date();
     var lastDay = new Date(date.getFullYear(), date.getMonth() + 4, 0);
 
-    $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
-        events = JSON.parse(data).result;
+    // $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
+    // events = JSON.parse(data).result;
 
-        events.forEach(function callback(value) {
-            if (value.title.includes("//")) {
-                value.title = "<strong>" + value.title.replace("//", "</strong> at").replace("//", "with");
-            }
-        });
+    events = require("./sampledata.json").result;
 
-        var options = {
-            events_source: events,
-            tmpl_path: 'tmpls/',
-            tmpl_cache: false,
-            day: getDateString(),
-            first_day: 1,
-            weekbox: false,
-            display_week_numbers: false,
-            onAfterViewLoad: function (view) {
-                var _this = this;
-                $('.current-view').text(this.getTitle());
-                $('.btn-group button').removeClass('active');
-                $('button[data-calendar-view="' + view + '"]').addClass('active');
-                $('.back-button').on('click', function () {
-                    _this.view('month');
-                });
-            },
-            classes: {
-                months: {
-                    general: 'label'
-                }
-            }
-        };
-
-        calendar = $('#calendar').calendar(options);
-
-        $('.btn-group button[data-calendar-nav]').each(function () {
-            var $this = $(this);
-            $this.click(function () {
-                calendar.navigate($this.data('calendar-nav'));
-            });
-        });
-
-        $('#classSelectors .classSelector').each(function () {
-            $(this).addClass('selected');
-            $(this).click(function () {
-                updateEvents($(this));
-            });
-        });
-
-        // showall selector
-        $(".showall").click(function () {
-            if (!$(this).attr("disabled")) {
-                $('#classSelectors .classSelector').each(function () {
-                    $(this).removeClass("unselected");
-                    $(this).addClass("selected");
-                });
-                $('#searchInput').val("");
-                updateCalender();
-                $(this).attr("disabled", "disabled");
-            }
-        });
-
-        // search logic
-        $('#searchInput').on('keyup', function () {
-            var searchForm = $(this);
-            searchForm.attr("disabled", "disabled");
-            updateCalender();
-            searchForm.removeAttr("disabled");
-            searchForm.focus();
-            if (searchForm.val() !== "") {
-                $(".showall").removeAttr("disabled");
-            }
-        });
-
-    }).fail(function () {
-        $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
+    events.forEach(function callback(value) {
+        if (value.title.includes("//")) {
+            value.title = "<strong>" + value.title.replace("//", "</strong> at").replace("//", "with");
+        }
     });
+
+    var options = {
+        events_source: events,
+        tmpl_path: 'tmpls/',
+        tmpl_cache: false,
+        day: getDateString(),
+        first_day: 1,
+        weekbox: false,
+        display_week_numbers: false,
+        onAfterViewLoad: function (view) {
+            var _this = this;
+            $('.current-view').text(this.getTitle());
+            $('.btn-group button').removeClass('active');
+            $('button[data-calendar-view="' + view + '"]').addClass('active');
+            $('.back-button').on('click', function () {
+                _this.view('month');
+            });
+        },
+        classes: {
+            months: {
+                general: 'label'
+            }
+        }
+    };
+
+    calendar = $('#calendar').calendar(options);
+
+    $('.btn-group button[data-calendar-nav]').each(function () {
+        var $this = $(this);
+        $this.click(function () {
+            calendar.navigate($this.data('calendar-nav'));
+        });
+    });
+
+    $('#classSelectors .classSelector').each(function () {
+        $(this).addClass('selected');
+        $(this).click(function () {
+            updateEvents($(this));
+        });
+    });
+
+    // showall selector
+    $(".showall").click(function () {
+        if (!$(this).attr("disabled")) {
+            $('#classSelectors .classSelector').each(function () {
+                $(this).removeClass("unselected");
+                $(this).addClass("selected");
+            });
+            $('#searchInput').val("");
+            updateCalender();
+            $(this).attr("disabled", "disabled");
+        }
+    });
+
+    // search logic
+    $('#searchInput').on('keyup', function () {
+        var searchForm = $(this);
+        searchForm.attr("disabled", "disabled");
+        updateCalender();
+        searchForm.removeAttr("disabled");
+        searchForm.focus();
+        if (searchForm.val() !== "") {
+            $(".showall").removeAttr("disabled");
+        }
+    });
+
+    // }).fail(function () {
+    //     $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
+    // });
 
 });

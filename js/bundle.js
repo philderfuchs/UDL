@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -13170,6 +13170,9280 @@ module.exports = function(element, speed) {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"success": 1,
+	"result": [
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1493647200000,
+			"end": 1493661600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance AnfÃ¤nger & Fortgeschrittene ab 11 Jahre // Kinderrevue // Netti",
+			"start": 1493824500000,
+			"end": 1493828100000,
+			"class": "event-inverse",
+			"id": "3672C6FB-27D0-485E-BB79-73747B4C8138",
+			"url": ""
+		},
+		{
+			"title": "Urban Dance AnfÃ¤nger & Fortgeschrittene ab 15 Jahre // Kinderrevue // Netti",
+			"start": 1493828100000,
+			"end": 1493833500000,
+			"class": "event-inverse",
+			"id": "2EEBF8DD-FB3F-42EC-8EA0-288A41EDF809",
+			"url": ""
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1493834400000,
+			"end": 1493838000000,
+			"class": "event-inverse",
+			"id": "DD3339BE-5D62-4957-963A-D9D8BD55161C",
+			"url": ""
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1494252000000,
+			"end": 1494266400000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1494432000000,
+			"end": 1494437400000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1494856800000,
+			"end": 1494871200000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1495036800000,
+			"end": 1495042200000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1495461600000,
+			"end": 1495476000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1495641600000,
+			"end": 1495647000000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1496066400000,
+			"end": 1496080800000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1496246400000,
+			"end": 1496251800000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1496671200000,
+			"end": 1496685600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1496761200000,
+			"end": 1496766600000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1496766600000,
+			"end": 1496772000000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1496840400000,
+			"end": 1496845800000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1496844900000,
+			"end": 1496850300000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1496851200000,
+			"end": 1496854800000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1496851200000,
+			"end": 1496856600000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1497018600000,
+			"end": 1497024000000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1497276000000,
+			"end": 1497290400000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1497366000000,
+			"end": 1497371400000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1497371400000,
+			"end": 1497376800000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1497445200000,
+			"end": 1497450600000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1497449700000,
+			"end": 1497455100000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1497456000000,
+			"end": 1497459600000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1497456000000,
+			"end": 1497461400000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1497623400000,
+			"end": 1497628800000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1497880800000,
+			"end": 1497895200000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1497970800000,
+			"end": 1497976200000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1497976200000,
+			"end": 1497981600000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1498050000000,
+			"end": 1498055400000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1498054500000,
+			"end": 1498059900000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1498060800000,
+			"end": 1498064400000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1498060800000,
+			"end": 1498066200000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1498228200000,
+			"end": 1498233600000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1498485600000,
+			"end": 1498500000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1498575600000,
+			"end": 1498581000000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1498581000000,
+			"end": 1498586400000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1498654800000,
+			"end": 1498660200000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1498659300000,
+			"end": 1498664700000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1498665600000,
+			"end": 1498671000000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1498665600000,
+			"end": 1498669200000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1498833000000,
+			"end": 1498838400000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1499090400000,
+			"end": 1499104800000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1499180400000,
+			"end": 1499185800000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1499185800000,
+			"end": 1499191200000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1499259600000,
+			"end": 1499265000000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1499264100000,
+			"end": 1499269500000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1499270400000,
+			"end": 1499275800000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1499270400000,
+			"end": 1499274000000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1499437800000,
+			"end": 1499443200000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1499695200000,
+			"end": 1499709600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1499785200000,
+			"end": 1499790600000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1499790600000,
+			"end": 1499796000000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1499864400000,
+			"end": 1499869800000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1499868900000,
+			"end": 1499874300000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1499875200000,
+			"end": 1499880600000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1499875200000,
+			"end": 1499878800000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1500042600000,
+			"end": 1500048000000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1500300000000,
+			"end": 1500314400000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1500390000000,
+			"end": 1500395400000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1500395400000,
+			"end": 1500400800000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1500469200000,
+			"end": 1500474600000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1500473700000,
+			"end": 1500479100000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1500480000000,
+			"end": 1500483600000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1500480000000,
+			"end": 1500485400000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1500647400000,
+			"end": 1500652800000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1500904800000,
+			"end": 1500919200000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1500994800000,
+			"end": 1501000200000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1501000200000,
+			"end": 1501005600000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1501074000000,
+			"end": 1501079400000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1501078500000,
+			"end": 1501083900000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1501084800000,
+			"end": 1501090200000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1501084800000,
+			"end": 1501088400000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1501252200000,
+			"end": 1501257600000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1501509600000,
+			"end": 1501524000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1501599600000,
+			"end": 1501605000000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1501605000000,
+			"end": 1501610400000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1501678800000,
+			"end": 1501684200000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1501683300000,
+			"end": 1501688700000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1501689600000,
+			"end": 1501695000000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1501689600000,
+			"end": 1501693200000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1501857000000,
+			"end": 1501862400000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1502114400000,
+			"end": 1502128800000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1502204400000,
+			"end": 1502209800000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1502209800000,
+			"end": 1502215200000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1502283600000,
+			"end": 1502289000000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1502288100000,
+			"end": 1502293500000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1502294400000,
+			"end": 1502299800000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1502294400000,
+			"end": 1502298000000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1502461800000,
+			"end": 1502467200000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1502719200000,
+			"end": 1502733600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1502809200000,
+			"end": 1502814600000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1502814600000,
+			"end": 1502820000000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1502888400000,
+			"end": 1502893800000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1502892900000,
+			"end": 1502898300000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1502899200000,
+			"end": 1502904600000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1502899200000,
+			"end": 1502902800000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1503066600000,
+			"end": 1503072000000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1503324000000,
+			"end": 1503338400000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1503414000000,
+			"end": 1503419400000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1503419400000,
+			"end": 1503424800000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1503493200000,
+			"end": 1503498600000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1503497700000,
+			"end": 1503503100000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1503504000000,
+			"end": 1503507600000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1503504000000,
+			"end": 1503509400000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1503671400000,
+			"end": 1503676800000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1503928800000,
+			"end": 1503943200000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1504018800000,
+			"end": 1504024200000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1504024200000,
+			"end": 1504029600000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1504098000000,
+			"end": 1504103400000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1504102500000,
+			"end": 1504107900000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1504108800000,
+			"end": 1504114200000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1504108800000,
+			"end": 1504112400000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1504276200000,
+			"end": 1504281600000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1504533600000,
+			"end": 1504548000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1504623600000,
+			"end": 1504629000000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1504629000000,
+			"end": 1504634400000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1504702800000,
+			"end": 1504708200000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1504707300000,
+			"end": 1504712700000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1504713600000,
+			"end": 1504719000000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1504713600000,
+			"end": 1504717200000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1504881000000,
+			"end": 1504886400000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1505138400000,
+			"end": 1505152800000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1505228400000,
+			"end": 1505233800000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1505233800000,
+			"end": 1505239200000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1505307600000,
+			"end": 1505313000000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1505312100000,
+			"end": 1505317500000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1505318400000,
+			"end": 1505322000000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1505318400000,
+			"end": 1505323800000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1505485800000,
+			"end": 1505491200000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1505743200000,
+			"end": 1505757600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1505833200000,
+			"end": 1505838600000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1505838600000,
+			"end": 1505844000000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1505912400000,
+			"end": 1505917800000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1505916900000,
+			"end": 1505922300000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1505923200000,
+			"end": 1505928600000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1505923200000,
+			"end": 1505926800000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1506090600000,
+			"end": 1506096000000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1506348000000,
+			"end": 1506362400000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1506438000000,
+			"end": 1506443400000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1506443400000,
+			"end": 1506448800000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1506517200000,
+			"end": 1506522600000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1506521700000,
+			"end": 1506527100000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1506528000000,
+			"end": 1506533400000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1506528000000,
+			"end": 1506531600000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1506695400000,
+			"end": 1506700800000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1506952800000,
+			"end": 1506967200000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1507042800000,
+			"end": 1507048200000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1507048200000,
+			"end": 1507053600000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1507122000000,
+			"end": 1507127400000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1507126500000,
+			"end": 1507131900000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1507132800000,
+			"end": 1507136400000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1507132800000,
+			"end": 1507138200000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1507300200000,
+			"end": 1507305600000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1507557600000,
+			"end": 1507572000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1507647600000,
+			"end": 1507653000000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1507653000000,
+			"end": 1507658400000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1507726800000,
+			"end": 1507732200000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1507731300000,
+			"end": 1507736700000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1507737600000,
+			"end": 1507743000000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1507737600000,
+			"end": 1507741200000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1507905000000,
+			"end": 1507910400000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1508162400000,
+			"end": 1508176800000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1508252400000,
+			"end": 1508257800000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1508257800000,
+			"end": 1508263200000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1508331600000,
+			"end": 1508337000000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1508336100000,
+			"end": 1508341500000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1508342400000,
+			"end": 1508346000000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1508342400000,
+			"end": 1508347800000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1508509800000,
+			"end": 1508515200000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1508767200000,
+			"end": 1508781600000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage5 // Kathleen",
+			"start": 1508857200000,
+			"end": 1508862600000,
+			"class": "event-inverse",
+			"id": "v550li7t8gu8i651116btmp8c4@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "Dancehall Adults // Break Art Studios // Annett",
+			"start": 1508862600000,
+			"end": 1508868000000,
+			"class": "event-inverse",
+			"id": "jboiddtts5sjote3l0tdd5437g@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Beginner // Break Art Studios // Kathleen",
+			"start": 1508936400000,
+			"end": 1508941800000,
+			"class": "event-inverse",
+			"id": "p1o8st6tmlrrc4m6lah4unn11s@google.com",
+			"url": "http://web.rahndittrich.de/3707.html"
+		},
+		{
+			"title": "Urban Dance Semi // KinderRevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1508940900000,
+			"end": 1508946300000,
+			"class": "event-inverse",
+			"id": "itc9ikf0k6p3pmphk54tlc63io@google.com",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Krump // Danceecho // Luka",
+			"start": 1508947200000,
+			"end": 1508950800000,
+			"class": "event-inverse",
+			"id": "qem3l5laa8tshtklrph726k75s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Urban Dance Adults // etage 5 // Gregor Arnold",
+			"start": 1508947200000,
+			"end": 1508952600000,
+			"class": "event-inverse",
+			"id": "si107md9rvkmhv10tjcmq2fiho@google.com",
+			"url": "http://www.etage5-tanzstudio.de/UrbanDance--HipHop-_20.html?Kurs=2"
+		},
+		{
+			"title": "KleinParis Adults Freestyle Class // Heizhaus // KleinParis Crew",
+			"start": 1509114600000,
+			"end": 1509120000000,
+			"class": "event-inverse",
+			"id": "jpp80q88ld2t925rjg5e50u5kg@google.com",
+			"url": "https://www.google.de/maps/place/Heizhaus+Leipzig"
+		},
+		{
+			"title": "Dancehall (Watch Me Step) // Danceecho // Isi",
+			"start": 1509375600000,
+			"end": 1509390000000,
+			"class": "event-inverse",
+			"id": "06CE03E0-0153-49A4-9922-5FD93200AF76",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1493645400000,
+			"end": 1493650800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1493650800000,
+			"end": 1493656200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1493827200000,
+			"end": 1493834400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1494250200000,
+			"end": 1494255600000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1494255600000,
+			"end": 1494261000000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1494432000000,
+			"end": 1494439200000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1494855000000,
+			"end": 1494860400000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1494860400000,
+			"end": 1494865800000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1495036800000,
+			"end": 1495044000000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1495459800000,
+			"end": 1495465200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1495465200000,
+			"end": 1495470600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1495641600000,
+			"end": 1495648800000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1496064600000,
+			"end": 1496070000000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1496070000000,
+			"end": 1496075400000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1496246400000,
+			"end": 1496253600000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1496669400000,
+			"end": 1496674800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1496674800000,
+			"end": 1496680200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1496851200000,
+			"end": 1496858400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1497274200000,
+			"end": 1497279600000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1497279600000,
+			"end": 1497285000000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1497456000000,
+			"end": 1497463200000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1497879000000,
+			"end": 1497884400000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1497884400000,
+			"end": 1497889800000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1498060800000,
+			"end": 1498068000000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1498483800000,
+			"end": 1498489200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1498489200000,
+			"end": 1498494600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1498665600000,
+			"end": 1498672800000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1499088600000,
+			"end": 1499094000000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1499094000000,
+			"end": 1499099400000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1499270400000,
+			"end": 1499277600000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1499693400000,
+			"end": 1499698800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1499698800000,
+			"end": 1499704200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1499875200000,
+			"end": 1499882400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1500298200000,
+			"end": 1500303600000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1500303600000,
+			"end": 1500309000000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1500480000000,
+			"end": 1500487200000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1500903000000,
+			"end": 1500908400000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1500908400000,
+			"end": 1500913800000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1501084800000,
+			"end": 1501092000000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1501507800000,
+			"end": 1501513200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1501513200000,
+			"end": 1501518600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1501689600000,
+			"end": 1501696800000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1502112600000,
+			"end": 1502118000000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1502118000000,
+			"end": 1502123400000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1502294400000,
+			"end": 1502301600000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1502717400000,
+			"end": 1502722800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1502722800000,
+			"end": 1502728200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1502899200000,
+			"end": 1502906400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1503322200000,
+			"end": 1503327600000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1503327600000,
+			"end": 1503333000000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1503504000000,
+			"end": 1503511200000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1503927000000,
+			"end": 1503932400000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1503932400000,
+			"end": 1503937800000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1504108800000,
+			"end": 1504116000000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1504531800000,
+			"end": 1504537200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1504537200000,
+			"end": 1504542600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1504713600000,
+			"end": 1504720800000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1505136600000,
+			"end": 1505142000000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1505142000000,
+			"end": 1505147400000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1505318400000,
+			"end": 1505325600000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1505741400000,
+			"end": 1505746800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1505746800000,
+			"end": 1505752200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1505923200000,
+			"end": 1505930400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1506346200000,
+			"end": 1506351600000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1506351600000,
+			"end": 1506357000000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1506528000000,
+			"end": 1506535200000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1506951000000,
+			"end": 1506956400000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1506956400000,
+			"end": 1506961800000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1507132800000,
+			"end": 1507140000000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1507555800000,
+			"end": 1507561200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1507561200000,
+			"end": 1507566600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1507737600000,
+			"end": 1507744800000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1508160600000,
+			"end": 1508166000000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1508166000000,
+			"end": 1508171400000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1508342400000,
+			"end": 1508349600000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1508765400000,
+			"end": 1508770800000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1508770800000,
+			"end": 1508776200000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "House Semi Adults // Kinderrevue // Annett SchÃ¶nburg",
+			"start": 1508947200000,
+			"end": 1508954400000,
+			"class": "event-warning",
+			"id": "D4A0BAFC-2C85-40D9-9C3B-15BAA81EA436",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Housedance offener Kurs // Break Art Studio // Kathleen",
+			"start": 1509373800000,
+			"end": 1509379200000,
+			"class": "event-warning",
+			"id": "A22DDC2B-3998-43F8-8A5E-FDDACFB04BC5",
+			"url": ""
+		},
+		{
+			"title": "Freies Training House // Break Art Studios // Kathleen",
+			"start": 1509379200000,
+			"end": 1509384600000,
+			"class": "event-warning",
+			"id": "87842D1C-BD75-43E1-9F57-D460F5083823",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1493641800000,
+			"end": 1493645400000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1493821800000,
+			"end": 1493827200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1493902800000,
+			"end": 1493906400000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1493902800000,
+			"end": 1493908200000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1493982000000,
+			"end": 1493985600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1493985600000,
+			"end": 1493989200000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Freies Training Breackdance // Helmholtzschule // Eva & Loopi",
+			"start": 1494000000000,
+			"end": 1494010800000,
+			"class": "event-important",
+			"id": "E2D01716-738A-4860-96D6-98A8D10C9243",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1494246600000,
+			"end": 1494250200000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1494426600000,
+			"end": 1494432000000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1494507600000,
+			"end": 1494513000000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1494507600000,
+			"end": 1494511200000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1494586800000,
+			"end": 1494590400000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1494590400000,
+			"end": 1494594000000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1494851400000,
+			"end": 1494855000000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1495031400000,
+			"end": 1495036800000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1495112400000,
+			"end": 1495117800000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1495112400000,
+			"end": 1495116000000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1495191600000,
+			"end": 1495195200000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1495195200000,
+			"end": 1495198800000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1495456200000,
+			"end": 1495459800000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1495636200000,
+			"end": 1495641600000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1495717200000,
+			"end": 1495720800000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1495717200000,
+			"end": 1495722600000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1495796400000,
+			"end": 1495800000000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1495800000000,
+			"end": 1495803600000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1496061000000,
+			"end": 1496064600000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1496241000000,
+			"end": 1496246400000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1496322000000,
+			"end": 1496325600000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1496322000000,
+			"end": 1496327400000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1496401200000,
+			"end": 1496404800000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1496404800000,
+			"end": 1496408400000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1496665800000,
+			"end": 1496669400000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1496840400000,
+			"end": 1496845800000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1496845800000,
+			"end": 1496851200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1496926800000,
+			"end": 1496930400000,
+			"class": "event-important",
+			"id": "0FF55C63-7F74-43D0-926C-7D14BDE726F9",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1496926800000,
+			"end": 1496932200000,
+			"class": "event-important",
+			"id": "37FA5063-595E-45CC-925B-65149306E0C4",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1497006000000,
+			"end": 1497009600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1497009600000,
+			"end": 1497013200000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1497018600000,
+			"end": 1497024000000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1497270600000,
+			"end": 1497274200000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1497445200000,
+			"end": 1497450600000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1497450600000,
+			"end": 1497456000000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1497531600000,
+			"end": 1497537000000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1497531600000,
+			"end": 1497535200000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1497610800000,
+			"end": 1497614400000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (9 years) // Tanzzentrale // Milan",
+			"start": 1497614400000,
+			"end": 1497618000000,
+			"class": "event-important",
+			"id": "4E3B06D1-6C94-4632-AF32-1A1E02B48B4A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1497623400000,
+			"end": 1497628800000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1497875400000,
+			"end": 1497879000000,
+			"class": "event-important",
+			"id": "2CBE9DC3-601B-4CE1-A311-43186FF1F033",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1498050000000,
+			"end": 1498055400000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1498055400000,
+			"end": 1498060800000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1498136400000,
+			"end": 1498140000000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1498136400000,
+			"end": 1498141800000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1498215600000,
+			"end": 1498219200000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (over 9 years) // Tanzzentrale // Milan",
+			"start": 1498219200000,
+			"end": 1498222800000,
+			"class": "event-important",
+			"id": "B2F9AFCF-986B-4F63-BF36-280C2C4CF2EC",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1498228200000,
+			"end": 1498233600000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1498483800000,
+			"end": 1498487400000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1498654800000,
+			"end": 1498660200000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1498660200000,
+			"end": 1498665600000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1498741200000,
+			"end": 1498746600000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1498741200000,
+			"end": 1498744800000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1498820400000,
+			"end": 1498824000000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1498824000000,
+			"end": 1498827600000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1498833000000,
+			"end": 1498838400000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1499088600000,
+			"end": 1499092200000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1499259600000,
+			"end": 1499265000000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1499265000000,
+			"end": 1499270400000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1499346000000,
+			"end": 1499351400000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1499346000000,
+			"end": 1499349600000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1499425200000,
+			"end": 1499428800000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1499428800000,
+			"end": 1499432400000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1499437800000,
+			"end": 1499443200000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1499693400000,
+			"end": 1499697000000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1499864400000,
+			"end": 1499869800000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1499869800000,
+			"end": 1499875200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1499950800000,
+			"end": 1499954400000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1499950800000,
+			"end": 1499956200000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1500030000000,
+			"end": 1500033600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1500033600000,
+			"end": 1500037200000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1500042600000,
+			"end": 1500048000000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1500298200000,
+			"end": 1500301800000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1500469200000,
+			"end": 1500474600000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1500474600000,
+			"end": 1500480000000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1500555600000,
+			"end": 1500561000000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1500555600000,
+			"end": 1500559200000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1500634800000,
+			"end": 1500638400000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1500638400000,
+			"end": 1500642000000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1500647400000,
+			"end": 1500652800000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1500903000000,
+			"end": 1500906600000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1501074000000,
+			"end": 1501079400000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1501079400000,
+			"end": 1501084800000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1501160400000,
+			"end": 1501164000000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1501160400000,
+			"end": 1501165800000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1501239600000,
+			"end": 1501243200000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1501243200000,
+			"end": 1501246800000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1501252200000,
+			"end": 1501257600000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1501507800000,
+			"end": 1501511400000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1501678800000,
+			"end": 1501684200000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1501684200000,
+			"end": 1501689600000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1501765200000,
+			"end": 1501770600000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1501765200000,
+			"end": 1501768800000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1501844400000,
+			"end": 1501848000000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1501848000000,
+			"end": 1501851600000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1501857000000,
+			"end": 1501862400000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1502112600000,
+			"end": 1502116200000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1502283600000,
+			"end": 1502289000000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1502289000000,
+			"end": 1502294400000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1502370000000,
+			"end": 1502375400000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1502370000000,
+			"end": 1502373600000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1502449200000,
+			"end": 1502452800000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1502452800000,
+			"end": 1502456400000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1502461800000,
+			"end": 1502467200000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1502717400000,
+			"end": 1502721000000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1502888400000,
+			"end": 1502893800000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1502893800000,
+			"end": 1502899200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1502974800000,
+			"end": 1502978400000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1502974800000,
+			"end": 1502980200000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1503054000000,
+			"end": 1503057600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1503057600000,
+			"end": 1503061200000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1503066600000,
+			"end": 1503072000000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1503322200000,
+			"end": 1503325800000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1503493200000,
+			"end": 1503498600000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1503498600000,
+			"end": 1503504000000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1503579600000,
+			"end": 1503583200000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1503579600000,
+			"end": 1503585000000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1503658800000,
+			"end": 1503662400000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1503662400000,
+			"end": 1503666000000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1503671400000,
+			"end": 1503676800000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1503927000000,
+			"end": 1503930600000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1504098000000,
+			"end": 1504103400000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1504103400000,
+			"end": 1504108800000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1504184400000,
+			"end": 1504188000000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1504184400000,
+			"end": 1504189800000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1504263600000,
+			"end": 1504267200000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1504267200000,
+			"end": 1504270800000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1504276200000,
+			"end": 1504281600000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1504531800000,
+			"end": 1504535400000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1504702800000,
+			"end": 1504708200000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1504708200000,
+			"end": 1504713600000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1504789200000,
+			"end": 1504794600000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1504789200000,
+			"end": 1504792800000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1504868400000,
+			"end": 1504872000000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1504872000000,
+			"end": 1504875600000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1504881000000,
+			"end": 1504886400000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1505136600000,
+			"end": 1505140200000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1505307600000,
+			"end": 1505313000000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1505313000000,
+			"end": 1505318400000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1505394000000,
+			"end": 1505399400000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1505394000000,
+			"end": 1505397600000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1505473200000,
+			"end": 1505476800000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1505476800000,
+			"end": 1505480400000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1505485800000,
+			"end": 1505491200000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1505741400000,
+			"end": 1505745000000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1505912400000,
+			"end": 1505917800000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1505917800000,
+			"end": 1505923200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1505998800000,
+			"end": 1506004200000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1505998800000,
+			"end": 1506002400000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1506078000000,
+			"end": 1506081600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1506081600000,
+			"end": 1506085200000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1506090600000,
+			"end": 1506096000000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1506346200000,
+			"end": 1506349800000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1506517200000,
+			"end": 1506522600000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1506522600000,
+			"end": 1506528000000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1506603600000,
+			"end": 1506607200000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1506603600000,
+			"end": 1506609000000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1506682800000,
+			"end": 1506686400000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1506686400000,
+			"end": 1506690000000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1506695400000,
+			"end": 1506700800000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1506951000000,
+			"end": 1506954600000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1507122000000,
+			"end": 1507127400000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1507127400000,
+			"end": 1507132800000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1507208400000,
+			"end": 1507213800000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1507208400000,
+			"end": 1507212000000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1507287600000,
+			"end": 1507291200000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1507291200000,
+			"end": 1507294800000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1507300200000,
+			"end": 1507305600000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1507555800000,
+			"end": 1507559400000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1507726800000,
+			"end": 1507732200000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1507732200000,
+			"end": 1507737600000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1507813200000,
+			"end": 1507818600000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1507813200000,
+			"end": 1507816800000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1507892400000,
+			"end": 1507896000000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1507896000000,
+			"end": 1507899600000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1507905000000,
+			"end": 1507910400000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1508160600000,
+			"end": 1508164200000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1508331600000,
+			"end": 1508337000000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1508337000000,
+			"end": 1508342400000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1508418000000,
+			"end": 1508423400000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1508418000000,
+			"end": 1508421600000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1508497200000,
+			"end": 1508500800000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1508500800000,
+			"end": 1508504400000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1508509800000,
+			"end": 1508515200000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1508765400000,
+			"end": 1508769000000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "B-Boying Semi // Break Art Studios // Killian",
+			"start": 1508936400000,
+			"end": 1508941800000,
+			"class": "event-important",
+			"id": "6at2qjae2cp7u9lgf06t1jmqps@google.com",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "B-Boying Free Training // Break Art Studios // Killian",
+			"start": 1508941800000,
+			"end": 1508947200000,
+			"class": "event-important",
+			"id": "D66CAC6B-5E9B-4D36-9980-AAE513597B74",
+			"url": "http://web.rahndittrich.de/3711.html"
+		},
+		{
+			"title": "Breakdance (from 10 years) // Tanzerei Flugfisch // Felix Seifert",
+			"start": 1509022800000,
+			"end": 1509026400000,
+			"class": "event-important",
+			"id": "2A4E943D-95BF-48C0-8545-E3A3FDEDE098",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Breakdance Advanced (from 12 years) // Tanzstudio Tendance // Rapido",
+			"start": 1509022800000,
+			"end": 1509028200000,
+			"class": "event-important",
+			"id": "7B25C441-41A4-4BA6-B8C6-EDEC1929802E",
+			"url": ""
+		},
+		{
+			"title": "Breakdance Kids (6 years) // Tanzzentrale // Vincent",
+			"start": 1509102000000,
+			"end": 1509105600000,
+			"class": "event-important",
+			"id": "39F8F484-202C-4192-9716-084D2088808C",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Breakdance Kids (from 9 years) // Tanzzentrale // Milan",
+			"start": 1509105600000,
+			"end": 1509109200000,
+			"class": "event-important",
+			"id": "A56BB5F1-3D9B-4862-95B0-D32D1172C812",
+			"url": ""
+		},
+		{
+			"title": "B-Girling // Heizhaus // Mina",
+			"start": 1509114600000,
+			"end": 1509120000000,
+			"class": "event-important",
+			"id": "gv7tj030bqlfcce5vik1fhbqeg@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Breakdance Basics // Heizhaus // Philipp SchnÃ¤uz",
+			"start": 1509373800000,
+			"end": 1509377400000,
+			"class": "event-important",
+			"id": "B964FD69-1FAA-44CD-BFEC-01FAA6D1E651",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1496566800000,
+			"end": 1496577600000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1497088800000,
+			"end": 1497096000000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1497171600000,
+			"end": 1497182400000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1497693600000,
+			"end": 1497700800000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1497776400000,
+			"end": 1497787200000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1498298400000,
+			"end": 1498305600000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1498381200000,
+			"end": 1498392000000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1498903200000,
+			"end": 1498910400000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1498986000000,
+			"end": 1498996800000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1499508000000,
+			"end": 1499515200000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1499590800000,
+			"end": 1499601600000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1500112800000,
+			"end": 1500120000000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1500195600000,
+			"end": 1500206400000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1500717600000,
+			"end": 1500724800000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1500800400000,
+			"end": 1500811200000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1501322400000,
+			"end": 1501329600000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1501405200000,
+			"end": 1501416000000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1501927200000,
+			"end": 1501934400000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1502010000000,
+			"end": 1502020800000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1502532000000,
+			"end": 1502539200000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1502614800000,
+			"end": 1502625600000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1503136800000,
+			"end": 1503144000000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1503219600000,
+			"end": 1503230400000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1503741600000,
+			"end": 1503748800000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1503824400000,
+			"end": 1503835200000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1504346400000,
+			"end": 1504353600000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1504429200000,
+			"end": 1504440000000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1504951200000,
+			"end": 1504958400000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1505034000000,
+			"end": 1505044800000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1505556000000,
+			"end": 1505563200000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1505638800000,
+			"end": 1505649600000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1506160800000,
+			"end": 1506168000000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1506243600000,
+			"end": 1506254400000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1506765600000,
+			"end": 1506772800000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1506848400000,
+			"end": 1506859200000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1507370400000,
+			"end": 1507377600000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1507453200000,
+			"end": 1507464000000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1507975200000,
+			"end": 1507982400000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1508058000000,
+			"end": 1508068800000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1508580000000,
+			"end": 1508587200000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1508662800000,
+			"end": 1508673600000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Free Training // Danceecho",
+			"start": 1509184800000,
+			"end": 1509192000000,
+			"class": "event-special",
+			"id": "30jrbkmcagial6t8shm20lij2s@google.com",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Free Training (All Styles) // Heizhaus",
+			"start": 1509271200000,
+			"end": 1509282000000,
+			"class": "event-special",
+			"id": "1498036481147@google.com",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1493641800000,
+			"end": 1493645400000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1493654400000,
+			"end": 1493659800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1493726400000,
+			"end": 1493730000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1493728200000,
+			"end": 1493731800000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1493730000000,
+			"end": 1493733600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1493730000000,
+			"end": 1493733600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1493733600000,
+			"end": 1493739000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1493737200000,
+			"end": 1493740800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1493740800000,
+			"end": 1493744400000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1493812800000,
+			"end": 1493815500000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1493812800000,
+			"end": 1493816400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1493815500000,
+			"end": 1493819100000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Queens Hip Hop 1ab 14 Jahre // Danceecho // Jay",
+			"start": 1493823600000,
+			"end": 1493827200000,
+			"class": "event-standard",
+			"id": "079AAE8E-6092-4844-B21E-0CFB70045733",
+			"url": ""
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1493816400000,
+			"end": 1493820000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1493817300000,
+			"end": 1493820900000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop 14 â€“ 17 Jahre // Flugfisch // Daniel Grahnert",
+			"start": 1493826300000,
+			"end": 1493829900000,
+			"class": "event-standard",
+			"id": "975C0186-9283-4C50-8173-8CF7F8A5B035",
+			"url": ""
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1493821800000,
+			"end": 1493827200000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1493899200000,
+			"end": 1493902800000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1493899200000,
+			"end": 1493902800000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1493906400000,
+			"end": 1493910000000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1494000000000,
+			"end": 1494003600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1494158400000,
+			"end": 1494162000000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1494162000000,
+			"end": 1494165600000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1494246600000,
+			"end": 1494250200000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1494259200000,
+			"end": 1494264600000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1494331200000,
+			"end": 1494334800000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1494333000000,
+			"end": 1494336600000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1494334800000,
+			"end": 1494338400000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1494334800000,
+			"end": 1494338400000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1494338400000,
+			"end": 1494343800000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1494342000000,
+			"end": 1494345600000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1494345600000,
+			"end": 1494349200000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1494417600000,
+			"end": 1494420300000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1494417600000,
+			"end": 1494421200000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1494420300000,
+			"end": 1494423900000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1494421200000,
+			"end": 1494424800000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1494422100000,
+			"end": 1494425700000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1494426600000,
+			"end": 1494432000000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1494504000000,
+			"end": 1494507600000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1494504000000,
+			"end": 1494507600000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1494511200000,
+			"end": 1494514800000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1494604800000,
+			"end": 1494608400000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1494763200000,
+			"end": 1494766800000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1494766800000,
+			"end": 1494770400000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1494851400000,
+			"end": 1494855000000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1494864000000,
+			"end": 1494869400000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1494936000000,
+			"end": 1494939600000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1494937800000,
+			"end": 1494941400000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1494939600000,
+			"end": 1494943200000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1494939600000,
+			"end": 1494943200000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1494943200000,
+			"end": 1494948600000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1494946800000,
+			"end": 1494950400000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1494950400000,
+			"end": 1494954000000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1495022400000,
+			"end": 1495026000000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1495022400000,
+			"end": 1495025100000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1495025100000,
+			"end": 1495028700000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1495026000000,
+			"end": 1495029600000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1495026900000,
+			"end": 1495030500000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1495031400000,
+			"end": 1495036800000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1495108800000,
+			"end": 1495112400000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1495108800000,
+			"end": 1495112400000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1495116000000,
+			"end": 1495119600000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1495209600000,
+			"end": 1495213200000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1495368000000,
+			"end": 1495371600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1495371600000,
+			"end": 1495375200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1495456200000,
+			"end": 1495459800000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1495468800000,
+			"end": 1495474200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1495540800000,
+			"end": 1495544400000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1495542600000,
+			"end": 1495546200000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1495544400000,
+			"end": 1495548000000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1495544400000,
+			"end": 1495548000000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1495548000000,
+			"end": 1495553400000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1495551600000,
+			"end": 1495555200000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1495555200000,
+			"end": 1495558800000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1495627200000,
+			"end": 1495629900000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1495627200000,
+			"end": 1495630800000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1495629900000,
+			"end": 1495633500000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1495630800000,
+			"end": 1495634400000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1495631700000,
+			"end": 1495635300000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1495636200000,
+			"end": 1495641600000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1495713600000,
+			"end": 1495717200000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1495713600000,
+			"end": 1495717200000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1495720800000,
+			"end": 1495724400000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1495814400000,
+			"end": 1495818000000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1495972800000,
+			"end": 1495976400000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1495976400000,
+			"end": 1495980000000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1496061000000,
+			"end": 1496064600000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1496073600000,
+			"end": 1496079000000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1496145600000,
+			"end": 1496149200000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1496147400000,
+			"end": 1496151000000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1496149200000,
+			"end": 1496152800000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1496149200000,
+			"end": 1496152800000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1496152800000,
+			"end": 1496158200000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1496156400000,
+			"end": 1496160000000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1496160000000,
+			"end": 1496163600000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496232000000,
+			"end": 1496234700000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1496232000000,
+			"end": 1496235600000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496234700000,
+			"end": 1496238300000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1496235600000,
+			"end": 1496239200000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1496236500000,
+			"end": 1496240100000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1496241000000,
+			"end": 1496246400000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1496318400000,
+			"end": 1496322000000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1496318400000,
+			"end": 1496322000000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1496325600000,
+			"end": 1496329200000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1496419200000,
+			"end": 1496422800000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1496577600000,
+			"end": 1496581200000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1496581200000,
+			"end": 1496584800000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1496665800000,
+			"end": 1496669400000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1496678400000,
+			"end": 1496683800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1496750400000,
+			"end": 1496754000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1496752200000,
+			"end": 1496755800000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1496754000000,
+			"end": 1496757600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1496754000000,
+			"end": 1496757600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1496757600000,
+			"end": 1496763000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1496761200000,
+			"end": 1496764800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1496764800000,
+			"end": 1496768400000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1496836800000,
+			"end": 1496840400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496836800000,
+			"end": 1496839500000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496839500000,
+			"end": 1496843100000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1496840400000,
+			"end": 1496844000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1496841300000,
+			"end": 1496844900000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496843100000,
+			"end": 1496846700000,
+			"class": "event-standard",
+			"id": "0A2C70AF-BCBA-4717-A8C6-5A0B47D3BCBE",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1496845800000,
+			"end": 1496851200000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1496847600000,
+			"end": 1496851200000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1496923200000,
+			"end": 1496926800000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1496923200000,
+			"end": 1496926800000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1496930400000,
+			"end": 1496934000000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1497024000000,
+			"end": 1497027600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1497182400000,
+			"end": 1497186000000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1497186000000,
+			"end": 1497189600000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1497270600000,
+			"end": 1497274200000,
+			"class": "event-standard",
+			"id": "F52214DD-0AA0-4010-9A25-06D3BFE83B9D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1497283200000,
+			"end": 1497288600000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1497355200000,
+			"end": 1497358800000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1497357000000,
+			"end": 1497360600000,
+			"class": "event-standard",
+			"id": "6E682D70-F3D3-4109-B4C8-50B6C3D9EB1D",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1497358800000,
+			"end": 1497362400000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1497358800000,
+			"end": 1497362400000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1497362400000,
+			"end": 1497367800000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1497366000000,
+			"end": 1497369600000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (21 years) // Danceecho // Denis",
+			"start": 1497369600000,
+			"end": 1497373200000,
+			"class": "event-standard",
+			"id": "62FC8EEF-91C1-46C8-A22D-B18832B133DB",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1497441600000,
+			"end": 1497444300000,
+			"class": "event-standard",
+			"id": "E2807E03-3BEE-4866-8F1D-642F698E4F49",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1497441600000,
+			"end": 1497445200000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1497444300000,
+			"end": 1497447900000,
+			"class": "event-standard",
+			"id": "20B08A1C-8374-488B-86B7-007EF383EA39",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1497445200000,
+			"end": 1497448800000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (12 years) // Tanzstudio tendance // Gregor",
+			"start": 1497446100000,
+			"end": 1497449700000,
+			"class": "event-standard",
+			"id": "6204952C-4FC9-41E6-9F10-E063D211323A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1497447900000,
+			"end": 1497451500000,
+			"class": "event-standard",
+			"id": "0A2C70AF-BCBA-4717-A8C6-5A0B47D3BCBE",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (16 years) // Tanzstudio tendance // Gregor and Laura SchÃ¼tte",
+			"start": 1497450600000,
+			"end": 1497456000000,
+			"class": "event-standard",
+			"id": "01597585-4F48-4766-BD02-2D77F0DEC447",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1497452400000,
+			"end": 1497456000000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (10 years) // Tanzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1497528000000,
+			"end": 1497531600000,
+			"class": "event-standard",
+			"id": "FAAB6B86-7C7B-4A79-BDF6-9E065C5F9C92",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1497528000000,
+			"end": 1497531600000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1497535200000,
+			"end": 1497538800000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1497628800000,
+			"end": 1497632400000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1497787200000,
+			"end": 1497790800000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1497790800000,
+			"end": 1497794400000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1497875400000,
+			"end": 1497879000000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1497888000000,
+			"end": 1497893400000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1497960000000,
+			"end": 1497963600000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1497961800000,
+			"end": 1497965400000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1497963600000,
+			"end": 1497967200000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1497963600000,
+			"end": 1497967200000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1497967200000,
+			"end": 1497972600000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1497967200000,
+			"end": 1497970800000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1497970800000,
+			"end": 1497974400000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1497974400000,
+			"end": 1497978000000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1498046400000,
+			"end": 1498050000000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498046400000,
+			"end": 1498049100000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498049100000,
+			"end": 1498052700000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1498050000000,
+			"end": 1498053600000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1498050900000,
+			"end": 1498054500000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498052700000,
+			"end": 1498056300000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1498055400000,
+			"end": 1498060800000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498057200000,
+			"end": 1498060800000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1498132800000,
+			"end": 1498136400000,
+			"class": "event-standard",
+			"id": "7AD9FF7F-5606-477C-A872-BF579C86279B",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1498132800000,
+			"end": 1498136400000,
+			"class": "event-standard",
+			"id": "AF80E8D2-1283-4281-944A-FD456B36CEF5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1498140000000,
+			"end": 1498143600000,
+			"class": "event-standard",
+			"id": "23448092-F570-4B63-9FE4-75581A74A09A",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1498233600000,
+			"end": 1498237200000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1498392000000,
+			"end": 1498395600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1498395600000,
+			"end": 1498399200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1498480200000,
+			"end": 1498483800000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1498492800000,
+			"end": 1498498200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1498564800000,
+			"end": 1498568400000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1498566600000,
+			"end": 1498570200000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1498568400000,
+			"end": 1498572000000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1498568400000,
+			"end": 1498572000000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1498572000000,
+			"end": 1498577400000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1498572000000,
+			"end": 1498575600000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1498575600000,
+			"end": 1498579200000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1498579200000,
+			"end": 1498582800000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498651200000,
+			"end": 1498653900000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1498651200000,
+			"end": 1498654800000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498653900000,
+			"end": 1498657500000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1498654800000,
+			"end": 1498658400000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1498655700000,
+			"end": 1498659300000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498657500000,
+			"end": 1498661100000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1498660200000,
+			"end": 1498665600000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1498662000000,
+			"end": 1498665600000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1498737600000,
+			"end": 1498741200000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1498737600000,
+			"end": 1498741200000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1498744800000,
+			"end": 1498748400000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1498838400000,
+			"end": 1498842000000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1498996800000,
+			"end": 1499000400000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1499000400000,
+			"end": 1499004000000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1499085000000,
+			"end": 1499088600000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1499097600000,
+			"end": 1499103000000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1499169600000,
+			"end": 1499173200000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1499171400000,
+			"end": 1499175000000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1499173200000,
+			"end": 1499176800000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1499173200000,
+			"end": 1499176800000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1499176800000,
+			"end": 1499182200000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1499176800000,
+			"end": 1499180400000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1499180400000,
+			"end": 1499184000000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1499184000000,
+			"end": 1499187600000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1499256000000,
+			"end": 1499259600000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499256000000,
+			"end": 1499258700000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499258700000,
+			"end": 1499262300000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1499259600000,
+			"end": 1499263200000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1499260500000,
+			"end": 1499264100000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499262300000,
+			"end": 1499265900000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1499265000000,
+			"end": 1499270400000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499266800000,
+			"end": 1499270400000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1499342400000,
+			"end": 1499346000000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1499342400000,
+			"end": 1499346000000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1499349600000,
+			"end": 1499353200000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1499443200000,
+			"end": 1499446800000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1499601600000,
+			"end": 1499605200000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1499605200000,
+			"end": 1499608800000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1499689800000,
+			"end": 1499693400000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1499702400000,
+			"end": 1499707800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1499774400000,
+			"end": 1499778000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1499776200000,
+			"end": 1499779800000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1499778000000,
+			"end": 1499781600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1499778000000,
+			"end": 1499781600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1499781600000,
+			"end": 1499785200000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1499781600000,
+			"end": 1499787000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1499785200000,
+			"end": 1499788800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1499788800000,
+			"end": 1499792400000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499860800000,
+			"end": 1499863500000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1499860800000,
+			"end": 1499864400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499863500000,
+			"end": 1499867100000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1499864400000,
+			"end": 1499868000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1499865300000,
+			"end": 1499868900000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499867100000,
+			"end": 1499870700000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1499869800000,
+			"end": 1499875200000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1499871600000,
+			"end": 1499875200000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1499947200000,
+			"end": 1499950800000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1499947200000,
+			"end": 1499950800000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1499954400000,
+			"end": 1499958000000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1500048000000,
+			"end": 1500051600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1500206400000,
+			"end": 1500210000000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1500210000000,
+			"end": 1500213600000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1500294600000,
+			"end": 1500298200000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1500307200000,
+			"end": 1500312600000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1500379200000,
+			"end": 1500382800000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1500381000000,
+			"end": 1500384600000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1500382800000,
+			"end": 1500386400000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1500382800000,
+			"end": 1500386400000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1500386400000,
+			"end": 1500391800000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1500386400000,
+			"end": 1500390000000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1500390000000,
+			"end": 1500393600000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1500393600000,
+			"end": 1500397200000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1500465600000,
+			"end": 1500468300000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1500465600000,
+			"end": 1500469200000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1500468300000,
+			"end": 1500471900000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1500469200000,
+			"end": 1500472800000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1500470100000,
+			"end": 1500473700000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1500471900000,
+			"end": 1500475500000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1500474600000,
+			"end": 1500480000000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1500476400000,
+			"end": 1500480000000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1500552000000,
+			"end": 1500555600000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1500552000000,
+			"end": 1500555600000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1500559200000,
+			"end": 1500562800000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1500652800000,
+			"end": 1500656400000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1500811200000,
+			"end": 1500814800000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1500814800000,
+			"end": 1500818400000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1500899400000,
+			"end": 1500903000000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1500912000000,
+			"end": 1500917400000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1500984000000,
+			"end": 1500987600000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1500985800000,
+			"end": 1500989400000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1500987600000,
+			"end": 1500991200000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1500987600000,
+			"end": 1500991200000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1500991200000,
+			"end": 1500996600000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1500991200000,
+			"end": 1500994800000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1500994800000,
+			"end": 1500998400000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1500998400000,
+			"end": 1501002000000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501070400000,
+			"end": 1501073100000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1501070400000,
+			"end": 1501074000000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501073100000,
+			"end": 1501076700000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1501074000000,
+			"end": 1501077600000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1501074900000,
+			"end": 1501078500000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501076700000,
+			"end": 1501080300000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1501079400000,
+			"end": 1501084800000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501081200000,
+			"end": 1501084800000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1501156800000,
+			"end": 1501160400000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1501156800000,
+			"end": 1501160400000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1501164000000,
+			"end": 1501167600000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1501257600000,
+			"end": 1501261200000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1501416000000,
+			"end": 1501419600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1501419600000,
+			"end": 1501423200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1501504200000,
+			"end": 1501507800000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1501516800000,
+			"end": 1501522200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1501588800000,
+			"end": 1501592400000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1501590600000,
+			"end": 1501594200000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1501592400000,
+			"end": 1501596000000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1501592400000,
+			"end": 1501596000000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1501596000000,
+			"end": 1501599600000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1501596000000,
+			"end": 1501601400000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1501599600000,
+			"end": 1501603200000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1501603200000,
+			"end": 1501606800000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501675200000,
+			"end": 1501677900000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1501675200000,
+			"end": 1501678800000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501677900000,
+			"end": 1501681500000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1501678800000,
+			"end": 1501682400000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1501679700000,
+			"end": 1501683300000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501681500000,
+			"end": 1501685100000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1501684200000,
+			"end": 1501689600000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1501686000000,
+			"end": 1501689600000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1501761600000,
+			"end": 1501765200000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1501761600000,
+			"end": 1501765200000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1501768800000,
+			"end": 1501772400000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1501862400000,
+			"end": 1501866000000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1502020800000,
+			"end": 1502024400000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1502024400000,
+			"end": 1502028000000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1502109000000,
+			"end": 1502112600000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1502121600000,
+			"end": 1502127000000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1502193600000,
+			"end": 1502197200000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1502195400000,
+			"end": 1502199000000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1502197200000,
+			"end": 1502200800000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1502197200000,
+			"end": 1502200800000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1502200800000,
+			"end": 1502206200000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1502200800000,
+			"end": 1502204400000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1502204400000,
+			"end": 1502208000000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1502208000000,
+			"end": 1502211600000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1502280000000,
+			"end": 1502283600000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502280000000,
+			"end": 1502282700000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502282700000,
+			"end": 1502286300000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1502283600000,
+			"end": 1502287200000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1502284500000,
+			"end": 1502288100000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502286300000,
+			"end": 1502289900000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1502289000000,
+			"end": 1502294400000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502290800000,
+			"end": 1502294400000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1502366400000,
+			"end": 1502370000000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1502366400000,
+			"end": 1502370000000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1502373600000,
+			"end": 1502377200000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1502467200000,
+			"end": 1502470800000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1502625600000,
+			"end": 1502629200000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1502629200000,
+			"end": 1502632800000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1502713800000,
+			"end": 1502717400000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1502726400000,
+			"end": 1502731800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1502798400000,
+			"end": 1502802000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1502800200000,
+			"end": 1502803800000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1502802000000,
+			"end": 1502805600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1502802000000,
+			"end": 1502805600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1502805600000,
+			"end": 1502811000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1502805600000,
+			"end": 1502809200000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1502809200000,
+			"end": 1502812800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1502812800000,
+			"end": 1502816400000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1502884800000,
+			"end": 1502888400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502884800000,
+			"end": 1502887500000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502887500000,
+			"end": 1502891100000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1502888400000,
+			"end": 1502892000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1502889300000,
+			"end": 1502892900000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502891100000,
+			"end": 1502894700000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1502893800000,
+			"end": 1502899200000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1502895600000,
+			"end": 1502899200000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1502971200000,
+			"end": 1502974800000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1502971200000,
+			"end": 1502974800000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1502978400000,
+			"end": 1502982000000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1503072000000,
+			"end": 1503075600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1503230400000,
+			"end": 1503234000000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1503234000000,
+			"end": 1503237600000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1503318600000,
+			"end": 1503322200000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1503331200000,
+			"end": 1503336600000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1503403200000,
+			"end": 1503406800000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1503405000000,
+			"end": 1503408600000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1503406800000,
+			"end": 1503410400000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1503406800000,
+			"end": 1503410400000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1503410400000,
+			"end": 1503414000000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1503410400000,
+			"end": 1503415800000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1503414000000,
+			"end": 1503417600000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1503417600000,
+			"end": 1503421200000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1503489600000,
+			"end": 1503493200000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1503489600000,
+			"end": 1503492300000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1503492300000,
+			"end": 1503495900000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1503493200000,
+			"end": 1503496800000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1503494100000,
+			"end": 1503497700000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1503495900000,
+			"end": 1503499500000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1503498600000,
+			"end": 1503504000000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1503500400000,
+			"end": 1503504000000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1503576000000,
+			"end": 1503579600000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1503576000000,
+			"end": 1503579600000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1503583200000,
+			"end": 1503586800000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1503676800000,
+			"end": 1503680400000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1503835200000,
+			"end": 1503838800000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1503838800000,
+			"end": 1503842400000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1503923400000,
+			"end": 1503927000000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1503936000000,
+			"end": 1503941400000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1504008000000,
+			"end": 1504011600000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1504009800000,
+			"end": 1504013400000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1504011600000,
+			"end": 1504015200000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1504011600000,
+			"end": 1504015200000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1504015200000,
+			"end": 1504020600000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1504015200000,
+			"end": 1504018800000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1504018800000,
+			"end": 1504022400000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1504022400000,
+			"end": 1504026000000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1504094400000,
+			"end": 1504098000000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504094400000,
+			"end": 1504097100000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504097100000,
+			"end": 1504100700000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1504098000000,
+			"end": 1504101600000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1504098900000,
+			"end": 1504102500000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504100700000,
+			"end": 1504104300000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1504103400000,
+			"end": 1504108800000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504105200000,
+			"end": 1504108800000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1504180800000,
+			"end": 1504184400000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1504180800000,
+			"end": 1504184400000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1504188000000,
+			"end": 1504191600000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1504281600000,
+			"end": 1504285200000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1504440000000,
+			"end": 1504443600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1504443600000,
+			"end": 1504447200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1504528200000,
+			"end": 1504531800000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1504540800000,
+			"end": 1504546200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1504612800000,
+			"end": 1504616400000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1504614600000,
+			"end": 1504618200000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1504616400000,
+			"end": 1504620000000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1504616400000,
+			"end": 1504620000000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1504620000000,
+			"end": 1504625400000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1504620000000,
+			"end": 1504623600000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1504623600000,
+			"end": 1504627200000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1504627200000,
+			"end": 1504630800000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504699200000,
+			"end": 1504701900000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1504699200000,
+			"end": 1504702800000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504701900000,
+			"end": 1504705500000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1504702800000,
+			"end": 1504706400000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1504703700000,
+			"end": 1504707300000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504705500000,
+			"end": 1504709100000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1504708200000,
+			"end": 1504713600000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1504710000000,
+			"end": 1504713600000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1504785600000,
+			"end": 1504789200000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1504785600000,
+			"end": 1504789200000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1504792800000,
+			"end": 1504796400000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1504886400000,
+			"end": 1504890000000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1505044800000,
+			"end": 1505048400000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1505048400000,
+			"end": 1505052000000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1505133000000,
+			"end": 1505136600000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1505145600000,
+			"end": 1505151000000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1505217600000,
+			"end": 1505221200000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1505219400000,
+			"end": 1505223000000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1505221200000,
+			"end": 1505224800000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1505221200000,
+			"end": 1505224800000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1505224800000,
+			"end": 1505228400000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1505224800000,
+			"end": 1505230200000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1505228400000,
+			"end": 1505232000000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1505232000000,
+			"end": 1505235600000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1505304000000,
+			"end": 1505307600000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505304000000,
+			"end": 1505306700000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505306700000,
+			"end": 1505310300000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1505307600000,
+			"end": 1505311200000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1505308500000,
+			"end": 1505312100000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505310300000,
+			"end": 1505313900000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1505313000000,
+			"end": 1505318400000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505314800000,
+			"end": 1505318400000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1505390400000,
+			"end": 1505394000000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1505390400000,
+			"end": 1505394000000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1505397600000,
+			"end": 1505401200000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1505491200000,
+			"end": 1505494800000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1505649600000,
+			"end": 1505653200000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1505653200000,
+			"end": 1505656800000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1505737800000,
+			"end": 1505741400000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1505750400000,
+			"end": 1505755800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1505822400000,
+			"end": 1505826000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1505824200000,
+			"end": 1505827800000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1505826000000,
+			"end": 1505829600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1505826000000,
+			"end": 1505829600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1505829600000,
+			"end": 1505835000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1505829600000,
+			"end": 1505833200000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1505833200000,
+			"end": 1505836800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1505836800000,
+			"end": 1505840400000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505908800000,
+			"end": 1505911500000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1505908800000,
+			"end": 1505912400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505911500000,
+			"end": 1505915100000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1505912400000,
+			"end": 1505916000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1505913300000,
+			"end": 1505916900000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505915100000,
+			"end": 1505918700000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1505917800000,
+			"end": 1505923200000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1505919600000,
+			"end": 1505923200000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1505995200000,
+			"end": 1505998800000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1505995200000,
+			"end": 1505998800000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1506002400000,
+			"end": 1506006000000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1506096000000,
+			"end": 1506099600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1506254400000,
+			"end": 1506258000000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1506258000000,
+			"end": 1506261600000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1506342600000,
+			"end": 1506346200000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1506355200000,
+			"end": 1506360600000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1506427200000,
+			"end": 1506430800000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1506429000000,
+			"end": 1506432600000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1506430800000,
+			"end": 1506434400000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1506430800000,
+			"end": 1506434400000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1506434400000,
+			"end": 1506438000000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1506434400000,
+			"end": 1506439800000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1506438000000,
+			"end": 1506441600000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1506441600000,
+			"end": 1506445200000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1506513600000,
+			"end": 1506516300000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1506513600000,
+			"end": 1506517200000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1506516300000,
+			"end": 1506519900000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1506517200000,
+			"end": 1506520800000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1506518100000,
+			"end": 1506521700000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1506519900000,
+			"end": 1506523500000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1506522600000,
+			"end": 1506528000000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1506524400000,
+			"end": 1506528000000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1506600000000,
+			"end": 1506603600000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1506600000000,
+			"end": 1506603600000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1506607200000,
+			"end": 1506610800000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1506700800000,
+			"end": 1506704400000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1506859200000,
+			"end": 1506862800000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1506862800000,
+			"end": 1506866400000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1506947400000,
+			"end": 1506951000000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1506960000000,
+			"end": 1506965400000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1507032000000,
+			"end": 1507035600000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1507033800000,
+			"end": 1507037400000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1507035600000,
+			"end": 1507039200000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1507035600000,
+			"end": 1507039200000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1507039200000,
+			"end": 1507042800000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1507039200000,
+			"end": 1507044600000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1507042800000,
+			"end": 1507046400000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1507046400000,
+			"end": 1507050000000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1507118400000,
+			"end": 1507122000000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507118400000,
+			"end": 1507121100000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507121100000,
+			"end": 1507124700000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1507122000000,
+			"end": 1507125600000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1507122900000,
+			"end": 1507126500000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507124700000,
+			"end": 1507128300000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1507127400000,
+			"end": 1507132800000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507129200000,
+			"end": 1507132800000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1507204800000,
+			"end": 1507208400000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1507204800000,
+			"end": 1507208400000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1507212000000,
+			"end": 1507215600000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1507305600000,
+			"end": 1507309200000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1507464000000,
+			"end": 1507467600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1507467600000,
+			"end": 1507471200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1507552200000,
+			"end": 1507555800000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1507564800000,
+			"end": 1507570200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1507636800000,
+			"end": 1507640400000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1507638600000,
+			"end": 1507642200000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1507640400000,
+			"end": 1507644000000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1507640400000,
+			"end": 1507644000000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1507644000000,
+			"end": 1507649400000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1507644000000,
+			"end": 1507647600000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1507647600000,
+			"end": 1507651200000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1507651200000,
+			"end": 1507654800000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507723200000,
+			"end": 1507725900000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1507723200000,
+			"end": 1507726800000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507725900000,
+			"end": 1507729500000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1507726800000,
+			"end": 1507730400000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1507727700000,
+			"end": 1507731300000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507729500000,
+			"end": 1507733100000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1507732200000,
+			"end": 1507737600000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1507734000000,
+			"end": 1507737600000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1507809600000,
+			"end": 1507813200000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1507809600000,
+			"end": 1507813200000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1507816800000,
+			"end": 1507820400000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1507910400000,
+			"end": 1507914000000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1508068800000,
+			"end": 1508072400000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1508072400000,
+			"end": 1508076000000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1508157000000,
+			"end": 1508160600000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1508169600000,
+			"end": 1508175000000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1508241600000,
+			"end": 1508245200000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1508243400000,
+			"end": 1508247000000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1508245200000,
+			"end": 1508248800000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1508245200000,
+			"end": 1508248800000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1508248800000,
+			"end": 1508252400000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1508248800000,
+			"end": 1508254200000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1508252400000,
+			"end": 1508256000000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1508256000000,
+			"end": 1508259600000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508328000000,
+			"end": 1508330700000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1508328000000,
+			"end": 1508331600000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508330700000,
+			"end": 1508334300000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1508331600000,
+			"end": 1508335200000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1508332500000,
+			"end": 1508336100000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508334300000,
+			"end": 1508337900000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1508337000000,
+			"end": 1508342400000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508338800000,
+			"end": 1508342400000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1508414400000,
+			"end": 1508418000000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1508414400000,
+			"end": 1508418000000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1508421600000,
+			"end": 1508425200000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1508515200000,
+			"end": 1508518800000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1508673600000,
+			"end": 1508677200000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1508677200000,
+			"end": 1508680800000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1508761800000,
+			"end": 1508765400000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1508774400000,
+			"end": 1508779800000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Beginner // Heizhaus // Daniel Grahnert",
+			"start": 1508846400000,
+			"end": 1508850000000,
+			"class": "event-standard",
+			"id": "FA940850-6259-4E0C-9F57-E48291A12EDB",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "Hip Hop Kids (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1508848200000,
+			"end": 1508851800000,
+			"class": "event-standard",
+			"id": "9379FE3D-360B-4BB9-92F0-77AEE8E50C6F",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop Freestyle Advanced // Heizhaus  // Daniel Grahnert",
+			"start": 1508850000000,
+			"end": 1508853600000,
+			"class": "event-standard",
+			"id": "5F79C5F7-E123-451E-B873-584CC32AB69E",
+			"url": "http://www.heizhaus-leipzig.com/index.php?id=49"
+		},
+		{
+			"title": "HipHop Beginner // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1508850000000,
+			"end": 1508853600000,
+			"class": "event-standard",
+			"id": "CA89DC81-F256-4016-8AF1-A76D80BFF69A",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "HipHop Advanced Adults // Tanzzentrale // Annett SchÃ¶nburg",
+			"start": 1508853600000,
+			"end": 1508859000000,
+			"class": "event-standard",
+			"id": "8076A2E6-9687-4389-94E7-C602B8E1266D",
+			"url": "https://tanz-zentrale.de/stundenplan/"
+		},
+		{
+			"title": "Hip Hop Adults // Baileo // Laura SchÃ¼tte",
+			"start": 1508853600000,
+			"end": 1508857200000,
+			"class": "event-standard",
+			"id": "17BFBA58-8730-4715-AC88-2B629054A990",
+			"url": "http://www.baileo.de "
+		},
+		{
+			"title": "Hip Hop Semi  // Danceecho // Denis",
+			"start": 1508857200000,
+			"end": 1508860800000,
+			"class": "event-standard",
+			"id": "C2847EDC-98CC-4338-ADA6-F0977B6C9686",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop (from 21 years) // Danceecho // Denis",
+			"start": 1508860800000,
+			"end": 1508864400000,
+			"class": "event-standard",
+			"id": "C35B5663-EEEA-4AA7-85BD-9C5268EBCA79",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Teens // Kinderrevue \"petitsouci\" // Annett SchÃ¶nburg",
+			"start": 1508932800000,
+			"end": 1508936400000,
+			"class": "event-standard",
+			"id": "48960D98-9361-45B0-92C6-F0AE94F33C56",
+			"url": "http://kinderrevue.de/"
+		},
+		{
+			"title": "Hip Hop (from 8 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508932800000,
+			"end": 1508935500000,
+			"class": "event-standard",
+			"id": "5FD83249-8210-4BD9-BF1A-C5A9A99A2385",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508935500000,
+			"end": 1508939100000,
+			"class": "event-standard",
+			"id": "2C5D5511-34EA-4FF5-999A-021E29C09547",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Queens // Danceecho // Jay",
+			"start": 1508936400000,
+			"end": 1508940000000,
+			"class": "event-standard",
+			"id": "4719DF4E-33C9-4870-B8C4-BD6DEE61C613",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop & streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1508937300000,
+			"end": 1508940900000,
+			"class": "event-standard",
+			"id": "ECA8555B-4C1B-48AD-B2E6-1D83209B7258",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop (from 11 years) // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508939100000,
+			"end": 1508942700000,
+			"class": "event-standard",
+			"id": "a2o2f9s4b9kp221kgub5a4l9ig@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Beginner (from 16 years) // Tendance // Laura SchÃ¼tte",
+			"start": 1508941800000,
+			"end": 1508947200000,
+			"class": "event-standard",
+			"id": "633AE19D-A51C-47B4-BC7B-3D94C300A7BC",
+			"url": "http://www.tanzstudio-tendance.de"
+		},
+		{
+			"title": "HipHop Adults // Tanzerei Flugfisch // Daniel Grahnert",
+			"start": 1508943600000,
+			"end": 1508947200000,
+			"class": "event-standard",
+			"id": "gkaagesfv3fiu5up6d216do0nk@google.com",
+			"url": "http://www.flugfisch.de/kontakt/"
+		},
+		{
+			"title": "Hip Hop Kids (from 12 years) // TÃ¤nzerei Flugfisch // Laura SchÃ¼tte",
+			"start": 1509019200000,
+			"end": 1509022800000,
+			"class": "event-standard",
+			"id": "95815F2A-51EC-46D2-B8FE-A89811CAC33A",
+			"url": "http://www.flugfisch.de"
+		},
+		{
+			"title": "Hip Hop Beginner (from 9 years) // Tanzstudio tendance // Marie Klein",
+			"start": 1509019200000,
+			"end": 1509022800000,
+			"class": "event-standard",
+			"id": "3156185B-C845-4C7E-9A74-40CFB5E9971A",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "HipHop (from 13 years) // Tanzerei Flugfisch // Kathleen",
+			"start": 1509026400000,
+			"end": 1509030000000,
+			"class": "event-standard",
+			"id": "72326E1C-CFB4-43ED-B117-8D4CA6B90ACD",
+			"url": "http://www.flugfisch.de/stundenplan/#rdv-calendar"
+		},
+		{
+			"title": "Hip Hop Advanced // Danceecho // Denis",
+			"start": 1509120000000,
+			"end": 1509123600000,
+			"class": "event-standard",
+			"id": "B96307F6-2259-479F-BDE5-94D8B1E73C40",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (12 â€“ 17 years) // Danceecho // Denis",
+			"start": 1509282000000,
+			"end": 1509285600000,
+			"class": "event-standard",
+			"id": "3B56300A-B8A9-4DB7-98EE-89608EF897B6",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": "Hip Hop Beginner (18 â€“ 29 years)  // Danceecho // Denis",
+			"start": 1509285600000,
+			"end": 1509289200000,
+			"class": "event-standard",
+			"id": "4C2AF34C-114A-4EE3-B434-03B4EC451564",
+			"url": "http://danceecho.de/trainingszeiten"
+		},
+		{
+			"title": " Hip Hop & Streetdance (from 12 years) // Tanzstudio tendance // Gregor",
+			"start": 1509370200000,
+			"end": 1509373800000,
+			"class": "event-standard",
+			"id": "55EF8BFD-16B7-4A3A-9975-4B25FFD7CF8B",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Clubdancing Beginner // Tanzstudio tendance // Gregor",
+			"start": 1509382800000,
+			"end": 1509388200000,
+			"class": "event-standard",
+			"id": "60DC7EFD-2B87-4BB5-85D4-2947B119D8B5",
+			"url": "http://www.tanzstudio-tendance.de/frame.html"
+		},
+		{
+			"title": "Hip Hop// Martha // Baileo",
+			"start": 1486821600000,
+			"end": 1486827000000,
+			"class": "event-success",
+			"id": "ian5l02m46blncde9u6nt71ihc@google.com",
+			"url": ""
+		},
+		{
+			"title": "Popping // Django // Baileo",
+			"start": 1486827000000,
+			"end": 1486832400000,
+			"class": "event-success",
+			"id": "uf266ld5is5uh2vkr58bn8b0pg@google.com",
+			"url": ""
+		},
+		{
+			"title": "Hip Hop // Batalla // Baileo",
+			"start": 1486832400000,
+			"end": 1486837800000,
+			"class": "event-success",
+			"id": "o5naa5mjrco61jnlq8v0c23uvo@google.com",
+			"url": ""
+		},
+		{
+			"title": "Waacking // Jojo // Break Art",
+			"start": 1487178000000,
+			"end": 1487183400000,
+			"class": "event-success",
+			"id": "r4er6vubgs46eoce7h6lksiu8o@google.com",
+			"url": ""
+		},
+		{
+			"title": "House // Jojo // Break Art",
+			"start": 1487183400000,
+			"end": 1487188800000,
+			"class": "event-success",
+			"id": "ohkc7e0dio3urbhh518gfnuljg@google.com",
+			"url": ""
+		},
+		{
+			"title": "Workshop // Afrohouse & Afrofusion @ Sportetage SÃ¼d",
+			"start": 1491742800000,
+			"end": 1491753600000,
+			"class": "event-success",
+			"id": "se23eeiits2jfv3gei554c3n2k@google.com",
+			"url": ""
+		},
+		{
+			"title": "Klein Paris Bootcamp @ Heizhaus",
+			"start": 1492380000000,
+			"end": 1492725600000,
+			"class": "event-success",
+			"id": "k2ibckcsr957ag3mqfbilaik3k@google.com",
+			"url": ""
+		},
+		{
+			"title": "Workshop // Storm Popping & Locking & musicality workshop @ Heizhaus",
+			"start": 1492790400000,
+			"end": 1492804800000,
+			"class": "event-success",
+			"id": "q33cuue6tbhdnfnr3gafam72ks@google.com",
+			"url": ""
+		},
+		{
+			"title": "Queen 16 Warm up // cypher, battle & more @ Distillery",
+			"start": 1493395200000,
+			"end": 1493413200000,
+			"class": "event-success",
+			"id": "ss31b6r4ntjs62pgli2iiip6eo@google.com",
+			"url": ""
+		},
+		{
+			"title": " Workshop // BGirl MessyMel @ Frauenkultur",
+			"start": 1493463600000,
+			"end": 1493469000000,
+			"class": "event-success",
+			"id": "msohi43u66h0ctf7jl5po5e39s@google.com",
+			"url": ""
+		},
+		{
+			"title": "Workshop // Bboy WellB @ Frauenkultur",
+			"start": 1493469000000,
+			"end": 1493474400000,
+			"class": "event-success",
+			"id": "7gejtst725i77qtjqukcrpm9pk@google.com",
+			"url": ""
+		},
+		{
+			"title": "Workshop // BGirl Paulina, Breaknuts Crew @ Frauenkultur",
+			"start": 1493474400000,
+			"end": 1493479800000,
+			"class": "event-success",
+			"id": "lnske7qe65u8d0ak0mtnh6lp48@google.com",
+			"url": ""
+		},
+		{
+			"title": " Vortrag // von \"Whats Your Story?\" BGirl Mess (Russland) und BGirl Tania The Hunter (Spanien) @ Frauenkultur",
+			"start": 1493485200000,
+			"end": 1493492400000,
+			"class": "event-success",
+			"id": "p68e1vidkglnm55d6ugudelqhc@google.com",
+			"url": ""
+		},
+		{
+			"title": "Battle // Queen 16Family Fever @ Werk 2",
+			"start": 1493553600000,
+			"end": 1493568000000,
+			"class": "event-success",
+			"id": "r7ck87mhrkktlm10t9fp1750qg@google.com",
+			"url": ""
+		},
+		{
+			"title": "Jam // Quarter Jam @ Heizhaus",
+			"start": 1495972800000,
+			"end": 1495987200000,
+			"class": "event-success",
+			"id": "8d7gpcr7trob883ctoad4jh844@google.com",
+			"url": ""
+		},
+		{
+			"title": "Battle // Streetlevel Breakdance Rookies @ Sporthalle LeplaystraÃŸe",
+			"start": 1497081600000,
+			"end": 1497103200000,
+			"class": "event-success",
+			"id": "k4s39ci9jqnpargs407bi6i3ac@google.com",
+			"url": ""
+		},
+		{
+			"title": "Hip Hop Basic Steps // Heizhaus // Phil (KleinParis)",
+			"start": 1498840200000,
+			"end": 1498845600000,
+			"class": "event-success",
+			"id": "53FAFF8A-3791-47E2-A5F0-3A52F8BD93EC",
+			"url": "https://goo.gl/maps/K3cADnrFCzT2"
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1493650800000,
+			"end": 1493654400000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1494255600000,
+			"end": 1494259200000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1494860400000,
+			"end": 1494864000000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1495465200000,
+			"end": 1495468800000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1496070000000,
+			"end": 1496073600000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Popping AnfÃ¤nger // Heizhaus  // Daniel",
+			"start": 1496674800000,
+			"end": 1496678400000,
+			"class": "event-info",
+			"id": "8629A8E2-138B-4D8D-987D-8A4A2C57799B",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1497544200000,
+			"end": 1497547800000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1498149000000,
+			"end": 1498152600000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1498753800000,
+			"end": 1498757400000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1499358600000,
+			"end": 1499362200000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1499963400000,
+			"end": 1499967000000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1500568200000,
+			"end": 1500571800000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1501173000000,
+			"end": 1501176600000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1501777800000,
+			"end": 1501781400000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1502382600000,
+			"end": 1502386200000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1502987400000,
+			"end": 1502991000000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1503592200000,
+			"end": 1503595800000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1504197000000,
+			"end": 1504200600000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1504801800000,
+			"end": 1504805400000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1505406600000,
+			"end": 1505410200000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1506011400000,
+			"end": 1506015000000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1506616200000,
+			"end": 1506619800000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1507221000000,
+			"end": 1507224600000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1507825800000,
+			"end": 1507829400000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1508430600000,
+			"end": 1508434200000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		},
+		{
+			"title": "Locking Adults // HTWK // Annett SchÃ¶nburg",
+			"start": 1509035400000,
+			"end": 1509039000000,
+			"class": "event-info",
+			"id": "205556D7-CBE7-49B6-8AAF-F273517165F1",
+			"url": ""
+		}
+	]
+};
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {/*!
@@ -15553,7 +24827,7 @@ if (typeof jQuery === 'undefined') {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {/*!
@@ -15566,13 +24840,13 @@ if (typeof jQuery === 'undefined') {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {__webpack_require__(1);
-__webpack_require__(4);
-__webpack_require__(2);
 __webpack_require__(5);
+__webpack_require__(2);
+__webpack_require__(6);
 var imgParallax = __webpack_require__(3);
 
 var events = [];
@@ -15679,83 +24953,85 @@ $(function () {
     var date = new Date();
     var lastDay = new Date(date.getFullYear(), date.getMonth() + 4, 0);
 
-    $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
-        events = JSON.parse(data).result;
+    // $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
+    // events = JSON.parse(data).result;
 
-        events.forEach(function callback(value) {
-            if (value.title.includes("//")) {
-                value.title = "<strong>" + value.title.replace("//", "</strong> at").replace("//", "with");
-            }
-        });
+    events = __webpack_require__(4).result;
 
-        var options = {
-            events_source: events,
-            tmpl_path: 'tmpls/',
-            tmpl_cache: false,
-            day: getDateString(),
-            first_day: 1,
-            weekbox: false,
-            display_week_numbers: false,
-            onAfterViewLoad: function (view) {
-                var _this = this;
-                $('.current-view').text(this.getTitle());
-                $('.btn-group button').removeClass('active');
-                $('button[data-calendar-view="' + view + '"]').addClass('active');
-                $('.back-button').on('click', function () {
-                    _this.view('month');
-                });
-            },
-            classes: {
-                months: {
-                    general: 'label'
-                }
-            }
-        };
-
-        calendar = $('#calendar').calendar(options);
-
-        $('.btn-group button[data-calendar-nav]').each(function () {
-            var $this = $(this);
-            $this.click(function () {
-                calendar.navigate($this.data('calendar-nav'));
-            });
-        });
-
-        $('#classSelectors .classSelector').each(function () {
-            $(this).addClass('selected');
-            $(this).click(function () {
-                updateEvents($(this));
-            });
-        });
-
-        // showall selector
-        $(".showall").click(function () {
-            if (!$(this).attr("disabled")) {
-                $('#classSelectors .classSelector').each(function () {
-                    $(this).removeClass("unselected");
-                    $(this).addClass("selected");
-                });
-                $('#searchInput').val("");
-                updateCalender();
-                $(this).attr("disabled", "disabled");
-            }
-        });
-
-        // search logic
-        $('#searchInput').on('keyup', function () {
-            var searchForm = $(this);
-            searchForm.attr("disabled", "disabled");
-            updateCalender();
-            searchForm.removeAttr("disabled");
-            searchForm.focus();
-            if (searchForm.val() !== "") {
-                $(".showall").removeAttr("disabled");
-            }
-        });
-
-    }).fail(function () {
-        $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
+    events.forEach(function callback(value) {
+        if (value.title.includes("//")) {
+            value.title = "<strong>" + value.title.replace("//", "</strong> at").replace("//", "with");
+        }
     });
+
+    var options = {
+        events_source: events,
+        tmpl_path: 'tmpls/',
+        tmpl_cache: false,
+        day: getDateString(),
+        first_day: 1,
+        weekbox: false,
+        display_week_numbers: false,
+        onAfterViewLoad: function (view) {
+            var _this = this;
+            $('.current-view').text(this.getTitle());
+            $('.btn-group button').removeClass('active');
+            $('button[data-calendar-view="' + view + '"]').addClass('active');
+            $('.back-button').on('click', function () {
+                _this.view('month');
+            });
+        },
+        classes: {
+            months: {
+                general: 'label'
+            }
+        }
+    };
+
+    calendar = $('#calendar').calendar(options);
+
+    $('.btn-group button[data-calendar-nav]').each(function () {
+        var $this = $(this);
+        $this.click(function () {
+            calendar.navigate($this.data('calendar-nav'));
+        });
+    });
+
+    $('#classSelectors .classSelector').each(function () {
+        $(this).addClass('selected');
+        $(this).click(function () {
+            updateEvents($(this));
+        });
+    });
+
+    // showall selector
+    $(".showall").click(function () {
+        if (!$(this).attr("disabled")) {
+            $('#classSelectors .classSelector').each(function () {
+                $(this).removeClass("unselected");
+                $(this).addClass("selected");
+            });
+            $('#searchInput').val("");
+            updateCalender();
+            $(this).attr("disabled", "disabled");
+        }
+    });
+
+    // search logic
+    $('#searchInput').on('keyup', function () {
+        var searchForm = $(this);
+        searchForm.attr("disabled", "disabled");
+        updateCalender();
+        searchForm.removeAttr("disabled");
+        searchForm.focus();
+        if (searchForm.val() !== "") {
+            $(".showall").removeAttr("disabled");
+        }
+    });
+
+    // }).fail(function () {
+    //     $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
+    // });
 
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
