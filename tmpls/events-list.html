@@ -6,7 +6,9 @@
 				<span class="pull-left event <%= event['class'] %>"></span>&nbsp;
 				<a target="_blank" href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"
 					data-event-class="<%= event['class'] %>" class="event-item">
-					<span class="cal-hours"><%= event.start_hour %> - <%= event.end_hour %>:</span> <%= event.title %></a>
+					<span class="cal-hours"><%= event.start_hour %> - <%= event.end_hour %>:</span> <%= event.title %>
+					<i class="fa fa-external-link link-icon"></i>
+				</a>
 			</li>
 		<% }) %>
 	</ul>

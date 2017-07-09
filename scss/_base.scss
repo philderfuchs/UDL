@@ -432,8 +432,18 @@ section.footer {
       font-size: 1.1em;
       font-weight: 200;
       line-height: inherit;
+
+      .link-icon {
+        margin-left: 1rem;
+        color: rgba($text-dark-primary, 0.7);
+      }
+
       &:hover {
         color: lighten($text-dark-primary, 45%) !important;
+
+        .link-icon {
+          color: lighten($text-dark-primary, 45%) !important;
+        }
       }
     }
   }
