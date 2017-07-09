@@ -472,7 +472,7 @@ section.footer {
   .cal-cell {
     border: none;
     .cal-month-day {
-      span {
+      span.day {
         font-size: 1.5em !important;
         cursor: default;
       }
@@ -484,7 +484,7 @@ section.footer {
 
     .cal-day-today {
       background-color: transparent;
-      span {
+      span.day {
         background-color: $brand-primary;
         border-radius: 1em;
         width: 1.4em;
