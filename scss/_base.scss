@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 
+
 @function getBasedOn($background) {
   @if (lightness($background) > 65) {
     @return $text-dark-primary; // Lighter backgorund, return dark color

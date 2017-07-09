@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run pack & npm run serve & npm run sass",
-    "pack": "webpack --watch",
+    "pack": "webpack --watch --env dev",
     "serve": "python -m SimpleHTTPServer 8000",
-    "sass": "sass --watch scss/app.scss:css/app.css --style compressed"
+    "sass": "sass --watch scss/app.scss:css/app.css",
+    "build": "sass scss/app.scss:css/app.css --style compressed \n webpack -p --env build"
   },
   "dependencies": {
     "bootstrap-calendar": "^0.2.4",

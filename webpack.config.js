@@ -1,11 +1,11 @@
 var webpack = require("webpack");
 var path = require("path");
 
-module.exports = {
+const commonConfig = {
     "entry": "./js/app.js",
     "output": {
         "path": path.resolve(__dirname, "js"),
-        "filename": "bundle.js"
+        "filename": "app.min.js"
     },
     "plugins": [
         new webpack.ProvidePlugin({
@@ -15,6 +15,18 @@ module.exports = {
             "Tether": 'tether',
             "_": "underscore"
         })
-    ],
-    "devtool": "source-map"
+    ]
+};
+
+module.exports = function (env) {
+
+    if (env === "dev") {
+        console.log(">>> DEVELOPMENT RUNNING");
+
+        commonConfig.devtool = "source-map";
+    } else if (env === "build") {
+        console.log(">>> PRODUCTION BUILD");
+    }
+
+    return commonConfig;
 };
