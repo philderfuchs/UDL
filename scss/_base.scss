@@ -32,8 +32,8 @@ section.header {
     width: 100%;
     height: 300px;
     background: white;
-    @include skew (0deg, -2deg);
-    top: 23em;
+    @include skew (0deg, -4deg);
+    top: 21em;
     z-index: -1;
   }
 
