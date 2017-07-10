@@ -19,6 +19,7 @@ section.contact {
 
   .description {
     font-size: 4rem;
+    display: block;
     @media (max-width: $screen-md-min) {
       font-size: 1.5em;
     }
