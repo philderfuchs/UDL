@@ -2,11 +2,11 @@
   "name": "UDL_frontend",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run pack & npm run serve & npm run sass",
-    "pack": "webpack --watch --env dev --define process.env.NODE_ENV='\"production\"'",
+    "start": "concurrently --kill-others \"npm run pack\" \"npm run sass\"",
+    "pack": "webpack --watch --env dev",
     "serve": "python -m SimpleHTTPServer 8000",
-    "sass": "sass --watch scss/app.scss:css/app.css",
-    "build": "sass scss/app.scss:css/app.css --style compressed \n webpack -p --env build"
+    "sass": "node-sass scss/app.scss css/app.css --watch",
+    "build": "node-sass scss/app.scss css/app.css --output-style compressed \n webpack -p --env build"
   },
   "dependencies": {
     "bootstrap-calendar": "^0.2.4",
@@ -18,6 +18,8 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "concurrently": "^3.5.0",
+    "node-sass": "^4.5.3",
     "path": "^0.12.7",
     "webpack": "^2.6.1"
   }
