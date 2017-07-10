@@ -20,26 +20,19 @@ section.header {
   background-size: cover;
 
   .page-caption-background {
-    background-color: rgba($brand-primary, 0.3);
-    margin-top: 6em;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    height: 7em;
+    height: 13em;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .page-caption {
       color: $text-light-primary;
-      margin-bottom: 20px;
       font-weight: bold;
-      font-size: 5em;
+      font-size: 5.5em;
 
-      @media (max-width: $screen-md-min) {
-        font-size: 3.5em;
-      }
       @media (max-width: $screen-sm-min) {
-        font-size: 3em;
+        font-size: 3.5em;
       }
       @media (max-width: $screen-xs-min) {
         font-size: 2em;
