@@ -1,0 +1,73 @@
+$text-dark-primary: rgba(0, 0, 0, .87);
+$text-dark-secondary: rgba(0, 0, 0, .54);
+$text-dark-disabled: rgba(0, 0, 0, .38);
+$text-light-primary: rgba(255, 255, 255, 1);
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary: $gray-dark;
+//$base-color: #324278;
+//$base-secondary: #636bc9;
+//$accent-color: #64a3ca;
+//$interaction-color: #dba13d;
+
+
+// ------------calendar
+$rowHeightMonth: 150px;
+$rowHeightYear: 60px;
+
+// Events
+
+// HIPHOP
+$eventStandardColor:      #7E51DB;
+
+// BREAKDANCE
+$eventImportantColor:     #5AC8FA;
+
+// HOUSE
+$eventWarningColor:       #4CD964;
+
+// LOCKING/POPPING
+$eventInfoColor:          #FFCC00;
+
+// OTHER STYLES
+$eventInverseColor:       #FF9500;
+
+// WORKSHOPS, BATTLES & CO.
+$eventSuccessColor:       #FF2D55;
+
+// Open TRAININGS
+$eventSpecialColor:       #FF70F5;
+
+$eventHiliteStandart:     lighten($eventStandardColor, 35%);
+$eventHiliteImportant:    lighten($eventImportantColor, 35%);
+$eventHiliteInfo:         lighten($eventInfoColor, 38%);
+$eventHiliteWarning:      lighten($eventWarningColor, 25%);
+$eventHiliteSuccess:      lighten($eventSuccessColor, 35%);
+$eventHiliteInverse:      lighten($eventInverseColor, 35%);
+$eventHiliteSpecial:      lighten($eventSpecialColor, 30%);
+
+// MONTH
+$rowHover:        #fafafb;
+$dayHover:        darken($rowHover, 2%);
+$borderColor:     darken($rowHover, 2%);
+$borderSize:      1px;
+$borderSizehoriz: 1px;
+$borderSizevert:  1px;
+$borderStyle:     solid;
+
+$eventBorderSize: 0px;
+$eventBorderColor: #ffffff;
+$eventBorderRadius: 6px;
+$eventMargin: 7px;
+$eventSize: 12px;
+
+$calendarImagesPath: "../img";
+
+$calender-slide-background: $borderColor;
+$background-calendar: white;

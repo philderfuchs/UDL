@@ -1,14 +1,18 @@
 
-@import "variables";
+@import "own_variables";
 
 $fa-font-path: "../fonts/font-awesome/fonts";
 @import "../fonts/font-awesome/scss/font-awesome";
 @import "../node_modules/tether/dist/css/tether.min.css";
 
 // bootstrap
+//@import "bootswatch_variables";
+
 
 // Core variables and mixins
-@import "own_bootstrap_variables";
+//bootswatch style
+@import "variables";
+
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 // Reset and dependencies
@@ -58,6 +62,9 @@ $fa-font-path: "../fonts/font-awesome/fonts";
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
+// paper bootswatch
+@import "bootswatch";
+
 // calendar
 @import "calendar/grid.scss";
 @import "calendar/month.scss";
@@ -66,5 +73,6 @@ $fa-font-path: "../fonts/font-awesome/fonts";
 @import "calendar/events.scss";
 @import "calendar/theme.scss";
 
+
 @import "base";
-@import "own_calendar";
+

@@ -1,0 +1,13 @@
+section.footer {
+  background: $eventStandardColor;
+  color: rgba(white, 0.7);
+  line-height: 7rem;
+
+  a {
+    color: rgba(white, 0.7);
+    margin-right: 2rem;
+  }
+  a:hover {
+    color: white;
+  }
+}
