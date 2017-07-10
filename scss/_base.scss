@@ -85,12 +85,21 @@ section.header {
     }
   }
 
+  $border-radius: $btn-border-radius-base;
+
+  .colorblock:first-of-type {
+    border-top-left-radius: $border-radius;
+  }
+  .colorblock:last-of-type {
+    border-top-right-radius: $border-radius;
+  }
+
   .about {
     background: $brand-primary;
     color: white;
     padding: 2rem;
-    border-radius: 3px;
-
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
   }
 }
 
