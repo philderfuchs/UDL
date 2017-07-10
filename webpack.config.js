@@ -5,6 +5,7 @@ const commonConfig = {
     "entry": "./js/app.js",
     "output": {
         "path": path.resolve(__dirname, "js"),
+        "publicPath": '/js/',
         "filename": "app.min.js"
     },
     "plugins": [
@@ -24,6 +25,9 @@ module.exports = function (env) {
         console.log(">>> DEVELOPMENT RUNNING");
 
         commonConfig.devtool = "source-map";
+        commonConfig.devServer = {
+            port: 8000
+        }
     } else if (env === "build") {
         console.log(">>> PRODUCTION BUILD");
     }

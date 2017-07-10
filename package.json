@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently --kill-others \"npm run pack\" \"npm run sass\"",
-    "pack": "webpack --watch --env dev",
-    "serve": "python -m SimpleHTTPServer 8000",
+    "pack": "webpack-dev-server --env dev",
     "sass": "node-sass scss/app.scss css/app.css --watch",
     "build": "node-sass scss/app.scss css/app.css --output-style compressed \n webpack -p --env build"
   },
@@ -21,6 +20,7 @@
     "concurrently": "^3.5.0",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.1"
   }
 }
