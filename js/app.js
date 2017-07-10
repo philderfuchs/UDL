@@ -157,7 +157,7 @@ function setUpCalendar() {
         }
     };
 
-    calendar = $('#calendar').calendar(options);
+    calendar = $('#calendar-body').calendar(options);
 
     $('.btn-group button[data-calendar-nav]').each(function () {
         var $this = $(this);

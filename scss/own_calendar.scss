@@ -1,0 +1,316 @@
+// Overwrite calendar styling
+
+.calendar {
+  .alert {
+    font-size: 4rem;
+  }
+
+  [class*="cal-cell"]:hover {
+    background-color: transparent;
+  }
+
+  [class*="cal-month-day"]:hover {
+    background-color: $dayHover;
+  }
+
+  .calendar-header {
+    border: none;
+    $cal-body-margin: 3rem;
+
+    .monthSelector {
+      margin-top: .6em;
+      margin-bottom: $cal-body-margin;
+
+      .btn {
+        font-size: 10pt;
+        text-transform: uppercase;
+
+        &.outer {
+          background-color: $brand-primary;
+          color: $text-light-primary;
+          &:hover {
+            background-color: lighten($text-dark-secondary, 10%);
+
+          }
+        }
+      }
+    }
+
+    .current-view {
+      font-size: 2.3em;
+      font-weight: 200;
+      display: inline-block;
+      margin-bottom: $cal-body-margin;
+
+      @media (max-width: $screen-md-max) {
+        display: block;
+        text-align: right;
+      }
+    }
+
+    .form-group {
+      margin-bottom: $cal-body-margin;
+
+      #searchInput {
+        margin-top: .5em;
+        color: $brand-primary;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid lighten($gray-light, 30%);
+        @include box-shadow(none);
+        &.empty {
+          border-bottom: 1px solid red !important;
+          color: red !important;
+        }
+      }
+      #searchInput:focus {
+        border-bottom: 1px solid $brand-primary;
+      }
+
+      .fa-search {
+        position: absolute;
+        right: 24px;
+        top: 17px;
+        color: $gray-light;
+      }
+
+      #searchInput:focus + .fa-search {
+        color: $brand-primary;
+      }
+      #searchInput.empty:focus + .fa-search {
+        color: red;
+      }
+    }
+
+    .showall {
+      margin-bottom: $cal-body-margin;
+
+      width: 100%;
+      margin-top: .6em;
+      text-transform: uppercase;
+      border: 1px solid lighten($brand-primary, 55%);
+      color: $brand-primary;
+    }
+    .showall[disabled] {
+      background: $gray-lighter !important;
+      border: 1px solid $gray-lighter;
+      color: $brand-primary;
+    }
+  }
+
+  .classSelectorRow {
+    margin-bottom: 2rem;
+
+    #classSelectors {
+      font-size: 10pt;
+
+      .classSelector {
+        color: white;
+        i {
+          margin-right: .2rem;
+        }
+      }
+      .classSelector.selected {
+        i {
+          @extend .fa-circle;
+        }
+        &.event-standard-selector {
+          background: $eventStandardColor;
+          &:hover {
+            background: lighten($eventStandardColor, 6%);
+          }
+        }
+
+        &.event-important-selector {
+          background: $eventImportantColor;
+          &:hover {
+            background: lighten($eventImportantColor, 6%);
+          }
+        }
+
+        &.event-success-selector {
+          background: $eventSuccessColor;
+          &:hover {
+            background: lighten($eventSuccessColor, 6%);
+          }
+        }
+
+        &.event-warning-selector {
+          background: $eventWarningColor;
+          &:hover {
+            background: lighten($eventWarningColor, 6%);
+          }
+        }
+
+        &.event-info-selector {
+          background: $eventInfoColor;
+          &:hover {
+            background: lighten($eventInfoColor, 6%);
+          }
+        }
+
+        &.event-inverse-selector {
+          background: $eventInverseColor;
+          &:hover {
+            background: lighten($eventInverseColor, 6%);
+          }
+        }
+
+        &.event-special-selector {
+          background: $eventSpecialColor;
+          &:hover {
+            background: lighten($eventSpecialColor, 6%);
+          }
+        }
+      }
+      .classSelector.unselected {
+        $lightenAmount: 30%;
+        i {
+          @extend .fa-circle-o;
+        }
+        &:hover {
+          color: white;
+          background: $gray-lighter;
+        }
+        &.event-standard-selector {
+          color: $eventStandardColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventStandardColor, $lightenAmount));
+        }
+
+        &.event-important-selector {
+          color: $eventImportantColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventImportantColor, 10%));
+        }
+
+        &.event-success-selector {
+          color: $eventSuccessColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventSuccessColor, $lightenAmount));
+        }
+
+        &.event-warning-selector {
+          color: $eventWarningColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventWarningColor, 20%));
+        }
+
+        &.event-info-selector {
+          color: $eventInfoColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventInfoColor, 20%));
+        }
+
+        &.event-inverse-selector {
+          color: $eventInverseColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventInverseColor, $lightenAmount));
+        }
+
+        &.event-special-selector {
+          color: $eventSpecialColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventSpecialColor, 20%));
+        }
+      }
+    }
+
+  }
+
+  #calendar-body {
+    #cal-slide-content {
+      @include box-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
+      background-image: none;
+      background-color: $calender-slide-background;
+      border-bottom: 1px solid darken($calender-slide-background, 5%);
+      &:hover {
+        background-color: $calender-slide-background;
+      }
+
+      li {
+        line-height: 2.1em;
+        span.event {
+          margin: .6em .7em;
+        }
+        .cal-hours {
+          font-weight: normal;
+        }
+
+        a.event-item {
+          color: $text-dark-primary !important;
+          font-size: 1.1em;
+          font-weight: 200;
+          line-height: inherit;
+
+          .link-icon {
+            margin-left: 1rem;
+            color: rgba($text-dark-primary, 0.7);
+          }
+
+          &:hover {
+            color: lighten($text-dark-primary, 45%) !important;
+
+            .link-icon {
+              color: lighten($text-dark-primary, 45%) !important;
+            }
+          }
+        }
+      }
+
+    }
+
+    .cal-row-head {
+      //border-top: 1px solid rgba(black, 0.2);
+      padding-top: 1rem;
+
+      [class*="cal-cell"] {
+        font-weight: normal !important;
+        //background-color: $text-dark-secondary;
+        //color: $text-light-primary;
+        //line-height: 1em;
+      }
+    }
+
+    #cal-day-box {
+      .day-event {
+        max-width: 150px;
+        font-size: 9pt;
+        line-height: 1.3em;
+        padding: .3em;
+      }
+    }
+
+    .cal-month-box {
+      border: none;
+
+      .cal-day-outmonth {
+        display: none;
+      }
+
+      .cal-cell {
+        border: none;
+        .cal-month-day {
+          span.day {
+            font-size: 1.5em !important;
+            cursor: default;
+          }
+          .events-list {
+            margin: 2em;
+            max-height: 100px;
+          }
+        }
+
+        .cal-day-today {
+          background-color: transparent;
+          span.day {
+            background-color: $brand-primary;
+            border-radius: 1em;
+            width: 1.4em;
+            text-align: center;
+            color: $text-light-primary !important;
+            opacity: 1;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+
+    .event {
+      @include box-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
+    }
+  }
+}
