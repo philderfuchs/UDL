@@ -16,6 +16,21 @@ body {
 
 .btn-default {
   border: none;
+
+  &.accent {
+    $depth: 3px;
+    @include transition(all 0.03s ease-in);
+    margin-top: 0;
+    margin-bottom: $depth;
+    padding: 1em;
+    @include box-shadow(0px $depth 0px 0px darken($btn-default-bg, 30%));
+    &:hover {
+      @include box-shadow(none);
+      margin-top: $depth;
+      margin-bottom: 0;
+      background-color: darken($btn-default-bg, 4%);
+    }
+  }
 }
 
 // SECTIONS
@@ -42,8 +57,8 @@ section.header {
   background-size: cover;
 
   .page-caption-background {
-    background-color: rgba($brand-primary, 0.5);
-    margin-top: 7em;
+    background-color: rgba($brand-primary, 0.3);
+    margin-top: 6em;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     height: 7em;
@@ -52,7 +67,7 @@ section.header {
       color: white;
       text-transform: uppercase;
       //font-weight: 200;
-      font-size: 4em;
+      font-size: 5em;
       line-height: 10rem;
       font-family: "Roboto Condensed", sans-serif;
       @media (max-width: $screen-md-min) {
@@ -75,6 +90,7 @@ section.header {
     color: white;
     padding: 2rem;
     border-radius: 3px;
+
   }
 }
 
