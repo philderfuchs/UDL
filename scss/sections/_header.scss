@@ -30,7 +30,11 @@ section.header {
       color: $text-light-primary;
       font-weight: bold;
       font-size: 5.5em;
-
+      text-transform: uppercase;
+      text-shadow: -1px 0 $text-dark-secondary, 0 1px $text-dark-secondary, 1px 0 $text-dark-secondary, 0 -1px $text-dark-secondary;
+      @media (max-width: $screen-md-min) {
+        font-size: 4.8em;
+      }
       @media (max-width: $screen-sm-min) {
         font-size: 3.5em;
       }
