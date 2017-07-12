@@ -16,22 +16,29 @@ section.header {
   }
 
   height: 25em;
-  background-image: url(../img/header.jpg);
+  //background-image: url(../img/header.jpg);
+  //background-size: cover;
+  @include gradient-directional(black, lighten($brand-primary, 10%), 175deg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  #jarallax-container-0 {
+    opacity: 0.5;
+  }
 
   .page-caption-background {
     height: 13em;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .page-caption {
       color: $text-light-primary;
-      font-weight: bold;
       font-size: 5.5em;
       text-transform: uppercase;
-      text-shadow: -1px 0 $text-dark-secondary, 0 1px $text-dark-secondary, 1px 0 $text-dark-secondary, 0 -1px $text-dark-secondary;
+      text-shadow: -1px 0 $brand-primary, 0 1px $brand-primary, 1px 0 $brand-primary, 0 -1px $brand-primary;
       @media (max-width: $screen-md-min) {
         font-size: 4.8em;
       }

@@ -102,6 +102,7 @@ $(function () {
 
     // parallax effect
     jarallax($('section.header'), {
+        imgSrc: '../img/header.jpg',
         speed: 0.5,
         noIos: false
     });
