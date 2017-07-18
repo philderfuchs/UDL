@@ -2,11 +2,17 @@
 
     <!--<% _.each(events, function(event){ %>-->
     <!--<div class="day-highlight dh-<%= event['class'] %>" data-event-class="<%= event['class'] %>">-->
-        <!--<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"-->
-           <!--class="cal-event-week event<%= event.id %>">-->
-            <!--<%= event.title %></a>-->
+    <!--<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"-->
+    <!--class="cal-event-week event<%= event.id %>">-->
+    <!--<%= event.title %></a>-->
     <!--</div>-->
     <!--<% }); %>-->
+    <% if(events.length === 0) {%>
+    <li>
+        Sorry pal, no events found <i class="fa fa-frown-o"></i>
+    </li>
+    <% }; %>
+
     <% _.each(events, function(event) { %>
     <li>
         <span class="pull-left event <%= event['class'] %>"></span>&nbsp;
