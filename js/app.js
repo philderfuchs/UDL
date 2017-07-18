@@ -11,6 +11,8 @@ var serverUrl = env === 'prod' ? "https://udl.cloudno.de": "http://localhost:900
 var events = [];
 var calendar = {};
 
+var weekViewCutoff = 1000;
+
 function countOfSelectedClasses() {
     var count = 0;
     $('#classSelectors .classSelector').each(function () {
@@ -135,7 +137,6 @@ function setUpCalendar() {
     });
 
     var options = {
-        view: "week",
         events_source: events,
         tmpl_path: 'tmpls/',
         tmpl_cache: false,
@@ -158,6 +159,11 @@ function setUpCalendar() {
             }
         }
     };
+
+    // set week view if window too small
+    if($(window).width() < weekViewCutoff) {
+        options.view = "week";
+    }
 
     calendar = $('#calendar-body').calendar(options);
 

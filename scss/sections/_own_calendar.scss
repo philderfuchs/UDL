@@ -112,7 +112,7 @@
     #classSelectors {
       font-size: 10pt;
 
-      @media (max-width: $screen-md-max) {
+      @media (max-width: $screen-md-min) {
         .btn-group {
           float: left !important;
           width: 100% !important;

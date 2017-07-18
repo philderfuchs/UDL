@@ -7092,7 +7092,7 @@ section.calendar-section {
     margin-bottom: 2rem; }
     section.calendar-section .calendar .classSelectorRow #classSelectors {
       font-size: 10pt; }
-      @media (max-width: 1199px) {
+      @media (max-width: 992px) {
         section.calendar-section .calendar .classSelectorRow #classSelectors .btn-group {
           float: left !important;
           width: 100% !important;
