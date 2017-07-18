@@ -7092,6 +7092,11 @@ section.calendar-section {
     margin-bottom: 2rem; }
     section.calendar-section .calendar .classSelectorRow #classSelectors {
       font-size: 10pt; }
+      @media (max-width: 1199px) {
+        section.calendar-section .calendar .classSelectorRow #classSelectors .btn-group {
+          float: left !important;
+          width: 100% !important;
+          border-radius: 3px; } }
       section.calendar-section .calendar .classSelectorRow #classSelectors .classSelector {
         overflow: hidden;
         color: white; }
@@ -7165,7 +7170,10 @@ section.calendar-section {
     section.calendar-section .calendar #calendar-body #cal-slide-content:hover {
       background-color: #f4f4f6; }
   section.calendar-section .calendar #calendar-body li {
-    line-height: 2.1em; }
+    line-height: 2.1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
     section.calendar-section .calendar #calendar-body li span.event {
       margin: .5em .7em; }
     section.calendar-section .calendar #calendar-body li .cal-hours {

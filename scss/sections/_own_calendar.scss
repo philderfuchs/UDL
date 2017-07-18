@@ -112,6 +112,14 @@
     #classSelectors {
       font-size: 10pt;
 
+      @media (max-width: $screen-md-max) {
+        .btn-group {
+          float: left !important;
+          width: 100% !important;
+          border-radius: $border-radius-base;
+        }
+      }
+
       .classSelector {
         overflow: hidden;
         color: white;
@@ -234,6 +242,10 @@
 
     li {
       line-height: 2.1em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
       span.event {
         margin: .5em .7em;
       }
