@@ -321,5 +321,28 @@
     .event {
       @include box-shadow(none);
     }
+
+    .week-view {
+
+      .cal-week-header {
+        padding: 1.2rem 1rem;
+        margin-bottom: 1rem;
+        border-radius: $border-radius-base;
+        &.cal-day-today {
+          background: $brand-primary;
+          h3 {
+            color: white;
+            small {
+              color: rgba(white, 0.7);
+            }
+          }
+        }
+
+        h3 {
+          margin: 0;
+        }
+      }
+
+    }
   }
 }

@@ -7216,6 +7216,18 @@ section.calendar-section {
   section.calendar-section .calendar #calendar-body .event {
     -webkit-box-shadow: none;
     box-shadow: none; }
+  section.calendar-section .calendar #calendar-body .week-view .cal-week-header {
+    padding: 1.2rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px; }
+    section.calendar-section .calendar #calendar-body .week-view .cal-week-header.cal-day-today {
+      background: #333333; }
+      section.calendar-section .calendar #calendar-body .week-view .cal-week-header.cal-day-today h3 {
+        color: white; }
+        section.calendar-section .calendar #calendar-body .week-view .cal-week-header.cal-day-today h3 small {
+          color: rgba(255, 255, 255, 0.7); }
+    section.calendar-section .calendar #calendar-body .week-view .cal-week-header h3 {
+      margin: 0; }
 
 section.explanation {
   position: relative;

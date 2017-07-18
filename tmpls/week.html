@@ -1,21 +1,23 @@
-<% _.each(days_name, function(name) { %>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="<%= cal._getDayClass('week', start) %>" data-toggle="tooltip"
-             title="<%= cal._getHolidayName(start) %>">
-            <h3><%= name %>
-            <small><span
-                    data-cal-date="<%= start.getFullYear() %>-<%= start.getMonthFormatted() %>-<%= start.getDateFormatted() %>"
-                    data-cal-view="day"><%= start.getDate() %> <%= cal.locale['ms' + start.getMonth()] %></span></small>
-            </h3>
+<div class="week-view">
+    <% _.each(days_name, function(name) { %>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="cal-week-header <%= cal._getDayClass('week', start) %>" data-toggle="tooltip"
+                 title="<%= cal._getHolidayName(start) %>">
+                <h3><%= name %>
+                    <small>
+                        <%= start.getDate() %> <%= cal.locale['ms' + start.getMonth()] %>
+                    </small>
+                </h3>
+            </div>
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <%= cal._week() %>
+    <div class="row">
+        <div class="col-xs-12">
+            <%= cal._week() %>
+        </div>
     </div>
-</div>
 
-<% start.setDate(start.getDate() + 1); %>
-<% }) %>
+    <% start.setDate(start.getDate() + 1); %>
+    <% }) %>
+</div>
