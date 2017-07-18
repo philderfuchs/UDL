@@ -135,6 +135,7 @@ function setUpCalendar() {
     });
 
     var options = {
+        view: "week",
         events_source: events,
         tmpl_path: 'tmpls/',
         tmpl_cache: false,

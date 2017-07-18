@@ -230,36 +230,36 @@
         background-color: $calender-slide-background;
       }
 
-      li {
-        line-height: 2.1em;
-        span.event {
-          margin: .5em .7em;
-        }
-        .cal-hours {
-          font-weight: normal;
+    }
+
+    li {
+      line-height: 2.1em;
+      span.event {
+        margin: .5em .7em;
+      }
+      .cal-hours {
+        font-weight: normal;
+      }
+
+      a.event-item {
+        color: $text-dark-primary !important;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: inherit;
+
+        .link-icon {
+          margin-left: 1rem;
+          color: rgba($text-dark-primary, 0.7);
         }
 
-        a.event-item {
-          color: $text-dark-primary !important;
-          font-size: 1.1em;
-          font-weight: 200;
-          line-height: inherit;
+        &:hover {
+          color: lighten($text-dark-primary, 45%) !important;
 
           .link-icon {
-            margin-left: 1rem;
-            color: rgba($text-dark-primary, 0.7);
-          }
-
-          &:hover {
             color: lighten($text-dark-primary, 45%) !important;
-
-            .link-icon {
-              color: lighten($text-dark-primary, 45%) !important;
-            }
           }
         }
       }
-
     }
 
     .cal-row-head {

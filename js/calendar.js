@@ -587,9 +587,18 @@ if(!String.prototype.formatNum) {
 		return this._format_hour(h.formatNum(2) + ":" + m.formatNum(2));
 	};
 
-	Calendar.prototype._week = function(event) {
-		this._loadTemplate('week-days');
+	// Calendar.prototype._test = function(param) {
+     //    this._loadTemplate('test');
+     //    var self = this;
+    //
+    //
+     //    return self.options.templates['test']({foo: "bar"});
+	// };
 
+	var currentday = 0;
+
+	Calendar.prototype._week = function(param) {
+		this._loadTemplate('week-days');
 		var t = {};
 		var start = parseInt(this.options.position.start.getTime());
 		var end = parseInt(this.options.position.end.getTime());
@@ -622,8 +631,13 @@ if(!String.prototype.formatNum) {
 
 			events.push(event);
 		});
-		t.events = events;
+
+		t.events = events.filter(function(e) {
+			return e.start_day === currentday;
+		});
+		currentday = (currentday+1) % 7;
 		t.cal = this;
+
 		return self.options.templates['week-days'](t);
 	}
 
@@ -643,6 +657,7 @@ if(!String.prototype.formatNum) {
 	}
 
 	Calendar.prototype._day = function(week, day) {
+
 		this._loadTemplate('month-day');
 
 		var t = {tooltip: '', cal: this};

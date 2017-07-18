@@ -1,7 +1,20 @@
-<% _.each(events, function(event){ %>
-<div class="cal-row-fluid">
-	<div class="cal-cell<%= event.days%> cal-offset<%= event.start_day %> day-highlight dh-<%= event['class'] %>" data-event-class="<%= event['class'] %>">
-		<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>" class="cal-event-week event<%= event.id %>"><%= event.title %></a>
-	</div>
-</div>
-<% }); %>
+<ul class="unstyled list-unstyled">
+
+    <!--<% _.each(events, function(event){ %>-->
+    <!--<div class="day-highlight dh-<%= event['class'] %>" data-event-class="<%= event['class'] %>">-->
+        <!--<a href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"-->
+           <!--class="cal-event-week event<%= event.id %>">-->
+            <!--<%= event.title %></a>-->
+    <!--</div>-->
+    <!--<% }); %>-->
+    <% _.each(events, function(event) { %>
+    <li>
+        <span class="pull-left event <%= event['class'] %>"></span>&nbsp;
+        <a target="_blank" href="<%= event.url ? event.url : 'javascript:void(0)' %>" data-event-id="<%= event.id %>"
+           data-event-class="<%= event['class'] %>" class="event-item">
+            <span class="cal-hours"><%= event.start_hour %> - <%= event.end_hour %>:</span> <%= event.title %>
+            <i class="fa fa-external-link link-icon"></i>
+        </a>
+    </li>
+    <% }) %>
+</ul>
