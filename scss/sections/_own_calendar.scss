@@ -85,7 +85,6 @@
     }
 
     .showall {
-      margin-bottom: $cal-body-margin;
 
       color: $text-light-primary;
       background: $brand-primary;
@@ -102,6 +101,116 @@
       }
     }
 
+    #classSelectorContainer {
+      font-size: 10pt;
+      margin-bottom: 2rem;
+
+      .classSelector {
+        overflow: hidden;
+        color: white;
+        i {
+          margin-right: .2rem;
+        }
+      }
+      .classSelector.selected {
+        i {
+          @extend .fa-circle;
+        }
+        &.event-standard-selector {
+          background: $eventStandardColor;
+          &:hover {
+            background: lighten($eventStandardColor, 6%);
+          }
+        }
+
+        &.event-important-selector {
+          background: $eventImportantColor;
+          &:hover {
+            background: lighten($eventImportantColor, 6%);
+          }
+        }
+
+        &.event-success-selector {
+          background: $eventSuccessColor;
+          &:hover {
+            background: lighten($eventSuccessColor, 6%);
+          }
+        }
+
+        &.event-warning-selector {
+          background: $eventWarningColor;
+          &:hover {
+            background: lighten($eventWarningColor, 6%);
+          }
+        }
+
+        &.event-info-selector {
+          background: $eventInfoColor;
+          &:hover {
+            background: lighten($eventInfoColor, 6%);
+          }
+        }
+
+        &.event-inverse-selector {
+          background: $eventInverseColor;
+          &:hover {
+            background: lighten($eventInverseColor, 6%);
+          }
+        }
+
+        &.event-special-selector {
+          background: $eventSpecialColor;
+          &:hover {
+            background: lighten($eventSpecialColor, 6%);
+          }
+        }
+      }
+      .classSelector.unselected {
+        $lightenAmount: 30%;
+        i {
+          @extend .fa-circle-o;
+        }
+        &:hover {
+          color: white;
+          background: $gray-lighter;
+        }
+        &.event-standard-selector {
+          color: $eventStandardColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventStandardColor, $lightenAmount));
+        }
+
+        &.event-important-selector {
+          color: $eventImportantColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventImportantColor, 10%));
+        }
+
+        &.event-success-selector {
+          color: $eventSuccessColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventSuccessColor, $lightenAmount));
+        }
+
+        &.event-warning-selector {
+          color: $eventWarningColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventWarningColor, 20%));
+        }
+
+        &.event-info-selector {
+          color: $eventInfoColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventInfoColor, 20%));
+        }
+
+        &.event-inverse-selector {
+          color: $eventInverseColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventInverseColor, $lightenAmount));
+        }
+
+        &.event-special-selector {
+          color: $eventSpecialColor;
+          @include box-shadow(inset 0px 0px 0px 1px lighten($eventSpecialColor, 20%));
+        }
+      }
+    }
+
     .cal-header-desktop {
 
       .search {
@@ -110,134 +219,13 @@
 
       .showall {
         margin-top: .6em;
+        margin-bottom: $cal-body-margin;
         width: 100%;
       }
     }
 
     .cal-header-mobile {
-
-    }
-  }
-
-  #classSelectorContainer {
-    font-size: 10pt;
-    margin-bottom: 2rem;
-
-    @media (max-width: $screen-md-min) {
-      .btn-group {
-        float: left !important;
-        width: 100% !important;
-        border-radius: $border-radius-base;
-      }
-    }
-
-    .classSelector {
-      overflow: hidden;
-      color: white;
-      i {
-        margin-right: .2rem;
-      }
-    }
-    .classSelector.selected {
-      i {
-        @extend .fa-circle;
-      }
-      &.event-standard-selector {
-        background: $eventStandardColor;
-        &:hover {
-          background: lighten($eventStandardColor, 6%);
-        }
-      }
-
-      &.event-important-selector {
-        background: $eventImportantColor;
-        &:hover {
-          background: lighten($eventImportantColor, 6%);
-        }
-      }
-
-      &.event-success-selector {
-        background: $eventSuccessColor;
-        &:hover {
-          background: lighten($eventSuccessColor, 6%);
-        }
-      }
-
-      &.event-warning-selector {
-        background: $eventWarningColor;
-        &:hover {
-          background: lighten($eventWarningColor, 6%);
-        }
-      }
-
-      &.event-info-selector {
-        background: $eventInfoColor;
-        &:hover {
-          background: lighten($eventInfoColor, 6%);
-        }
-      }
-
-      &.event-inverse-selector {
-        background: $eventInverseColor;
-        &:hover {
-          background: lighten($eventInverseColor, 6%);
-        }
-      }
-
-      &.event-special-selector {
-        background: $eventSpecialColor;
-        &:hover {
-          background: lighten($eventSpecialColor, 6%);
-        }
-      }
-    }
-    .classSelector.unselected {
-      $lightenAmount: 30%;
-      i {
-        @extend .fa-circle-o;
-      }
-      &:hover {
-        color: white;
-        background: $gray-lighter;
-      }
-      &.event-standard-selector {
-        color: $eventStandardColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventStandardColor, $lightenAmount));
-      }
-
-      &.event-important-selector {
-        color: $eventImportantColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventImportantColor, 10%));
-      }
-
-      &.event-success-selector {
-        color: $eventSuccessColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventSuccessColor, $lightenAmount));
-      }
-
-      &.event-warning-selector {
-        color: $eventWarningColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventWarningColor, 20%));
-      }
-
-      &.event-info-selector {
-        color: $eventInfoColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventInfoColor, 20%));
-      }
-
-      &.event-inverse-selector {
-        color: $eventInverseColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventInverseColor, $lightenAmount));
-      }
-
-      &.event-special-selector {
-        color: $eventSpecialColor;
-        @include box-shadow(inset 0px 0px 0px 1px lighten($eventSpecialColor, 20%));
-      }
-    }
-
-    .separate-selectors {
-      .btn {
+      .classSelector {
         margin-bottom: 4px;
       }
     }
