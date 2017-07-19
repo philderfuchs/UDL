@@ -8,6 +8,15 @@ const commonConfig = {
         "publicPath": '/js/',
         "filename": "app.min.js"
     },
+    module: {
+        loaders: [
+            {
+                test: /\.hbs/,
+                loader: "handlebars-loader"
+            }
+        ]
+    }
+    ,
     "plugins": [
         new webpack.ProvidePlugin({
             $: 'jquery',
