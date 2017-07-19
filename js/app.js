@@ -6,7 +6,8 @@ var config = require('./config.json');
 var imgParallax = require('./imgParallax');
 
 // templates
-var classSelectorBarTmpl = require('../tmpls/classSelectors_bar.hbs');
+var desktopHeaderTmpl = require('../tmpls/calHeader_desktop.hbs');
+var mobileHeaderTmpl = require('../tmpls/calHeader_mobile.hbs');
 
 var env = window.location.href.includes("localhost") ? 'dev' : 'prod';
 var serverUrl = env === 'prod' ? "https://udl.cloudno.de" : "http://localhost:9000";
@@ -46,7 +47,6 @@ $(function () {
 });
 
 function setUpCalendar() {
-    $('#classSelectorContainer').append(classSelectorBarTmpl());
     preProcessEvents(events);
 
     var options = {
@@ -73,10 +73,7 @@ function setUpCalendar() {
         }
     };
 
-    // set week view if window too small
-    if ($(window).width() < weekViewCutoff) {
-        options.view = "week";
-    }
+    setUpResponsiveness(options);
 
     calendar = $('#calendar-body').calendar(options);
 
@@ -87,7 +84,7 @@ function setUpCalendar() {
         });
     });
 
-    $('#classSelectors .classSelector').each(function () {
+    $('#classSelectorContainer .classSelector').each(function () {
         $(this).addClass('selected');
         $(this).click(function () {
             updateClassSelectors($(this));
@@ -97,7 +94,7 @@ function setUpCalendar() {
     // showall selector
     $(".showall").click(function () {
         if (!$(this).attr("disabled")) {
-            $('#classSelectors .classSelector').each(function () {
+            $('#classSelectorContainer .classSelector').each(function () {
                 $(this).removeClass("unselected");
                 $(this).addClass("selected");
             });
@@ -120,6 +117,18 @@ function setUpCalendar() {
     });
 }
 
+function setUpResponsiveness(options) {
+
+    // set week view if window too small
+    if ($(window).width() < weekViewCutoff) {
+        options.view = "week";
+        $('.calendar-header-container').append(mobileHeaderTmpl());
+    } else {
+        $('.calendar-header-container').append(desktopHeaderTmpl());
+    }
+
+}
+
 function updateClassSelectors(button) {
 
     if (button.hasClass("selected")) {
@@ -127,14 +136,14 @@ function updateClassSelectors(button) {
 
         // case: unselect a selected class
         if (classesCount === 7) {
-            $('#classSelectors .classSelector').each(function () {
+            $('#classSelectorContainer .classSelector').each(function () {
                 if ($(this).attr('data-val') !== button.attr('data-val')) {
                     $(this).removeClass("selected");
                     $(this).addClass("unselected");
                 }
             });
         } else if (classesCount === 1) {
-            $('#classSelectors .classSelector').each(function () {
+            $('#classSelectorContainer .classSelector').each(function () {
                 $(this).removeClass("unselected");
                 $(this).addClass("selected");
             });
@@ -161,7 +170,7 @@ function updateClassSelectors(button) {
 function updateCalender() {
     var activeClasses = [];
 
-    $('#classSelectors .classSelector').each(function () {
+    $('#classSelectorContainer .classSelector').each(function () {
         if ($(this).hasClass("selected")) {
             activeClasses.push($(this).attr('data-val'))
         }
@@ -204,7 +213,7 @@ function preProcessEvents(events) {
 
 function getCountOfSelectedClasses() {
     var count = 0;
-    $('#classSelectors .classSelector').each(function () {
+    $('#classSelectorContainer .classSelector').each(function () {
         if ($(this).hasClass("selected")) {
             count++;
         }
