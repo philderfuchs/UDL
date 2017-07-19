@@ -28,13 +28,15 @@ section.header {
   }
 
   .page-caption-background {
-    height: 13em;
-
+    
     @media (max-width: $screen-xs-max) {
       height: 9em;
     }
+    @media (min-width: $screen-xs-max) {
+      padding-top: 2.5rem;
+      height: 13em;
+    }
 
-    padding-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
