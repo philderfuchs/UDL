@@ -123,6 +123,16 @@ function setUpResponsiveness(options) {
     if ($(window).width() < weekViewCutoff) {
         options.view = "week";
         $('.calendar-header-container').append(mobileHeaderTmpl());
+        $(".filters-toggler").bind('click', function () {
+            $(".filters").slideToggle("slow");
+            if($(this).hasClass("active")) {
+                $(this).removeClass("active");
+                $(this).addClass("inactive");
+            } else {
+                $(this).removeClass("inactive");
+                $(this).addClass("active");
+            }
+        });
     } else {
         $('.calendar-header-container').append(desktopHeaderTmpl());
     }
