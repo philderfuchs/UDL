@@ -36,7 +36,9 @@ $(function () {
 
     } else {
 
-        $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
+        var eventsAPI = serverUrl + "/events";
+
+        $.get(eventsAPI, {end: lastDay.getTime()}, function (data) {
             events = JSON.parse(data).result;
             setUpCalendar();
         }).fail(function () {
