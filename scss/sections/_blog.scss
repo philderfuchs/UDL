@@ -20,7 +20,43 @@ section.blog {
   .caption {
     @extend .text-center;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 200 !important;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .preview {
+    margin-bottom: 9rem;
+    .headerImage {
+      height: 39rem;
+      background-size: cover;
+      background-position: center;
+    }
+    .title {
+      @extend .text-center;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      small {
+        font-size: 11pt;
+        &:not(:last-child) {
+          margin-right: 4rem;
+        }
+        a {
+          color: inherit;
+        }
+      }
+    }
+    .text {
+      margin-top: 2rem;
+      a {
+        font-weight: bold !important;
+      }
+    }
+
+    .colorblock {
+      height: 2px !important;
+      opacity: .7;
+    }
   }
 
 }
