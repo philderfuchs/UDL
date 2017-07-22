@@ -2,17 +2,28 @@ var webpack = require("webpack");
 var path = require("path");
 
 const commonConfig = {
-    "entry": "./js/app.js",
+    "entry": {
+        calendar: "./js/calendar"
+    },
     "output": {
-        "path": path.resolve(__dirname, "js"),
-        "publicPath": '/js/',
-        "filename": "app.min.js"
+        "path": path.resolve(__dirname, "build"),
+        "publicPath": '/build/',
+        "filename": "[name].min.js"
     },
     module: {
         loaders: [
             {
                 test: /\.hbs/,
                 loader: "handlebars-loader"
+            },
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['react', 'es2015'],
+                    plugins: ['react-html-attrs', 'transform-decorators-legacy', 'transform-class-properties'],
+                }
             }
         ]
     }
@@ -39,7 +50,10 @@ module.exports = function (env) {
         }
     } else if (env === "build") {
         console.log(">>> PRODUCTION BUILD");
+        commonConfig.plugins.push(new webpack.optimize.OccurrenceOrderPlugin());
+        commonConfig.plugins.push(new webpack.optimize.UglifyJsPlugin({mangle: false, sourcemap: false}));
     }
+
 
     return commonConfig;
 };
