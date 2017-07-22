@@ -2,7 +2,6 @@ require('underscore');
 require('bootstrap-sass');
 require('./calendar.js');
 require('jarallax');
-var config = require('./config.json');
 var imgParallax = require('./imgParallax');
 
 // templates
@@ -30,21 +29,15 @@ $(function () {
     var date = new Date();
     var lastDay = new Date(date.getFullYear(), date.getMonth() + 4, 0);
 
-    if (env === 'dev' && config.useCached) {
-        events = require("./sampledata.json").result;
+    var eventsAPI = serverUrl + "/events";
+
+    $.get(eventsAPI, {end: lastDay.getTime()}, function (data) {
+        events = JSON.parse(data).result;
         setUpCalendar();
+    }).fail(function () {
+        $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
+    });
 
-    } else {
-
-        var eventsAPI = serverUrl + "/events";
-
-        $.get(eventsAPI, {end: lastDay.getTime()}, function (data) {
-            events = JSON.parse(data).result;
-            setUpCalendar();
-        }).fail(function () {
-            $(".loading").html("Something went wrong :( Please check in later when our coding hamsters have fixed the issue.");
-        });
-    }
 
 });
 
@@ -127,7 +120,7 @@ function setUpResponsiveness(options) {
         $('.calendar-header-container').append(mobileHeaderTmpl());
         $(".filters-toggler").bind('click', function () {
             $(".filters").slideToggle("slow");
-            if($(this).hasClass("active")) {
+            if ($(this).hasClass("active")) {
                 $(this).removeClass("active");
                 $(this).addClass("inactive");
             } else {
@@ -212,7 +205,7 @@ function updateCalender() {
 }
 
 /*
-SOME STATIC HELPER CLASSES
+ SOME STATIC HELPER CLASSES
  */
 
 function preProcessEvents(events) {
