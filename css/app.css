@@ -3563,7 +3563,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center {
+.text-center, section.blog .caption {
   text-align: center; }
 
 .text-justify {
@@ -7294,11 +7294,11 @@ section.explanation {
     width: 100%;
     height: 300px;
     background: #333333;
-    -webkit-transform: skewX(0deg) skewY(1deg);
-    -ms-transform: skewX(0deg) skewY(1deg);
-    -o-transform: skewX(0deg) skewY(1deg);
-    transform: skewX(0deg) skewY(1deg);
-    top: -15px; }
+    -webkit-transform: skewX(0deg) skewY(2deg);
+    -ms-transform: skewX(0deg) skewY(2deg);
+    -o-transform: skewX(0deg) skewY(2deg);
+    transform: skewX(0deg) skewY(2deg);
+    top: -35px; }
   section.explanation .caption {
     color: white;
     text-transform: uppercase;
@@ -7309,6 +7309,28 @@ section.explanation {
     font-weight: 200; }
   section.explanation .colorblock {
     height: 2px !important; }
+
+section.blog {
+  background: white;
+  color: rgba(0, 0, 0, 0.87);
+  padding-top: 8rem;
+  padding-bottom: 15rem;
+  position: relative; }
+  section.blog:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: white;
+    -webkit-transform: skewX(0deg) skewY(2deg);
+    -ms-transform: skewX(0deg) skewY(2deg);
+    -o-transform: skewX(0deg) skewY(2deg);
+    transform: skewX(0deg) skewY(2deg);
+    top: -35px; }
+  section.blog .caption {
+    text-transform: uppercase;
+    font-weight: 200; }
 
 section.contact {
   position: relative;

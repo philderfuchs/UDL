@@ -1,4 +1,3 @@
-
 @import "own_variables";
 
 $fa-font-path: "../fonts/font-awesome/fonts";
@@ -66,3 +65,15 @@ $fa-font-path: "../fonts/font-awesome/fonts";
 
 @import "base";
 
+// SECTIONS
+@import "sections/header";
+
+@import "sections/calendar";
+
+@import "sections/about";
+
+@import "sections/blog";
+
+@import "sections/contact";
+
+@import "sections/footer";

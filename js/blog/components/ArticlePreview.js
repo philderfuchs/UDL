@@ -13,7 +13,7 @@ export default class ArticlePreview extends React.Component {
     render() {
         const link = "/article/" + this.article.id;
         return (
-            <div>
+            <div class="col-xs-12">
                 <h1>{this.article.title}</h1>
                 <span>{this.article.short}</span>
                 <Link to={link}> mehr </Link>

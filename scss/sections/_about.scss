@@ -11,8 +11,8 @@ section.explanation {
     width: 100%;
     height: 300px;
     background: $brand-primary;
-    @include skew (0deg, 1deg);
-    top: -15px;
+    @include skew (0deg, 2deg);
+    top: -35px;
   }
 
   color: white;
