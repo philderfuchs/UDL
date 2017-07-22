@@ -6,12 +6,11 @@ $fa-font-path: "../fonts/font-awesome/fonts";
 @import "../node_modules/tether/dist/css/tether.min.css";
 
 // bootstrap
-//@import "bootswatch_variables";
 
+//bootswatch style
+@import "bootswatch_variables";
 
 // Core variables and mixins
-//bootswatch style
-@import "variables";
 
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
