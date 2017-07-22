@@ -6456,21 +6456,6 @@ section.header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%; }
-  section.header:after {
-    -webkit-box-shadow: 0px -12px 20px 0px rgba(0, 0, 0, 0.22);
-    box-shadow: 0px -12px 20px 0px rgba(0, 0, 0, 0.22);
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    background: white;
-    -webkit-transform: skewX(0deg) skewY(-3deg);
-    -ms-transform: skewX(0deg) skewY(-3deg);
-    -o-transform: skewX(0deg) skewY(-3deg);
-    transform: skewX(0deg) skewY(-3deg);
-    top: 21em;
-    z-index: -1; }
   section.header #jarallax-container-0 {
     opacity: 0.5; }
   section.header .page-caption-background {
@@ -7286,24 +7271,12 @@ section.calendar-section {
 
 section.explanation {
   position: relative;
+  -webkit-box-shadow: inset 0px 11px 11px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0px 11px 11px 0px rgba(0, 0, 0, 0.7);
   color: white;
   background: #333333;
-  padding-top: 7rem;
-  padding-bottom: 13.5rem; }
-  section.explanation:before {
-    -webkit-box-shadow: inset 0px 11px 11px 0px rgba(0, 0, 0, 0.52);
-    box-shadow: inset 0px 11px 11px 0px rgba(0, 0, 0, 0.52);
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    background: #333333;
-    -webkit-transform: skewX(0deg) skewY(2deg);
-    -ms-transform: skewX(0deg) skewY(2deg);
-    -o-transform: skewX(0deg) skewY(2deg);
-    transform: skewX(0deg) skewY(2deg);
-    top: -35px; }
+  padding-top: 12rem;
+  padding-bottom: 12rem; }
   section.explanation .caption {
     color: white;
     text-transform: uppercase;
@@ -7323,18 +7296,6 @@ section.blog {
   position: relative; }
   section.blog .container-fluid {
     padding: 0 !important; }
-  section.blog:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    background: white;
-    -webkit-transform: skewX(0deg) skewY(2deg);
-    -ms-transform: skewX(0deg) skewY(2deg);
-    -o-transform: skewX(0deg) skewY(2deg);
-    transform: skewX(0deg) skewY(2deg);
-    top: -35px; }
   section.blog .caption {
     text-transform: uppercase;
     font-weight: 200 !important;
