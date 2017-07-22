@@ -1,0 +1,26 @@
+section.blog {
+  $section-background: white;
+  background: $section-background;
+  color: $text-dark-primary;
+  padding-top: 8rem;
+  padding-bottom: 15rem;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: $section-background;
+    @include skew (0deg, 2deg);
+    top: -35px;
+  }
+
+  .caption {
+    @extend .text-center;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+}

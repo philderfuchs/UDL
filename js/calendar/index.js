@@ -6,8 +6,8 @@ var config = require('./config.json');
 var imgParallax = require('./imgParallax');
 
 // templates
-var desktopHeaderTmpl = require('../tmpls/calHeader_desktop.hbs');
-var mobileHeaderTmpl = require('../tmpls/calHeader_mobile.hbs');
+var desktopHeaderTmpl = require('../../tmpls/calHeader_desktop.hbs');
+var mobileHeaderTmpl = require('../../tmpls/calHeader_mobile.hbs');
 
 var env = window.location.href.includes("localhost") ? 'dev' : 'prod';
 var serverUrl = env === 'prod' ? "https://udl.cloudno.de" : "http://localhost:9000";
@@ -36,7 +36,9 @@ $(function () {
 
     } else {
 
-        $.get(serverUrl, {end: lastDay.getTime()}, function (data) {
+        var eventsAPI = serverUrl + "/events";
+
+        $.get(eventsAPI, {end: lastDay.getTime()}, function (data) {
             events = JSON.parse(data).result;
             setUpCalendar();
         }).fail(function () {
