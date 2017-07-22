@@ -1,4 +1,9 @@
 section.blog {
+
+  .container-fluid {
+    padding: 0 !important;
+  }
+
   $section-background: white;
   background: $section-background;
   color: $text-dark-primary;
@@ -25,6 +30,35 @@ section.blog {
     margin-bottom: 6rem;
   }
 
+  .colorblock {
+    height: 2px !important;
+    opacity: .7;
+  }
+
+  .fullArticle {
+    .headerImage {
+      height: 45rem;
+      background-size: cover;
+      background-position: center;
+    }
+    .title {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      small {
+        font-size: 10pt;
+        text-transform: initial;
+      }
+    }
+    .fulltext {
+      margin-bottom: 8rem;
+    }
+    .ext-link, .back {
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+  }
+
   .preview {
     margin-bottom: 9rem;
     .headerImage {
@@ -36,6 +70,7 @@ section.blog {
       @extend .text-center;
       text-transform: uppercase;
       margin-bottom: 2rem;
+      margin-top: 5rem;
       small {
         font-size: 11pt;
         &:not(:last-child) {
@@ -53,10 +88,8 @@ section.blog {
       }
     }
 
-    .colorblock {
-      height: 2px !important;
-      opacity: .7;
-    }
   }
+
+
 
 }

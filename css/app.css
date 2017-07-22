@@ -7321,6 +7321,8 @@ section.blog {
   padding-top: 8rem;
   padding-bottom: 15rem;
   position: relative; }
+  section.blog .container-fluid {
+    padding: 0 !important; }
   section.blog:before {
     content: '';
     display: block;
@@ -7338,6 +7340,24 @@ section.blog {
     font-weight: 200 !important;
     margin-top: 3rem;
     margin-bottom: 6rem; }
+  section.blog .colorblock {
+    height: 2px !important;
+    opacity: .7; }
+  section.blog .fullArticle .headerImage {
+    height: 45rem;
+    background-size: cover;
+    background-position: center; }
+  section.blog .fullArticle .title {
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    section.blog .fullArticle .title small {
+      font-size: 10pt;
+      text-transform: initial; }
+  section.blog .fullArticle .fulltext {
+    margin-bottom: 8rem; }
+  section.blog .fullArticle .ext-link, section.blog .fullArticle .back {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; }
   section.blog .preview {
     margin-bottom: 9rem; }
     section.blog .preview .headerImage {
@@ -7346,7 +7366,8 @@ section.blog {
       background-position: center; }
     section.blog .preview .title {
       text-transform: uppercase;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      margin-top: 5rem; }
       section.blog .preview .title small {
         font-size: 11pt; }
         section.blog .preview .title small:not(:last-child) {
@@ -7357,9 +7378,6 @@ section.blog {
       margin-top: 2rem; }
       section.blog .preview .text a {
         font-weight: bold !important; }
-    section.blog .preview .colorblock {
-      height: 2px !important;
-      opacity: .7; }
 
 section.contact {
   position: relative;

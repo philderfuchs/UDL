@@ -8,24 +8,28 @@ import FullArticle from './components/FullArticle';
 
 $(() => {
 
-    $.get("https://udl.cloudno.de/articles", function(articles) {
+        $.get("https://udl.cloudno.de/articles", function (articles) {
 
-        ReactDOM.render(
-            <Router>
-                <div class="row">
-                    <div class="col-xs-12 caption">
-                        <h1> Blog </h1>
+            ReactDOM.render(
+                <Router>
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 caption">
+                                    <h1> Blog </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <Switch>
+                            <Route exact path="/" component={(props) => <Overview {...props} articles={articles}/>}/>
+                            <Route exact path="/article/:article"
+                                   component={(props) => <FullArticle {...props} articles={articles}/>}/>
+                        </Switch>
                     </div>
-                    <Switch>
-                        <Route exact path="/" component={(props) => <Overview {...props} articles={articles}/>}/>
-                        <Route exact path="/article/:article"
-                               component={(props) => <FullArticle {...props} articles={articles}/>}/>
-                    </Switch>
-                </div>
-            </Router>,
+                </Router>,
 
-            $('#blogcontainer')[0]);
-    })
+                $('#blogcontainer')[0]);
+        })
 
 
     }

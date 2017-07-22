@@ -28,9 +28,9 @@ export default class Overview extends React.Component {
     render() {
 
         return (
-            <div>
+            <div class="container">
                 {this.state.articles}
-                <a onClick={this.showMore.bind(this)}>moa</a>
+                {/*<a onClick={this.showMore.bind(this)}>moa</a>*/}
             </div>
         );
     }
