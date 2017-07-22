@@ -18,7 +18,7 @@ var calendar = {};
 var weekViewCutoff = 1000;
 
 $(function () {
-    
+
     // parallax effect
     jarallax($('section.header'), {
         imgSrc: '../img/header.jpg',

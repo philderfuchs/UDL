@@ -3,7 +3,8 @@ var path = require("path");
 
 const commonConfig = {
     "entry": {
-        calendar: "./js/calendar"
+        calendar: "./js/calendar",
+        blog: "./js/blog"
     },
     "output": {
         "path": path.resolve(__dirname, "build"),
