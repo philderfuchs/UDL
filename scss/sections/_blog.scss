@@ -32,26 +32,36 @@ section.blog {
 
   .colorblock {
     height: 2px !important;
-    opacity: .7;
+    //opacity: .7;
   }
 
   .fullArticle {
     .headerImage {
       height: 50rem;
+      @media (max-width: $screen-md-min) {
+        height: 35rem;
+      }
+
+      @media (max-width: $screen-xs-min) {
+        height: 20rem;
+      }
       background-size: cover;
       background-position: center;
     }
     .title {
       text-transform: uppercase;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       margin-top: 3rem;
       small {
         font-size: 10pt;
         text-transform: initial;
       }
     }
+    .introduction {
+      margin-top: 3rem;
+    }
     .fulltext {
-      margin-bottom: 8rem;
+      margin-bottom: 7rem;
     }
     .ext-link, .back {
       text-transform: uppercase;
@@ -97,7 +107,5 @@ section.blog {
     }
 
   }
-
-
 
 }

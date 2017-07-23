@@ -33,6 +33,17 @@ export default class FullArticle extends React.Component {
                         </IntlProvider><br/>
                         {this.article.title}
                     </h2>
+                    <div class="colorstripe-container">
+                        <div class="colorstripe">
+                            <div class="colorblock event-standard"></div>
+                            <div class="colorblock event-important"></div>
+                            <div class="colorblock event-warning"></div>
+                            <div class="colorblock event-info"></div>
+                            <div class="colorblock event-inverse"></div>
+                            <div class="colorblock event-success"></div>
+                            <div class="colorblock event-special"></div>
+                        </div>
+                    </div>
                     <p class="introduction">
                         <strong>
                         {this.article.text_preview}

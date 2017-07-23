@@ -7302,21 +7302,28 @@ section.blog {
     margin-top: 3rem;
     margin-bottom: 6rem; }
   section.blog .colorblock {
-    height: 2px !important;
-    opacity: .7; }
+    height: 2px !important; }
   section.blog .fullArticle .headerImage {
     height: 50rem;
     background-size: cover;
     background-position: center; }
+    @media (max-width: 992px) {
+      section.blog .fullArticle .headerImage {
+        height: 35rem; } }
+    @media (max-width: 480px) {
+      section.blog .fullArticle .headerImage {
+        height: 20rem; } }
   section.blog .fullArticle .title {
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-top: 3rem; }
     section.blog .fullArticle .title small {
       font-size: 10pt;
       text-transform: initial; }
+  section.blog .fullArticle .introduction {
+    margin-top: 3rem; }
   section.blog .fullArticle .fulltext {
-    margin-bottom: 8rem; }
+    margin-bottom: 7rem; }
   section.blog .fullArticle .ext-link, section.blog .fullArticle .back {
     text-transform: uppercase;
     margin-bottom: 1.5rem; }
