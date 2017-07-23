@@ -12,8 +12,8 @@ export default class Overview extends React.Component {
 
     constructor(props) {
         super(props);
-        this.countOfPreviews = 3;
-        this.moreInc = 2;
+        this.countOfPreviews = 1;
+        this.moreInc = 1;
 
         this.state = {
             articles: getArticles(this.props.articles, this.countOfPreviews)
@@ -27,10 +27,17 @@ export default class Overview extends React.Component {
 
     render() {
 
+        let showMorebutton = <div></div>;
+        if (this.countOfPreviews < this.props.articles.length) {
+            showMorebutton = <div class="text-center">
+                <button class="btn btn-primary" onClick={this.showMore.bind(this)}>... moa articles</button>
+            </div>;
+        }
+
         return (
             <div class="container">
                 {this.state.articles}
-                {/*<a onClick={this.showMore.bind(this)}>moa</a>*/}
+                {showMorebutton}
             </div>
         );
     }
