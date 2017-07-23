@@ -2,41 +2,49 @@ import React from 'react';
 
 import ArticlePreview from './ArticlePreview';
 
-function getArticles(articles, max) {
-    return articles.map(
-        v => <ArticlePreview article={v}/>
-    ).slice(0, max);
-}
 
 export default class Overview extends React.Component {
 
     constructor(props) {
         super(props);
-        this.countOfPreviews = 1;
-        this.moreInc = 1;
-
+        this.getPreviews = this.getPreviews.bind(this);
         this.state = {
-            articles: getArticles(this.props.articles, this.countOfPreviews)
+            articles: this.props.service.getSomePreviews()
         }
     }
 
-    showMore() {
-        this.countOfPreviews += this.moreInc;
-        this.setState({articles: getArticles(this.props.articles, this.countOfPreviews)});
+    componentWillMount() {
+        console.log("mooooooooount")
+        this.props.service.on("change", this.getPreviews);
+    }
+
+    getMorePreviews() {
+        this.props.service.increasePreviewCount(1);
+    }
+
+    getPreviews() {
+        this.setState({
+            articles: this.props.service.getSomePreviews()
+        })
     }
 
     render() {
 
-        let showMorebutton = <div></div>;
-        if (this.countOfPreviews < this.props.articles.length) {
+        let previews = this.state.articles.map(
+            v => <ArticlePreview key={v.id} article={v}/>
+        );
+
+
+        let showMorebutton = <div></div>
+        if (this.props.service.hasMorePreviews()) {
             showMorebutton = <div class="text-center">
-                <button class="btn btn-primary" onClick={this.showMore.bind(this)}>... moa articles</button>
+                <button class="btn btn-primary" onClick={this.getMorePreviews.bind(this)}>... moa articles</button>
             </div>;
         }
 
         return (
             <div class="container">
-                {this.state.articles}
+                {previews}
                 {showMorebutton}
             </div>
         );
