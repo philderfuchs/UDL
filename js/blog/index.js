@@ -14,7 +14,7 @@ $(() => {
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 caption">
-                                <h1> Blog </h1>
+                                <strong>UDL</strong> Blog
                             </div>
                         </div>
                     </div>

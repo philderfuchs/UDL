@@ -4,7 +4,7 @@ export class ArticleService {
 
     @observable articles = [];
     @observable previews = [];
-    @observable countOfPreviews = 1;
+    @observable countOfPreviews = 2;
 
     constructor() {
         this.fetchArticles();

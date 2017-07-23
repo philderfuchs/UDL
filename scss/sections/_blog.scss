@@ -24,8 +24,9 @@ section.blog {
 
   .caption {
     @extend .text-center;
+    @extend h1;
     text-transform: uppercase;
-    font-weight: 200 !important;
+    font-weight: 200;
     margin-top: 3rem;
     margin-bottom: 6rem;
   }
