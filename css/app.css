@@ -7323,10 +7323,10 @@ section.blog {
   section.blog .fullArticle .introduction {
     margin-top: 3rem; }
   section.blog .fullArticle .fulltext {
-    margin-bottom: 7rem; }
-  section.blog .fullArticle .ext-link, section.blog .fullArticle .back {
+    margin-bottom: 4rem; }
+  section.blog .fullArticle .ext-link {
     text-transform: uppercase;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 7rem; }
   section.blog .preview {
     margin-bottom: 12rem; }
     section.blog .preview .headerImage {

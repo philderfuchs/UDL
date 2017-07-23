@@ -53,7 +53,9 @@ export default class FullArticle extends React.Component {
                         {this.article.text_full}
                     </p>
                     <h5 class="ext-link"><a href={this.article.url}> <i class="fa fa-external-link"/> more information</a></h5>
-                    <h5 class="back"><Link to="/"><i class="fa fa-angle-double-left"></i> Back</Link></h5>
+                    <div class="text-center">
+                    <Link to="/"><button class="btn btn-primary back"><i class="fa fa-angle-double-left"></i> Back</button></Link>
+                    </div>
                 </div>
             </div>
         );
