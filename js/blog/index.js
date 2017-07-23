@@ -8,8 +8,6 @@ import Overview from './components/Overview';
 import SingleView from './components/SingleView';
 
 $(() => {
-
-
         ReactDOM.render(
             <Router>
                 <div>
@@ -29,7 +27,5 @@ $(() => {
             </Router>,
 
             $('#blogcontainer')[0]);
-
-
     }
 );

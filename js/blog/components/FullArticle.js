@@ -11,7 +11,7 @@ export default class FullArticle extends React.Component {
     }
 
     componentDidMount() {
-        new backgroundParallax($('#' + this.props.article.id + '_full .headerImage'), 0.03);
+        new backgroundParallax($('#' + this.props.id + ' .headerImage'), 0.03);
     }
 
     render() {
@@ -19,7 +19,7 @@ export default class FullArticle extends React.Component {
             backgroundImage: "url(" + this.props.article.imageurl + ")"
         };
         return (
-            <div class="container-fluid fullArticle" id={this.props.article.id + "_full"}>
+            <div class="container-fluid fullArticle" id={this.props.id}>
 
                 <div class="headerImage" style={headerImageStyle}/>
 
