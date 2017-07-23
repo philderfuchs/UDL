@@ -7305,12 +7305,13 @@ section.blog {
     height: 2px !important;
     opacity: .7; }
   section.blog .fullArticle .headerImage {
-    height: 45rem;
+    height: 50rem;
     background-size: cover;
     background-position: center; }
   section.blog .fullArticle .title {
     text-transform: uppercase;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    margin-top: 3rem; }
     section.blog .fullArticle .title small {
       font-size: 10pt;
       text-transform: initial; }
@@ -7320,11 +7321,17 @@ section.blog {
     text-transform: uppercase;
     margin-bottom: 1.5rem; }
   section.blog .preview {
-    margin-bottom: 9rem; }
+    margin-bottom: 12rem; }
     section.blog .preview .headerImage {
-      height: 39rem;
+      height: 40rem;
       background-size: cover;
       background-position: center; }
+      @media (max-width: 992px) {
+        section.blog .preview .headerImage {
+          height: 27rem; } }
+      @media (max-width: 480px) {
+        section.blog .preview .headerImage {
+          height: 14rem; } }
     section.blog .preview .title {
       text-transform: uppercase;
       margin-bottom: 2rem;

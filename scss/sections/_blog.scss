@@ -37,13 +37,14 @@ section.blog {
 
   .fullArticle {
     .headerImage {
-      height: 45rem;
+      height: 50rem;
       background-size: cover;
       background-position: center;
     }
     .title {
       text-transform: uppercase;
       margin-bottom: 2rem;
+      margin-top: 3rem;
       small {
         font-size: 10pt;
         text-transform: initial;
@@ -60,10 +61,17 @@ section.blog {
   }
 
   .preview {
-    margin-bottom: 9rem;
+    margin-bottom: 12rem;
     .headerImage {
-      height: 39rem;
+      height: 40rem;
       background-size: cover;
+      @media (max-width: $screen-md-min) {
+        height: 27rem;
+      }
+
+      @media (max-width: $screen-xs-min) {
+        height: 14rem;
+      }
       background-position: center;
     }
     .title {

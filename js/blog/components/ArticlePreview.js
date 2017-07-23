@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {IntlProvider, FormattedRelative} from 'react-intl';
+import backgroundParallax from './backgroundParallax';
 
 export default class ArticlePreview extends React.Component {
 
@@ -10,13 +11,17 @@ export default class ArticlePreview extends React.Component {
         this.article = this.props.article;
     }
 
+    componentDidMount () {
+        new backgroundParallax($('#' + this.article.id + ' .headerImage'), 0.03);
+    }
+
     render() {
         const headerImageStyle = {
             backgroundImage: "url(" + this.article.imageurl + ")"
         };
         return (
             <div class="row">
-                <div class="col-xs-12 preview">
+                <div class="col-xs-12 preview" id={this.article.id}>
                     <div class="headerImage" style={headerImageStyle}/>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-xs-12">
