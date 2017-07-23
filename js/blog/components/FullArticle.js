@@ -27,6 +27,8 @@ export default class FullArticle extends React.Component {
                 <div class="headerImage" style={headerImageStyle}/>
 
                 <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <Link to="/"><button class="btn btn-primary back"><i class="fa fa-angle-double-left"></i> Back</button></Link>
+
                     <h2 class="title">
                         <IntlProvider locale="en">
                             <small><i class="fa fa-clock-o"/> <FormattedRelative value={this.article.date}/> by {this.article.author}</small>
@@ -53,9 +55,6 @@ export default class FullArticle extends React.Component {
                         {this.article.text_full}
                     </p>
                     <h5 class="ext-link"><a href={this.article.url}> <i class="fa fa-external-link"/> more information</a></h5>
-                    <div class="text-center">
-                    <Link to="/"><button class="btn btn-primary back"><i class="fa fa-angle-double-left"></i> Back</button></Link>
-                    </div>
                 </div>
             </div>
         );

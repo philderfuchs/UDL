@@ -48,10 +48,13 @@ section.blog {
       background-size: cover;
       background-position: center;
     }
+    .back {
+      margin-top: 1.5rem;
+    }
     .title {
       text-transform: uppercase;
+      margin-top: 2rem;
       margin-bottom: 3rem;
-      margin-top: 3rem;
       small {
         font-size: 10pt;
         text-transform: initial;
@@ -61,7 +64,7 @@ section.blog {
       margin-top: 3rem;
     }
     .fulltext {
-      margin-bottom: 4rem;
+      margin-bottom: 5rem;
     }
     .ext-link {
       text-transform: uppercase;

@@ -7313,17 +7313,19 @@ section.blog {
     @media (max-width: 480px) {
       section.blog .fullArticle .headerImage {
         height: 20rem; } }
+  section.blog .fullArticle .back {
+    margin-top: 1.5rem; }
   section.blog .fullArticle .title {
     text-transform: uppercase;
-    margin-bottom: 3rem;
-    margin-top: 3rem; }
+    margin-top: 2rem;
+    margin-bottom: 3rem; }
     section.blog .fullArticle .title small {
       font-size: 10pt;
       text-transform: initial; }
   section.blog .fullArticle .introduction {
     margin-top: 3rem; }
   section.blog .fullArticle .fulltext {
-    margin-bottom: 4rem; }
+    margin-bottom: 5rem; }
   section.blog .fullArticle .ext-link {
     text-transform: uppercase;
     margin-bottom: 7rem; }
