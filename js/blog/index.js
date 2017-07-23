@@ -5,7 +5,7 @@ import {HashRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import ArticleService from './components/ArticleService';
 
 import Overview from './components/Overview';
-import FullArticle from './components/FullArticle';
+import SingleView from './components/SingleView';
 
 $(() => {
 
@@ -23,7 +23,7 @@ $(() => {
                     <Switch>
                         <Route exact path="/" component={(props) => <Overview {...props} service={ArticleService}/>}/>
                         <Route exact path="/article/:article"
-                               component={(props) => <FullArticle {...props} service={ArticleService}/>}/>
+                               component={(props) => <SingleView {...props} service={ArticleService}/>}/>
                     </Switch>
                 </div>
             </Router>,

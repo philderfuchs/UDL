@@ -1,42 +1,34 @@
-import {EventEmitter} from "events";
+import { observable } from "mobx"
 
-class ArticleService extends EventEmitter {
+export class ArticleService {
+
+    @observable articles = [];
+    @observable previews = [];
+    @observable countOfPreviews = 1;
+
     constructor() {
-        super();
-        this.articles = [];
-        this.countOfPreviews = 1;
         this.fetchArticles();
     }
 
-    getAllPreviews() {
-        return this.articles;
-    }
-
-    getSomePreviews() {
-        return this.articles.slice(0, this.countOfPreviews);
+    setSomePreviews() {
+        this.previews = this.articles.slice(0, this.countOfPreviews);
     }
 
     increasePreviewCount(i) {
         this.countOfPreviews += i;
-        this.emit("change");
+        this.setSomePreviews();
     }
 
     hasMorePreviews() {
         return this.countOfPreviews < this.articles.length;
     }
 
-    getArticle(id) {
-        return this.articles.find(v => v.id === id);
-    }
-
     fetchArticles() {
         $.get("https://udl.cloudno.de/articles", (res) => {
             this.articles = res;
-            this.emit("change");
+            this.setSomePreviews();
         })
     }
 }
 
-const service = new ArticleService();
-
-export default service;
+export default new ArticleService();

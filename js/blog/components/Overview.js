@@ -1,39 +1,24 @@
 import React from 'react';
+import {observer} from "mobx-react"
 
 import ArticlePreview from './ArticlePreview';
 
-
+@observer
 export default class Overview extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.getPreviews = this.getPreviews.bind(this);
-        this.state = {
-            articles: this.props.service.getSomePreviews()
-        }
-    }
-
-    componentWillMount() {
-        console.log("mooooooooount")
-        this.props.service.on("change", this.getPreviews);
-    }
 
     getMorePreviews() {
         this.props.service.increasePreviewCount(1);
     }
 
-    getPreviews() {
-        this.setState({
-            articles: this.props.service.getSomePreviews()
-        })
-    }
-
     render() {
 
-        let previews = this.state.articles.map(
+        const previews = this.props.service.previews;
+
+        if (previews.length === 0) return null;
+        
+        const previewElements = previews.map(
             v => <ArticlePreview key={v.id} article={v}/>
         );
-
 
         let showMorebutton = <div></div>
         if (this.props.service.hasMorePreviews()) {
@@ -44,7 +29,7 @@ export default class Overview extends React.Component {
 
         return (
             <div class="container">
-                {previews}
+                {previewElements}
                 {showMorebutton}
             </div>
         );
