@@ -9,7 +9,8 @@ var desktopHeaderTmpl = require('../../tmpls/calHeader_desktop.hbs');
 var mobileHeaderTmpl = require('../../tmpls/calHeader_mobile.hbs');
 
 var env = window.location.href.includes("localhost") ? 'dev' : 'prod';
-var serverUrl = env === 'prod' ? "https://udl.cloudno.de" : "http://localhost:9000";
+// var serverUrl = env === 'prod' ? "https://udl.cloudno.de" : "http://localhost:9000";
+var serverUrl = "https://udl.cloudno.de";
 
 var events = [];
 var calendar = {};
