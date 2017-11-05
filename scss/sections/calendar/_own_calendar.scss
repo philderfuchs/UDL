@@ -395,6 +395,21 @@
 
     .week-view {
 
+      .entry {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      //  .col-xs-1 {
+      //    display: flex;
+      //    justify-content: right;
+      //  }
+        .event {
+          margin: 0;
+          margin-left: 14px;
+        }
+      }
+
+
       .cal-week-header {
         padding: 1.2rem 1rem;
         margin-bottom: 1rem;
