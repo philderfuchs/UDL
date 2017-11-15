@@ -76,6 +76,13 @@ section.header {
     padding: 2rem;
     border-bottom-left-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
+
+    a {
+      color: white;
+      &:hover{
+        color: rgba(white, .8);
+      }
+    }
   }
 }
 
