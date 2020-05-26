@@ -11,7 +11,7 @@
     "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.3.0",
     "jarallax": "^1.8.0",
     "jquery": "^3.2.1",
     "tether": "^1.4.0",
