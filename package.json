@@ -15,7 +15,7 @@
     "jarallax": "^1.8.0",
     "jquery": "^3.2.1",
     "tether": "^1.4.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
