@@ -28,7 +28,7 @@
     "babel-preset-react": "^6.3.13",
     "concurrently": "^3.5.0",
     "handlebars-loader": "^1.5.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
